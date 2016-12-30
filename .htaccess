@@ -1,0 +1,15 @@
+RewriteEngine on
+
+
+RewriteRule		^cache/tpl				/ [R]
+RewriteRule		^app					/ [R]
+RewriteRule		^tpl					/ [R]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
+
+<Files ~ "\.tpl$">
+	Order allow,deny
+	Deny from all
+</Files>
