@@ -22,9 +22,9 @@ $config->flexi = (object) array(
 // SMARTY CONFIGURATION
 $config->smarty = (object) array(
 	"tpl_dir"			=>	"/tpl/",
-	"tpl_compile_dir"	=>	"/data/cache/tpl_c/",
-	"config_dir"		=>	"/data/cache/tpl_conf/",
-	"cache_dir"			=>	"/data/cache/tpl/",
+	"tpl_compile_dir"	=>	"/cache/tpl_c/",
+	"config_dir"		=>	"/cache/tpl_conf/",
+	"cache_dir"			=>	"/cache/tpl/",
 	"caching"			=>	0,
 	"debug"				=>	false,
 );
