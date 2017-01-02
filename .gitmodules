@@ -1,0 +1,9 @@
+[submodule "less/lui3/LUI-3_base"]
+	path = less/lui3/LUI-3_base
+	url = https://github.com/LUI-3/base
+[submodule "less/lui3/LUI-3_buttons"]
+	path = less/lui3/LUI-3_buttons
+	url = https://github.com/LUI-3/buttons
+[submodule "less/lui3/LUI-3_icons-fontawesome"]
+	path = less/lui3/LUI-3_icons-fontawesome
+	url = https://github.com/LUI-3/icons-fontawesome
