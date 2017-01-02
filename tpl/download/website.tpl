@@ -1,4 +1,4 @@
-<h1>Download</h1>
+<h1>Download from website</h1>
 
 <h2>All components in one package</h2>
 
@@ -6,9 +6,14 @@
 	Choose build bellow - will contain actual version of each component from date of release
 </p>
 
+<p>
+	<a href="" class="lui_button primary">Last build - 2.1.2017</a>
+</p>
+
 <ul>
-	<li><a href="">Complete package - <strong>2.1.2017</strong></a></li>
 	<li><a href="">Complete package - <strong>24.12.2015</strong></a></li>
+	<li><a href="">Complete package - <strong>15.12.2015</strong></a></li>
+	<li><a href="">Complete package - <strong>5.12.2015</strong></a></li>
 </ul>
 
 
@@ -16,6 +21,10 @@
 
 <p>
 	Base package containing Grid, Reset and Mixins component.
+</p>
+
+<p>
+	<a href="" class="lui_button primary">Last build - 2.1.2017</a>
 </p>
 
 <ul>

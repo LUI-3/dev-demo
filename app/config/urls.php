@@ -9,10 +9,15 @@ $config->url = (object) array(
 		"tpl_file_content"	=> "homepage.tpl",
 		"page_title"		=> "Modular responsive front-end framework"
 	),
-	"download/" => (object) array(
+	"download/website/" => (object) array(
 		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "download/download.tpl",
-		"page_title"		=> "Download"
+		"tpl_file_content"	=> "download/website.tpl",
+		"page_title"		=> "Download from website"
+	),
+	"download/github/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "download/github.tpl",
+		"page_title"		=> "Download from Github"
 	),
 	"installation/git-submodules/" => (object) array(
 		"tpl_file"			=> "index.tpl",

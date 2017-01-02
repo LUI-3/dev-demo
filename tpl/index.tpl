@@ -26,7 +26,7 @@
 	{/if}
 	
 
-	<link href="/layout/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 	<title>{$page_title} - LUI-3 Framework</title>
 </head>
@@ -52,8 +52,8 @@
 
 				<h2>Souce code</h2>
 				<ul>
-					<li><a class="fa_b_github" href="//github.com/LUI-3/base" target="_blank">Source on Github</a></li>
-					<li><a href="/download/">Download from website</a></li>
+					<li><a class="fa_b_github" href="/download/github/">Source on Github</a></li>
+					<li><a href="/download/website/">Download from website</a></li>
 				</ul>
 
 				<h2>Installation</h2>
@@ -75,6 +75,12 @@
 			</aside>
 			<div class="site_content col-xs-12 col-lg-9">
 				{include file=$page_content}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 site_footer">
+				Edit source code on <a href="//github.com/LUI-3/dev-demo" target="_blank">Github</a>
 			</div>
 		</div>
 	</div>
