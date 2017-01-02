@@ -16,9 +16,6 @@ header("X-XSS-Protection: 1; mode=block");
 session_start();
 
 
-
-
-
 $reactor = $_SERVER["DOCUMENT_ROOT"] . "/app/core.php";
 if(file_exists($reactor))
 	include_once($reactor);
