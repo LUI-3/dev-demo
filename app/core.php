@@ -50,6 +50,7 @@ class flexi {
 		// COMPILE OR USE JS LESS COMPILER
 		$less_files = "/less/router.less";
 
+		// SET TEMPLATE FILES
 		if(isset($this->config->url->$rewrite_url->tpl_file))
 			$index_file = $this->config->url->$rewrite_url->tpl_file;
 		else
@@ -59,6 +60,9 @@ class flexi {
 			$content_file = $this->config->url->$rewrite_url->tpl_file_content;
 		else
 			$content_file = "homepage.tpl";
+
+		// SET PAGE TITLE
+		$this->tpl->assign("page_title",$this->config->url->$rewrite_url->page_title);
 
 
 		if($this->config->flexi->version=="dev"){

@@ -1,1 +1,1 @@
-<h1>Homepage</h1>
+<h1 class="intro_title">LUI-3 <span>modular responsive front-end framework</span></h1>

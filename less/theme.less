@@ -1,10 +1,198 @@
-/*
-
-ROUTER FOR ALL LESS/CSS FILES
-
-*/
+//
+// MASTER THEME FILE
+//
 
 
 body {
-	background: red;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+@color_lui_blue: #00a0fd;
+
+
+// WRAPS WHOLE SITE
+.site_wrapper {
+	overflow: hidden;
+}
+
+//
+// SITE HEADER
+//
+.site_header {
+	padding: 10px 15px 20px 15px;
+	background: #f0f0f0;
+	text-align: center;
+
+	@media (min-width:@grid_lg_start){
+		padding: 40px 15px 50px 15px;
+	}
+
+	.logo {
+		display: inline-block;
+		margin: 0 auto;
+		padding-left: 30px;
+
+		img {
+			width: 100px;
+
+			@media (min-width:@grid_lg_start){
+				width: 150px;
+			}
+		}
+	}
+
+	
+
+	.title {
+		padding: 20px 0 0 0;
+		font-size:17px;
+		color: @color_lui_blue;
+	}
+}
+
+
+//
+// SITE SIDEBAR
+//
+aside.site_sidebar {
+	padding: 20px 15px;
+
+	h2 {
+		font-size: 18px;
+		font-weight: bold;
+		color: @color_lui_blue;
+	}
+
+	ul {
+		list-style: none;
+		padding: 10px 0 15px 0;
+
+		li {
+			a {
+				display: block;
+				padding: 7px 0;
+				border-bottom: 1px solid #f2f2f2;
+				font-size: 14px;
+				text-decoration: none;
+
+				&:before {
+					padding-right: 6px;
+				}
+
+				&:hover {
+					color: @color_lui_blue;
+				}
+			}
+		}
+	}
+}
+
+
+//
+// SITE CONTENT
+//
+.site_content {
+	padding: 0 15px 20px 15px;
+
+	@media (min-width:@grid_lg_start){
+		padding: 0 15px 20px 0px;
+	}
+
+	h1 {
+		padding: 20px 0;
+		font-size: 18px;
+		font-weight: bold;
+		color: @color_lui_blue;
+
+		@media (min-width:@grid_md_start){
+			font-size: 22px;
+		}
+
+		@media (min-width:@grid_lg_start){
+			font-size: 32px;
+		}
+
+		span {
+			color: #2b2b2b;
+		}
+
+		// INTRO TITLE
+		&.intro_title {
+			text-align: center;
+			padding: 40px 0;
+			font-size: 22px;
+
+			@media (min-width:@grid_md_start){
+				font-size: 32px;
+			}
+
+			@media (min-width:@grid_lg_start){
+				font-size: 42px;
+			}
+
+			span {
+				display: block;
+				font-weight: normal;
+				font-size: 18px;
+
+				@media (min-width:@grid_md_start){
+					font-size: 28px;
+				}
+			}
+		}
+	}
+
+	h2 {
+		padding: 15px 0;
+
+		font-size: 16px;
+		font-weight: bold;
+		color: #2b2b2b;
+
+		@media (min-width:@grid_md_start){
+			font-size: 20px;
+		}
+
+		@media (min-width:@grid_lg_start){
+			font-size: 24px;
+		}
+	}
+
+	p {
+		padding: 7px 0;
+	}
+
+	ul,
+	ol {
+		padding: 5px 0;
+		margin-left: 15px;
+
+		li {
+			padding: 2px 0;
+		}
+	}
+
+	a {
+		display: inline-block;
+		position: relative;
+		text-decoration: none;
+
+		&:hover {
+			color: @color_lui_blue;
+		}
+
+		&:after {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			content: "";
+			border-top: 1px dotted gray;
+		}
+
+		&:hover:after {
+			display: none;
+		}
+	}
 }
