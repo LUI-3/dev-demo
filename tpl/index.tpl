@@ -37,7 +37,7 @@
 			<div class="logo">
 				<a href="/"><img src="/img/logo.png" alt="LUI-3 framework logo" /></a>
 			</div>
-			<p class="title">Framework documentation</p>
+			<p class="title">Framework documentation<br /><small>Website is still in progress, but im trying!</small></p>
 		</div>
 	</div>
 
