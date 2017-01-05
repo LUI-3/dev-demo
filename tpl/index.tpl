@@ -66,11 +66,11 @@
 				<h2>Components</h2>
 
 				<ul>
-					<li><a href="">Reset</a></li>
-					<li><a href="">Grid</a></li>
-					<li><a href="">Buttons</a></li>
-					<li><a href="">Forms</a></li>
-					<li><a href="">Tables - lists</a></li>
+					<li><a href="/components/reset/">Reset</a></li>
+					<li><a href="/components/grid/">Grid</a></li>
+					<li><a href="/components/buttons/">Buttons</a></li>
+					<li><a href="/components/forms/">Forms</a></li>
+					<li><a href="/components/tables-lists/">Tables - lists</a></li>
 				</ul>
 			</aside>
 			<div class="site_content col-xs-12 col-lg-9">
@@ -87,5 +87,14 @@
 	
 
 	
+	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>	
+	<script>
+		$(document).ready(function() {
+			$('pre.demo_source').each(function(i, block) {
+				hljs.highlightBlock(block);
+			});
+		});
+	</script>
 </body>
 </html>

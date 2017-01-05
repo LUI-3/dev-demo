@@ -5,7 +5,8 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
+	color: #222222;
 }
 
 @color_lui_blue: #00a0fd;
@@ -149,10 +150,11 @@ aside.site_sidebar {
 
 	h2 {
 		padding: 15px 0;
-
+		margin-bottom: 10px;
 		font-size: 16px;
 		font-weight: bold;
-		color: #2b2b2b;
+		color: #00a0fd;
+		border-bottom: 2px solid #f2f2f2;
 
 		@media (min-width:@grid_md_start){
 			font-size: 20px;
@@ -160,6 +162,21 @@ aside.site_sidebar {
 
 		@media (min-width:@grid_lg_start){
 			font-size: 24px;
+		}
+	}
+
+	h3 {
+		padding: 10px 0;
+		font-size: 14px;
+		font-weight: normal;
+		color: #00a0fd;
+
+		@media (min-width:@grid_md_start){
+			font-size: 18px;
+		}
+
+		@media (min-width:@grid_lg_start){
+			font-size: 20px;
 		}
 	}
 
@@ -175,6 +192,12 @@ aside.site_sidebar {
 		li {
 			padding: 2px 0;
 		}
+	}
+
+	hr {
+		margin: 25px 0;
+		border: 0;
+		border-bottom: 5px solid #f2f2f2;
 	}
 
 	// TODO: USE LINKS FROM RESET
@@ -212,4 +235,90 @@ aside.site_sidebar {
 	font-size: 14px;
 	border-top: 5px solid #f2f2f2;
 	color: gray;
+}
+
+
+//
+// DEMO SOURCE
+//
+pre.demo_source {
+	/*padding: 10px;
+	border: 1px solid silver;
+	background: #f2f2f2;
+	font-size: 13px;*/
+}
+
+
+//
+// HLJS CODE HIGHLIGHTER
+//
+.hljs {
+    display: block;
+    overflow-x: auto;
+	margin: 10px 0;
+    padding: 15px;;
+	font-size: 13px;
+    background: #F0F0F0;
+	color: #8e8e8e;
+}
+.hljs,
+.hljs-subst {
+	color: #444;
+}
+.hljs-comment {
+	color: #dd8b20;
+}
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-meta-keyword,
+.hljs-doctag,
+.hljs-name {
+	font-weight: bold;
+	color: #2481b7;
+}
+.hljs-type,
+.hljs-string,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
+	color: #00a0fd;
+}
+.hljs-title,
+.hljs-section {
+	color: #00a0fd;
+	font-weight: bold;
+}
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+	color: #BC6060;
+}
+.hljs-literal {
+	color: #78A960;
+}
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+	color: #397300;
+}
+.hljs-meta {
+	color: #1f7199;
+}
+.hljs-meta-string {
+	color: #4d99bf;
+}
+.hljs-emphasis {
+	font-style: italic;
+}
+.hljs-strong {
+	font-weight: bold;
 }
