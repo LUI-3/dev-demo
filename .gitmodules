@@ -7,3 +7,6 @@
 [submodule "less/lui3/LUI-3_icons-fontawesome"]
 	path = less/lui3/LUI-3_icons-fontawesome
 	url = https://github.com/LUI-3/icons-fontawesome
+[submodule "less/lui3/font-awesome"]
+	path = less/lui3/font-awesome
+	url = https://github.com/FortAwesome/Font-Awesome.git
