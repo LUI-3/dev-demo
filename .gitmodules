@@ -10,3 +10,15 @@
 [submodule "less/lui3/font-awesome"]
 	path = less/lui3/font-awesome
 	url = https://github.com/FortAwesome/Font-Awesome.git
+[submodule "less/lui3/LUI-3_pagebars"]
+	path = less/lui3/LUI-3_pagebars
+	url = https://github.com/LUI-3/pagebars.git
+[submodule "less/lui3/LUI-3_forms-base"]
+	path = less/lui3/LUI-3_forms-base
+	url = https://github.com/LUI-3/forms-base.git
+[submodule "less/lui3/LUI-3_forms-extras"]
+	path = less/lui3/LUI-3_forms-extras
+	url = https://github.com/LUI-3/forms-extras.git
+[submodule "less/lui3/LUI-3_messages"]
+	path = less/lui3/LUI-3_messages
+	url = https://github.com/LUI-3/forms-extras.git
