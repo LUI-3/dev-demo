@@ -20,7 +20,7 @@
 </p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.lui.button.this();')}
+.lui.button.this();
 </pre>
 
 <p>
@@ -37,14 +37,14 @@
 <p><strong>Classname</strong></p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.lui_button.primary')}
+.lui_button.primary
 </pre>
 
 <p><strong>Mixins</strong></p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.lui.button.this();
-.lui.button.primary();')}
+.lui.button.this();
+.lui.button.primary();
 </pre>
 
 <p><strong>Result</strong></p>
@@ -59,14 +59,14 @@
 <p><strong>Classname</strong></p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.lui_button.secondary')}
+.lui_button.secondary
 </pre>
 
 <p><strong>Mixins</strong></p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.lui.button.this();
-.lui.button.secondary();')}
+.lui.button.this();
+.lui.button.secondary();
 </pre>
 
 <p><strong>Result</strong></p>
@@ -81,14 +81,14 @@
 <p><strong>Classname</strong></p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.lui_button.info')}
+.lui_button.info
 </pre>
 
 <p><strong>Mixins</strong></p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.lui.button.this();
-.lui.button.info();')}
+.lui.button.this();
+.lui.button.info();
 </pre>
 
 <p><strong>Result</strong></p>
@@ -103,14 +103,14 @@
 <p><strong>Classname</strong></p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.lui_button.warning')}
+.lui_button.warning
 </pre>
 
 <p><strong>Mixins</strong></p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.lui.button.this();
-.lui.button.warning();')}
+.lui.button.this();
+.lui.button.warning();
 </pre>
 
 <p><strong>Result</strong></p>
@@ -126,14 +126,14 @@
 <p><strong>Classname</strong></p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.lui_button.error')}
+.lui_button.error
 </pre>
 
 <p><strong>Mixins</strong></p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.lui.button.this();
-.lui.button.error();')}
+.lui.button.this();
+.lui.button.error();
 </pre>
 
 <p><strong>Result</strong></p>
@@ -154,11 +154,11 @@
 </p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.hidden /* hide button */
+.hidden /* hide button */
 .small
 .regular
 .big
-.huge')}
+.huge
 </pre>
 
 <p><strong>Usage in code</strong></p>
@@ -190,11 +190,11 @@
 </p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.xs-hidden /* hide button for this breakpoint */
+.xs-hidden /* hide button for this breakpoint */
 .xs-small
 .xs-regular
 .xs-big
-.xs-huge')}
+.xs-huge
 </pre>
 
 
@@ -203,11 +203,11 @@
 </p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.sm-hidden /* hide button for this breakpoint */
+.sm-hidden /* hide button for this breakpoint */
 .sm-small
 .sm-regular
 .sm-big
-.sm-huge')}
+.sm-huge
 </pre>
 
 <p>
@@ -215,11 +215,11 @@
 </p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.md-hidden /* hide button for this breakpoint */
+.md-hidden /* hide button for this breakpoint */
 .md-small
 .md-regular
 .md-big
-.md-huge')}
+.md-huge
 </pre>
 
 <p>
@@ -227,11 +227,11 @@
 </p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.lg-hidden /* hide button for this breakpoint */
+.lg-hidden /* hide button for this breakpoint */
 .lg-small
 .lg-regular
 .lg-big
-.lg-huge')}
+.lg-huge
 </pre>
 
 <p>
@@ -239,11 +239,11 @@
 </p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.xl-hidden /* hide button for this breakpoint */
+.xl-hidden /* hide button for this breakpoint */
 .xl-small
 .xl-regular
 .xl-big
-.xl-huge')}
+.xl-huge
 </pre>
 
 
@@ -252,11 +252,11 @@
 </p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.xxl-hidden /* hide button for this breakpoint */
+.xxl-hidden /* hide button for this breakpoint */
 .xxl-small
 .xxl-regular
 .xxl-big
-.xxl-huge')}
+.xxl-huge
 </pre>
 
 
@@ -265,11 +265,11 @@
 </p>
 
 <pre class="demo_source less">
-{htmlspecialchars('.xxxl-hidden /* hide button for this breakpoint */
+.xxxl-hidden /* hide button for this breakpoint */
 .xxxl-small
 .xxxl-regular
 .xxxl-big
-.xxxl-huge')}
+.xxxl-huge
 </pre>
 
 <p>

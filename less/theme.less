@@ -58,6 +58,38 @@ body {
 
 
 //
+// CONTENT STYLES "RESET"
+//
+ul,
+ol {
+	padding: 5px 0;
+	margin-left: 15px;
+
+	li {
+		padding: 2px 0;
+	}
+}
+
+hr {
+	margin: 25px 0;
+	border: 0;
+	border-bottom: 5px solid #f2f2f2;
+}
+
+// TODO: USE LINKS FROM RESET
+a {
+	display: inline-block;
+	position: relative;
+	text-decoration: underline;
+
+	&:hover {
+		color: @color_lui_blue;
+		text-decoration: none;
+	}
+}
+
+
+//
 // SITE SIDEBAR
 //
 aside.site_sidebar {
@@ -72,6 +104,7 @@ aside.site_sidebar {
 	ul {
 		list-style: none;
 		padding: 10px 0 15px 0;
+		margin: 0;
 
 		li {
 			a {
@@ -183,46 +216,6 @@ aside.site_sidebar {
 	p {
 		padding: 7px 0;
 	}
-
-	ul,
-	ol {
-		padding: 5px 0;
-		margin-left: 15px;
-
-		li {
-			padding: 2px 0;
-		}
-	}
-
-	hr {
-		margin: 25px 0;
-		border: 0;
-		border-bottom: 5px solid #f2f2f2;
-	}
-
-	// TODO: USE LINKS FROM RESET
-	a:not(.lui_button) {
-		display: inline-block;
-		position: relative;
-		text-decoration: none;
-
-		&:hover {
-			color: @color_lui_blue;
-		}
-
-		&:after {
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			content: "";
-			border-top: 1px dotted gray;
-		}
-
-		&:hover:after {
-			display: none;
-		}
-	}
 }
 
 
@@ -246,6 +239,7 @@ pre.demo_source {
 	border: 1px solid silver;
 	background: #f2f2f2;
 	font-size: 13px;*/
+	tab-size: 4;
 }
 
 

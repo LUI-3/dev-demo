@@ -69,7 +69,9 @@
 					<li><a href="/components/reset/">Reset</a></li>
 					<li><a href="/components/grid/">Grid</a></li>
 					<li><a href="/components/buttons/">Buttons</a></li>
-					<li><a href="/components/forms/">Forms</a></li>
+					<li><a href="/components/forms-base/">Forms - base</a></li>
+					<li><a href="/components/forms-extras/">Forms - extras</a></li>
+					<li><a href="/components/pagebars/">Pagebars</a></li>
 					<li><a href="/components/tables-lists/">Tables - lists</a></li>
 				</ul>
 			</aside>

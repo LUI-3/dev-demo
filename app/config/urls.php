@@ -53,10 +53,20 @@ $config->url = (object) array(
 		"tpl_file_content"	=> "components/buttons.tpl",
 		"page_title"		=> "Components - buttons"
 	),
-	"components/forms/" => (object) array(
+	"components/forms-base/" => (object) array(
 		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "components/forms.tpl",
-		"page_title"		=> "Components - forms"
+		"tpl_file_content"	=> "components/forms-base.tpl",
+		"page_title"		=> "Components - forms - base"
+	),
+	"components/forms-extras/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "components/forms-extras.tpl",
+		"page_title"		=> "Components - forms - extras"
+	),
+	"components/pagebars/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "components/pagebars.tpl",
+		"page_title"		=> "Components - pagebars"
 	),
 	"components/tables-lists/" => (object) array(
 		"tpl_file"			=> "index.tpl",
