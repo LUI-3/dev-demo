@@ -244,6 +244,29 @@ pre.demo_source {
 
 
 //
+// DEMO RESULT
+//
+.demo_result {
+	margin: 7px 0;
+	padding: 0 15px 15px 15px;
+	border: 1px solid #d2dcef;
+	border-radius: 5px;
+	overflow: hidden;
+
+	&:before {
+		display: block;
+		padding: 7px 15px;
+		margin: 0 -15px 15px -15px;
+		background: #00a0fd;
+		color: white;
+		content: attr(data-title);
+		font-size: 13px;
+		font-weight: bold;
+	}
+}
+
+
+//
 // HLJS CODE HIGHLIGHTER
 //
 .hljs {

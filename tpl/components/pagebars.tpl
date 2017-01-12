@@ -38,18 +38,21 @@ LUI-3_forms-base // needed for input styles
 </ul>')}
 </pre>
 
-<ul class="lui_pagebar a-center va-top">
-	<li class="prev"><a href="#"></a></li>
-	<li><a href="#">1</a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li class="active"><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">6</a></li>
-	<li class="inactive"><a href="#">7</a></li>
-	<li class="inactive"><a href="#">8</a></li>
-	<li class="next"><a href="#"></a></li>
-</ul>
+
+<div class="demo_result" data-title="result">
+	<ul class="lui_pagebar a-center va-top">
+		<li class="prev"><a href="#"></a></li>
+		<li><a href="#">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li class="active"><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li class="inactive"><a href="#">7</a></li>
+		<li class="inactive"><a href="#">8</a></li>
+		<li class="next"><a href="#"></a></li>
+	</ul>
+</div>
 
 <h2>Pagebar with input</h2>
 
@@ -74,23 +77,24 @@ LUI-3_forms-base // needed for input styles
 </ul>')}
 </pre>
 
-
-<ul class="lui_pagebar a-center va-top">
-	<li class="prev"><a href="#"></a></li>
-	<li class="input">
-		<label>Page:</label>
-		<input type="number" value="134">
-	</li>
-	<li><a href="#">1</a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li class="active"><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">6</a></li>
-	<li class="inactive"><a href="#">7</a></li>
-	<li class="inactive"><a href="#">8</a></li>
-	<li class="next"><a href="#"></a></li>
-</ul>
+<div class="demo_result" data-title="result">
+	<ul class="lui_pagebar a-center va-top">
+		<li class="prev"><a href="#"></a></li>
+		<li class="input">
+			<label>Page:</label>
+			<input type="number" value="134">
+		</li>
+		<li><a href="#">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li class="active"><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li class="inactive"><a href="#">7</a></li>
+		<li class="inactive"><a href="#">8</a></li>
+		<li class="next"><a href="#"></a></li>
+	</ul>
+</div>
 
 <h2>Color variants</h2>
 
@@ -98,39 +102,41 @@ LUI-3_forms-base // needed for input styles
 	Color variant can be specified in UL tag. Current package contains 2 color variants - light and dark. These can be easily extended
 </p>
 
-<ul class="lui_pagebar a-center va-top">
-	<li class="prev"><a href="#"></a></li>
-	<li class="input">
-		<label>Page:</label>
-		<input type="number" value="134">
-	</li>
-	<li><a href="#">1</a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li class="active"><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">6</a></li>
-	<li class="inactive"><a href="#">7</a></li>
-	<li class="inactive"><a href="#">8</a></li>
-	<li class="next"><a href="#"></a></li>
-</ul>
+<div class="demo_result" data-title="result">
+	<ul class="lui_pagebar a-center va-top">
+		<li class="prev"><a href="#"></a></li>
+		<li class="input">
+			<label>Page:</label>
+			<input type="number" value="134">
+		</li>
+		<li><a href="#">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li class="active"><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li class="inactive"><a href="#">7</a></li>
+		<li class="inactive"><a href="#">8</a></li>
+		<li class="next"><a href="#"></a></li>
+	</ul>
 
-<ul class="lui_pagebar a-center va-top dark">
-	<li class="prev"><a href="#"></a></li>
-	<li class="input">
-		<label>Page:</label>
-		<input type="number" value="134">
-	</li>
-	<li><a href="#">1</a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li class="active"><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">6</a></li>
-	<li class="inactive"><a href="#">7</a></li>
-	<li class="inactive"><a href="#">8</a></li>
-	<li class="next"><a href="#"></a></li>
-</ul>
+	<ul class="lui_pagebar a-center va-top dark">
+		<li class="prev"><a href="#"></a></li>
+		<li class="input">
+			<label>Page:</label>
+			<input type="number" value="134">
+		</li>
+		<li><a href="#">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li class="active"><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li class="inactive"><a href="#">7</a></li>
+		<li class="inactive"><a href="#">8</a></li>
+		<li class="next"><a href="#"></a></li>
+	</ul>
+</div>
 
 <h2>Pagebar variant per breakpoint</h2>
 
@@ -141,150 +147,172 @@ LUI-3_forms-base // needed for input styles
 
 <h3>.xs-minimal.sm-normal</h3>
 
-<ul class="lui_pagebar xs-minimal sm-normal sm-a-center xs-va-top">
-	<li class="prev"><a href="#"></a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li class="active"><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">6</a></li>
-	<li class="next"><a href="#"></a></li>
-</ul>
+<div class="demo_result" data-title="result">
+	<ul class="lui_pagebar xs-minimal sm-normal sm-a-center xs-va-top">
+		<li class="prev"><a href="#"></a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li class="active"><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li class="next"><a href="#"></a></li>
+	</ul>
+</div>
 
 <h3>.xs-minimal.md-normal</h3>
 
-<ul class="lui_pagebar xs-minimal md-normal md-a-center xs-va-top">
-	<li class="prev"><a href="#"></a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li class="active"><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">6</a></li>
-	<li class="next"><a href="#"></a></li>
-</ul>
+<div class="demo_result" data-title="result">
+	<ul class="lui_pagebar xs-minimal md-normal md-a-center xs-va-top">
+		<li class="prev"><a href="#"></a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li class="active"><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li class="next"><a href="#"></a></li>
+	</ul>
+</div>
 
 <h3>.xs-minimal.lg-normal</h3>
 
-<ul class="lui_pagebar xs-minimal lg-normal lg-a-center xs-va-top">
-	<li class="prev"><a href="#"></a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li class="active"><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">6</a></li>
-	<li class="next"><a href="#"></a></li>
-</ul>
+<div class="demo_result" data-title="result">
+	<ul class="lui_pagebar xs-minimal lg-normal lg-a-center xs-va-top">
+		<li class="prev"><a href="#"></a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li class="active"><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li class="next"><a href="#"></a></li>
+	</ul>
+</div>
 
 <h3>.xs-minimal.xl-normal</h3>
 
-<ul class="lui_pagebar xs-minimal xl-normal xl-a-center xs-va-top">
-	<li class="prev"><a href="#"></a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li class="active"><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">6</a></li>
-	<li class="next"><a href="#"></a></li>
-</ul>
+<div class="demo_result" data-title="result">
+	<ul class="lui_pagebar xs-minimal xl-normal xl-a-center xs-va-top">
+		<li class="prev"><a href="#"></a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li class="active"><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li class="next"><a href="#"></a></li>
+	</ul>
+</div>
 
 <h3>.xs-minimal.xxl-normal</h3>
 
-<ul class="lui_pagebar xs-minimal xxl-normal xxl-a-center xs-va-top">
-	<li class="prev"><a href="#"></a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li class="active"><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">6</a></li>
-	<li class="next"><a href="#"></a></li>
-</ul>
+<div class="demo_result" data-title="result">
+	<ul class="lui_pagebar xs-minimal xxl-normal xxl-a-center xs-va-top">
+		<li class="prev"><a href="#"></a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li class="active"><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li class="next"><a href="#"></a></li>
+	</ul>
+</div>
 
 <h3>.xs-minimal.xxxl-normal</h3>
 
+<div class="demo_result" data-title="result">
+	<ul class="lui_pagebar xs-minimal xxxl-normal xxxl-a-center xs-va-top">
+		<li class="prev"><a href="#"></a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li class="active"><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li class="next"><a href="#"></a></li>
+	</ul>
+</div>
 
-<ul class="lui_pagebar xs-minimal xxxl-normal xxxl-a-center xs-va-top">
-	<li class="prev"><a href="#"></a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li class="active"><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">6</a></li>
-	<li class="next"><a href="#"></a></li>
-</ul>
 
 
 <h2>Align per breakpoint</h2>
 
 <h3>.xs-a-center.sm-a-left</h3>
 
-<ul class="lui_pagebar xs-normal xs-a-center sm-a-left xs-va-top">
-	<li class="prev"><a href="#"></a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li class="active"><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">6</a></li>
-	<li class="next"><a href="#"></a></li>
-</ul>
+<div class="demo_result" data-title="result">
+	<ul class="lui_pagebar xs-normal xs-a-center sm-a-left xs-va-top">
+		<li class="prev"><a href="#"></a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li class="active"><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li class="next"><a href="#"></a></li>
+	</ul>
+</div>
 
 <h3>.xs-a-center.md-a-left</h3>
 
-<ul class="lui_pagebar xs-normal xs-a-center md-a-left xs-va-top">
-	<li class="prev"><a href="#"></a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li class="active"><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">6</a></li>
-	<li class="next"><a href="#"></a></li>
-</ul>
+<div class="demo_result" data-title="result">
+	<ul class="lui_pagebar xs-normal xs-a-center md-a-left xs-va-top">
+		<li class="prev"><a href="#"></a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li class="active"><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li class="next"><a href="#"></a></li>
+	</ul>
+</div>
 
 <h3>.xs-a-center.lg-a-left</h3>
 
-<ul class="lui_pagebar xs-normal xs-a-center lg-a-left xs-va-top">
-	<li class="prev"><a href="#"></a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li class="active"><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">6</a></li>
-	<li class="next"><a href="#"></a></li>
-</ul>
+<div class="demo_result" data-title="result">
+	<ul class="lui_pagebar xs-normal xs-a-center lg-a-left xs-va-top">
+		<li class="prev"><a href="#"></a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li class="active"><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li class="next"><a href="#"></a></li>
+	</ul>
+</div>
 
 <h3>.xs-a-center.xl-a-left</h3>
 
-<ul class="lui_pagebar xs-normal xs-a-center xl-a-left xs-va-top">
-	<li class="prev"><a href="#"></a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li class="active"><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">6</a></li>
-	<li class="next"><a href="#"></a></li>
-</ul>
+<div class="demo_result" data-title="result">
+	<ul class="lui_pagebar xs-normal xs-a-center xl-a-left xs-va-top">
+		<li class="prev"><a href="#"></a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li class="active"><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li class="next"><a href="#"></a></li>
+	</ul>
+</div>
 
 <h3>.xs-a-center.xxl-a-left</h3>
 
-<ul class="lui_pagebar xs-normal xs-a-center xxl-a-left xs-va-top">
-	<li class="prev"><a href="#"></a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li class="active"><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">6</a></li>
-	<li class="next"><a href="#"></a></li>
-</ul>
+<div class="demo_result" data-title="result">
+	<ul class="lui_pagebar xs-normal xs-a-center xxl-a-left xs-va-top">
+		<li class="prev"><a href="#"></a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li class="active"><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li class="next"><a href="#"></a></li>
+	</ul>
+</div>
 
 <h3>.xs-a-center.xxxl-a-left</h3>
 
-
-<ul class="lui_pagebar xs-normal xs-a-center xxxl-a-left xs-va-top">
-	<li class="prev"><a href="#"></a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li class="active"><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">6</a></li>
-	<li class="next"><a href="#"></a></li>
-</ul>
-
+<div class="demo_result" data-title="result">
+	<ul class="lui_pagebar xs-normal xs-a-center xxxl-a-left xs-va-top">
+		<li class="prev"><a href="#"></a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li class="active"><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li class="next"><a href="#"></a></li>
+	</ul>
+</div>

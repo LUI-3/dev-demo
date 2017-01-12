@@ -23,11 +23,10 @@
 .lui.button.this();
 </pre>
 
-<p>
-	<strong>Result:</strong>
-</p>
 
-<button class="lui_button">Button</button>
+<div class="demo_result" data-title="result">
+	<button class="lui_button">Button</button>
+</div>
 
 <h2>Color variants</h2>
 
@@ -47,9 +46,9 @@
 .lui.button.primary();
 </pre>
 
-<p><strong>Result</strong></p>
-
-<button class="lui_button primary">Button</button>
+<div class="demo_result" data-title="result">
+	<button class="lui_button primary">Button</button>
+</div>
 
 <hr />
 
@@ -69,9 +68,9 @@
 .lui.button.secondary();
 </pre>
 
-<p><strong>Result</strong></p>
-
-<button class="lui_button secondary">Button</button>
+<div class="demo_result" data-title="result">
+	<button class="lui_button secondary">Button</button>
+</div>
 
 <hr />
 
@@ -91,9 +90,9 @@
 .lui.button.info();
 </pre>
 
-<p><strong>Result</strong></p>
-
-<button class="lui_button info">Button</button>
+<div class="demo_result" data-title="result">
+	<button class="lui_button info">Button</button>
+</div>
 
 <hr />
 
@@ -113,9 +112,9 @@
 .lui.button.warning();
 </pre>
 
-<p><strong>Result</strong></p>
-
-<button class="lui_button warning">Button</button>
+<div class="demo_result" data-title="result">
+	<button class="lui_button warning">Button</button>
+</div>
 
 <hr />
 
@@ -136,9 +135,9 @@
 .lui.button.error();
 </pre>
 
-<p><strong>Result</strong></p>
-
-<button class="lui_button error">Button</button>
+<div class="demo_result" data-title="result">
+	<button class="lui_button error">Button</button>
+</div>
 
 <hr />
 
@@ -167,12 +166,12 @@
 {htmlspecialchars('<button class="lui_button small">button</button>')}
 </pre>
 
-<p><strong>Results:</strong></p>
-
-<button class="lui_button primary huge">button</button>
-<button class="lui_button primary big">button</button>
-<button class="lui_button primary regular">button</button>
-<button class="lui_button primary small">button</button>
+<div class="demo_result" data-title="results">
+	<button class="lui_button primary huge">button</button>
+	<button class="lui_button primary big">button</button>
+	<button class="lui_button primary regular">button</button>
+	<button class="lui_button primary small">button</button>
+</div>
 
 <hr />
 
