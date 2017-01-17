@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html class="on_hp">
 <head>
 	<meta charset="utf-8" />
 
@@ -30,73 +30,94 @@
 
 	<title>{$page_title} - LUI-3 Framework</title>
 </head>
-<body>
+<body class="on_hp">
 
-	<div class="site_wrapper">
-		<div class="site_header">
-			<div class="logo">
-				<a href="/"><img src="/img/logo.png" alt="LUI-3 framework logo" /></a>
-			</div>
-			<p class="title">Framework documentation<br /><small>Website is still in progress, but im trying!</small></p>
-		</div>
-	</div>
-
-	<div class="container max-xl">
-		<div class="row va-top">
-			<aside class="site_sidebar col-xs-12 col-lg-3">
+	<div class="site_intro">
+		<div class="container max-xxl">
+			<nav>
 				<ul>
-					<li><a href="/">Homepage</a></li>
-					<li><a href="/report-bug/">Report bug</a></li>
-					<li><a href="/contributing/">Contribute</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">Docs</a></li>
+					<li><a href="#">Github</a></li>
+					<li><a href="#">Donate</a></li>
+					<li><a href="#" class="download">Download</a></li>
 				</ul>
+			</nav>
+			<div class="row va_top">
+				<div class="col-xs-12 col-xl-8 texts">
+					<img src="/img/logo_white.png" alt="LUI-3 logo" class="logo" />
 
-				<h2>Souce code</h2>
-				<ul>
-					<li><a class="fa_b_github" href="/download/github/">Source on Github</a></li>
-					<li><a href="/download/website/">Download from website</a></li>
-				</ul>
+					<h1>
+						<span>The most modular</span>
+						<span>responsive framework</span>
+						<span>in the world</span>
+					</h1>
 
-				<h2>Installation</h2>
-				<ul>
-					<li><a href="/installation/git-submodules/">A) Git Submodules</a></li>
-					<li><a href="/installation/bower/">B) Bower</a></li>
-					<li><a href="/installation/manual/">C) Manual</a></li>
-				</ul>
+					<p>
+						It started as small company project and&nbsp;became this awesome framework, now available for&nbsp;everyone!
+					</p>
 
-				<h2>Components</h2>
-
-				<ul>
-					<li><a href="/components/reset/">Reset</a></li>
-					<li><a href="/components/grid/">Grid</a></li>
-					<li><a href="/components/buttons/">Buttons</a></li>
-					<li><a href="/components/forms-base/">Forms - base</a></li>
-					<li><a href="/components/forms-extras/">Forms - extras</a></li>
-					<li><a href="/components/pagebars/">Pagebars</a></li>
-					<li><a href="/components/tables-lists/">Tables - lists</a></li>
-				</ul>
-			</aside>
-			<div class="site_content col-xs-12 col-lg-9">
-				{include file=$page_content}
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-12 site_footer">
-				Edit source code on <a href="//github.com/LUI-3/dev-demo" target="_blank">Github</a>
+					<ul>
+						<li>
+							<a href="#" class="primary">Install via Bower</a>
+						</li>
+						<li>
+							<span>or</span>
+						</li>
+						<li>
+							<a href="#" class="secondary fa_b_github">Download everything</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-xl-4 preview">
+				
+				</div>
 			</div>
 		</div>
 	</div>
-	
 
+	<div class="site_features">
+		<div class="container max-xl">
+			<div class="row va-middle">
+				<div class="col-xs-12 col-lg-3 image">
+					IMAGE
+				</div>
+				<div class="col-xs-12 col-lg-9 texts">
+					<h2>Code your designs faster</h2>
+					<p>
+						LUI-3 grid system is the best one yet. Thanks to flexbox you can make layous that would be nearly impossible or very hard to code before.
+					</p>
+				</div>
+			</div>
+
+			<div class="row va-middle">
+				
+				<div class="col-xs-12 col-lg-9 texts">
+					<h2>Flexible websites like never before</h2>
+					<p>
+						Do you need to hide certaind element, or completely change their order on different breakpoints? No problem. And you dont even need javascript for that.
+					</p>
+				</div>
+				<div class="col-xs-12 col-lg-3 image">
+					IMAGE
+				</div>
+			</div>
+
+			<div class="row va-middle">
+				<div class="col-xs-12 col-lg-3 image">
+					IMAGE
+				</div>
+				<div class="col-xs-12 col-lg-9 texts">
+					<h2>Awesome mobile experience</h2>
+					<p>
+						Enjoy browsing your sites on all mobile devices. With our mobile friendly components, browsing on mobiles can't be much more easier.
+					</p>
+				</div>
+			</div>
+		</div>
 	
-	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>	
-	<script>
-		$(document).ready(function() {
-			$('pre.demo_source').each(function(i, block) {
-				hljs.highlightBlock(block);
-			});
-		});
-	</script>
+	</div>
+	
+	
 </body>
 </html>
