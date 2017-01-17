@@ -117,6 +117,31 @@
 		</div>
 	
 	</div>
+
+	<div class="site_download">
+		<h3>Start using LUI-3 today!</h3>
+		<p>
+			Download each component via Bower or get complete package from github.<br />
+			For better site erformance, we recommend downloading only components you need using Bower package manager
+		</p>
+		<ul>
+			<li>
+				<a href="#" class="primary">Install via Bower</a>
+			</li>
+			<li>
+				<span>or</span>
+			</li>
+			<li>
+				<a href="#" class="secondary fa_b_github">Download everything</a>
+			</li>
+		</ul>
+	</div>
+
+
+	<div class="site_footer">
+		Edit source code of this site on <a href="//github.com/LUI-3/dev-demo" target="_blank">Github</a>
+	</div>
+	
 	
 	
 </body>

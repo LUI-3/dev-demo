@@ -87,7 +87,7 @@
 
 		<div class="row">
 			<div class="col-12 site_footer">
-				Edit source code on <a href="//github.com/LUI-3/dev-demo" target="_blank">Github</a>
+				Edit source code of this site on <a href="//github.com/LUI-3/dev-demo" target="_blank">Github</a>
 			</div>
 		</div>
 	</div>
