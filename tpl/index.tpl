@@ -27,6 +27,8 @@
 	
 
 	<link href="/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+	
 
 	<title>{$page_title} - LUI-3 Framework</title>
 </head>
@@ -73,6 +75,9 @@
 					<li><a href="/components/forms-extras/">Forms - extras</a></li>
 					<li><a href="/components/pagebars/">Pagebars</a></li>
 					<li><a href="/components/tables-lists/">Tables - lists</a></li>
+					<li><a href="/components/phone-navbar/">Phone - navbar</a></li>
+
+					
 				</ul>
 			</aside>
 			<div class="site_content col-xs-12 col-lg-9">
@@ -89,7 +94,6 @@
 	
 
 	
-	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>	
 	<script>
 		$(document).ready(function() {

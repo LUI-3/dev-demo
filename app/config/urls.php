@@ -73,6 +73,11 @@ $config->url = (object) array(
 		"tpl_file_content"	=> "components/tables-lists.tpl",
 		"page_title"		=> "Components - tables - lists"
 	),
+	"components/phone-navbar/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "components/phone-navbar.tpl",
+		"page_title"		=> "Components - phone - navbar"
+	),
 
 	// OTHER
 	"report-bug/" => (object) array(
