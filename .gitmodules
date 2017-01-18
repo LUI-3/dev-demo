@@ -22,3 +22,6 @@
 [submodule "less/lui3/LUI-3_messages"]
 	path = less/lui3/LUI-3_messages
 	url = https://github.com/LUI-3/messages
+[submodule "less/lui3/LUI-3_phone-navbar"]
+	path = less/lui3/LUI-3_phone-navbar
+	url = https://github.com/LUI-3/phone-navbar
