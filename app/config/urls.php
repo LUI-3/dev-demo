@@ -9,74 +9,70 @@ $config->url = (object) array(
 		"tpl_file_content"	=> "homepage.tpl",
 		"page_title"		=> "Modular responsive front-end framework"
 	),
-	"download/website/" => (object) array(
+	"download/" => (object) array(
 		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "download/website.tpl",
-		"page_title"		=> "Download from website"
+		"tpl_file_content"	=> "download.tpl",
+		"page_title"		=> "Download LUI-3 Framework"
 	),
-	"download/github/" => (object) array(
-		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "download/github.tpl",
-		"page_title"		=> "Download from Github"
-	),
+
 
 	// INSTALLATION
 	"installation/git-submodules/" => (object) array(
 		"tpl_file"			=> "index.tpl",
 		"tpl_file_content"	=> "installation/git_submodules.tpl",
-		"page_title"		=> "Installation - Git Submodules"
+		"page_title"		=> "Installation - Git Submodules - Docs"
 	),
 	"installation/bower/" => (object) array(
 		"tpl_file"			=> "index.tpl",
 		"tpl_file_content"	=> "installation/bower.tpl",
-		"page_title"		=> "Installation - bower"
+		"page_title"		=> "Installation - bower - Docs"
 	),
 	"installation/manual/" => (object) array(
 		"tpl_file"			=> "index.tpl",
 		"tpl_file_content"	=> "installation/manual.tpl",
-		"page_title"		=> "Installation - manual"
+		"page_title"		=> "Installation - manual - Docs"
 	),
 
 	// COMPONENTS
-	"components/reset/" => (object) array(
+	"docs/component/reset/" => (object) array(
 		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "components/reset.tpl",
-		"page_title"		=> "Components - reset"
+		"tpl_file_content"	=> "docs/component/reset.tpl",
+		"page_title"		=> "Components - reset - Docs"
 	),
-	"components/grid/" => (object) array(
+	"docs/component/grid/" => (object) array(
 		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "components/grid.tpl",
-		"page_title"		=> "Components - grid"
+		"tpl_file_content"	=> "docs/component/grid.tpl",
+		"page_title"		=> "Components - grid - Docs"
 	),
-	"components/buttons/" => (object) array(
+	"docs/component/buttons/" => (object) array(
 		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "components/buttons.tpl",
-		"page_title"		=> "Components - buttons"
+		"tpl_file_content"	=> "docs/component/buttons.tpl",
+		"page_title"		=> "Components - buttons - Docs"
 	),
-	"components/forms-base/" => (object) array(
+	"docs/component/forms-base/" => (object) array(
 		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "components/forms-base.tpl",
-		"page_title"		=> "Components - forms - base"
+		"tpl_file_content"	=> "docs/component/forms-base.tpl",
+		"page_title"		=> "Components - forms - base - Docs"
 	),
-	"components/forms-extras/" => (object) array(
+	"docs/component/forms-extras/" => (object) array(
 		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "components/forms-extras.tpl",
-		"page_title"		=> "Components - forms - extras"
+		"tpl_file_content"	=> "docs/component/forms-extras.tpl",
+		"page_title"		=> "Components - forms - extras - Docs"
 	),
-	"components/pagebars/" => (object) array(
+	"docs/component/pagebars/" => (object) array(
 		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "components/pagebars.tpl",
-		"page_title"		=> "Components - pagebars"
+		"tpl_file_content"	=> "docs/component/pagebars.tpl",
+		"page_title"		=> "Components - pagebars - Docs"
 	),
-	"components/tables-lists/" => (object) array(
+	"docs/component/tables-lists/" => (object) array(
 		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "components/tables-lists.tpl",
-		"page_title"		=> "Components - tables - lists"
+		"tpl_file_content"	=> "docs/component/tables-lists.tpl",
+		"page_title"		=> "Components - tables - lists - Docs"
 	),
-	"components/phone-navbar/" => (object) array(
+	"docs/component/phone-navbar/" => (object) array(
 		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "components/phone-navbar.tpl",
-		"page_title"		=> "Components - phone - navbar"
+		"tpl_file_content"	=> "docs/component/phone-navbar.tpl",
+		"page_title"		=> "Components - phone - navbar - Docs"
 	),
 
 	// OTHER

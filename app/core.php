@@ -59,7 +59,7 @@ class flexi {
 		if(isset($this->config->url->$rewrite_url->tpl_file_content))
 			$content_file = $this->config->url->$rewrite_url->tpl_file_content;
 		else
-			$content_file = "homepage.tpl";
+			$content_file = "404.tpl";
 
 		// SET PAGE TITLE
 		$this->tpl->assign("page_title",$this->config->url->$rewrite_url->page_title);

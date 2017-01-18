@@ -27,6 +27,7 @@
 	
 
 	<link href="/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
 
 	<title>{$page_title} - LUI-3 Framework</title>
 </head>
@@ -34,15 +35,28 @@
 
 	<div class="site_intro">
 		<div class="container max-xxl">
-			<nav>
+			<nav class="site_nav">
+				<a class="hotdog fa_b_navicon">Menu</a>
 				<ul>
 					<li><a href="#">Features</a></li>
-					<li><a href="#">Docs</a></li>
-					<li><a href="#">Github</a></li>
+					<li><a href="/installation/bower/">Installation</a></li>
+					<li><a href="/docs/component/reset/">Docs</a></li>
+					<li><a href="/download/github/">Github</a></li>
 					<li><a href="#">Donate</a></li>
-					<li><a href="#" class="download">Download</a></li>
+					<li><a href="/download/" class="download">Download</a></li>
 				</ul>
 			</nav>
+			<script>
+				$(document).ready(function(){
+					$(".site_nav > .hotdog").click(function(){
+						$(this).toggleClass("active");
+						$(this).siblings("ul").toggleClass("opened");
+					});
+				});
+				
+			
+			</script>
+
 			<div class="row va_top">
 				<div class="col-xs-12 col-xl-8 texts">
 					<img src="/img/logo_white.png" alt="LUI-3 logo" class="logo" />
@@ -59,13 +73,13 @@
 
 					<ul>
 						<li>
-							<a href="#" class="primary">Install via Bower</a>
+							<a href="/installation/bower/" class="primary">Install via Bower</a>
 						</li>
-						<li>
+						<li class="spacer">
 							<span>or</span>
 						</li>
 						<li>
-							<a href="#" class="secondary fa_b_github">Download everything</a>
+							<a href="/installation/manual/" class="secondary fa_b_github">Download everything</a>
 						</li>
 					</ul>
 				</div>
@@ -80,7 +94,7 @@
 		<div class="container max-xl">
 			<div class="row va-middle">
 				<div class="col-xs-12 col-lg-3 image">
-					IMAGE
+					<img src="/img/notebook_preview.png" alt="LUI-3 on phone" />
 				</div>
 				<div class="col-xs-12 col-lg-9 texts">
 					<h2>Code your designs faster</h2>
@@ -92,20 +106,20 @@
 
 			<div class="row va-middle">
 				
-				<div class="col-xs-12 col-lg-9 texts">
+				<div class="col-xs-12 col-lg-9 o-xs-2 o-lg-1 texts secondary">
 					<h2>Flexible websites like never before</h2>
 					<p>
 						Do you need to hide certaind element, or completely change their order on different breakpoints? No problem. And you dont even need javascript for that.
 					</p>
 				</div>
-				<div class="col-xs-12 col-lg-3 image">
-					IMAGE
+				<div class="col-xs-12 col-lg-3 o-xs-1 o-lg-2 image">
+					<img src="/img/tablet_preview.png" alt="LUI-3 on phone" />
 				</div>
 			</div>
 
 			<div class="row va-middle">
 				<div class="col-xs-12 col-lg-3 image">
-					IMAGE
+					<img src="/img/phone_preview.png" alt="LUI-3 on phone" />
 				</div>
 				<div class="col-xs-12 col-lg-9 texts">
 					<h2>Awesome mobile experience</h2>
@@ -126,13 +140,13 @@
 		</p>
 		<ul>
 			<li>
-				<a href="#" class="primary">Install via Bower</a>
+				<a href="/installation/bower/" class="primary">Install via Bower</a>
 			</li>
-			<li>
+			<li class="space">
 				<span>or</span>
 			</li>
 			<li>
-				<a href="#" class="secondary fa_b_github">Download everything</a>
+				<a href="/installation/manual/" class="secondary fa_b_github">Download everything</a>
 			</li>
 		</ul>
 	</div>

@@ -29,31 +29,87 @@ body {
 //
 .site_intro {
 	height: 100%;
-	background: url(/img/site_intro_demo.jpg) center top no-repeat #181818;
-	background-size: cover;
+	background: #31373a;
 
 	// NAVIGATION
 	nav {
-		display: none;
-		text-align: center;
-		padding: 25px 0 0 0;
+		margin: 0 -15px;
+ 		border-bottom: 1px solid rgba(255,255,255,0.2);
 		.lui.clear.after();
 
 		@media (min-width:@grid_lg_start){
+			margin: 0;
+			padding: 25px 0 0 0;
+			text-align: center;
+			border-bottom: 0;
+		}
+
+		a.hotdog {
 			display: block;
+			padding: 15px;
+			cursor: pointer;
+			font-size: 16px;
+			color: white;
+			text-decoration: none;
+			.lui.user-select.none();
+			
+			@media (min-width:@grid_lg_start){
+				display: none;
+			}
+
+			&:before {
+				padding-right: 10px;
+			}
+
+			&:hover:before,
+			&.active:before {
+				color: #1398fe;
+			}
 		}
 
 		ul {
 			list-style: none;
 			margin: 0;
-			padding: 0;
+			padding: 0 0 10px 0;
+			display: none;
+
+			&.opened {
+				display: block;
+			}
+
+			@media (min-width:@grid_lg_start){
+				display: block;
+				padding: 0;
+			}
 			
 			@media (min-width:@grid_xl_start){
 				float: right;
 			}
 
 			li {
-				display: inline-block;
+				position: relative;
+				display: block;
+
+				&:before {
+					position: absolute;
+					top: 0;
+					left: 20px;
+					right: 20px;
+					content: "";
+					border-bottom: 1px solid rgba(255,255,255,0.1);
+
+					@media (min-width:@grid_lg_start){
+						display: none;
+					}
+				}
+
+				&:last-child:before {
+					display: none;
+				}
+
+				@media (min-width:@grid_lg_start){
+					display: inline-block;
+				}
 
 				@media (min-width:@grid_xl_start){
 					float: left;
@@ -88,7 +144,11 @@ body {
 	// TEXTS
 	.texts {
 		text-align: center;
-		padding-bottom: 150px;
+		padding-bottom: 50px;
+
+		@media (min-width:@grid_lg_start){
+			padding-bottom: 150px;
+		}
 
 		@media (min-width:@grid_xl_start){
 			text-align: left;
@@ -166,7 +226,7 @@ body {
 			padding: 30px 0;
 			font-size: 16px;
 			color: white;
-			max-width: 500px;
+			text-align: center;
 
 			@media (min-width:@grid_md_start){
 				font-size: 18px;
@@ -175,6 +235,8 @@ body {
 			@media (min-width:@grid_xl_start){
 				padding: 40px 0;
 				font-size: 20px;
+				max-width: 500px;
+				text-align: left;
 			}
 		}
 
@@ -185,6 +247,17 @@ body {
 
 			li {
 				display: inline-block;
+				margin: 0 auto;
+
+				&.spacer {
+					padding: 15px 0;
+					display: block;
+
+					@media (min-width:@grid_lg_start){
+						padding: 0;
+						display: inline-block;
+					}
+				}
 
 				span {
 					padding: 0 7px;
@@ -234,26 +307,69 @@ body {
 // SITE FEATURES
 //
 .site_features {
-	//padding: 20px 0;
+	padding: 50px 0;
 
 	.row {
-		padding: 50px 0;
+		padding-bottom: 50px;
+
+		&:nth-child(2){
+			padding-bottom: 50px;
+
+			@media (min-width:@grid_lg_start){
+				padding-bottom: 0;
+			}
+		}
+
+		&:nth-child(3) {
+			border-bottom: 0;
+		}
 	}
 
 	.image {
+		img {
+			display: block;
+			margin: 0 auto 0 auto;
 
+			max-width: 80%;
+			max-height: 150px;
+
+			@media (min-width:@grid_lg_start){
+				max-width: 80%;
+				max-height: 280px;
+			}
+		}
 	}
 
 	.texts {
+		text-align: center;
+
+		@media (min-width:@grid_lg_start){
+			text-align: left;
+
+			&.secondary {
+				text-align: right;
+			}
+		}
+
 		h2 {
-			padding: 0 0 15px 0;
-			font-size: 28px;
+			padding: 15px 0;
+			font-size: 18px;
 			color: #1398fe;
+
+
+			@media (min-width:@grid_lg_start){
+				padding: 0 0 15px 0;
+				font-size: 28px;
+			}
 		}
 
 		p {
-			font-size: 18px;
+			font-size: 15px;
 			color: #2f2f2f;
+
+			@media (min-width:@grid_lg_start){
+				font-size: 18px;
+			}
 		}
 	}
 }
@@ -264,20 +380,32 @@ body {
 //
 .site_download {
 	background: #efefef;
-	padding: 50px 0;
+	padding: 30px 15px;
 	text-align: center;
+
+	@media (min-width:@grid_lg_start){
+		padding: 50px 15px;
+	}
 
 	h3 {
 		padding: 0 0 30px 0;
-		font-size: 50px;
+		font-size: 24px;
 		font-weight: bold;
 		//text-transform: uppercase;
 		color: black;
+
+		@media (min-width:@grid_lg_start){
+			font-size: 35px;
+		}
+
+		@media (min-width:@grid_xl_start){
+			font-size: 50px;
+		}
 	}
 
 	p {
 		padding: 0 0 40px 0;
-		font-size: 16px;
+		font-size: 15px;
 		color: #262626;
 	}
 
@@ -288,6 +416,14 @@ body {
 
 		li {
 			display: inline-block;
+
+			&.space {
+				display: block;
+
+				@media (min-width:@grid_lg_start){
+					display: inline-block;
+				}
+			}
 
 			span {
 				padding: 0 7px;

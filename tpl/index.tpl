@@ -50,32 +50,28 @@
 					<li><a href="/">Homepage</a></li>
 					<li><a href="/report-bug/">Report bug</a></li>
 					<li><a href="/contributing/">Contribute</a></li>
+					<li><a href="/download/">Download</a></li>
 				</ul>
 
-				<h2>Souce code</h2>
-				<ul>
-					<li><a class="fa_b_github" href="/download/github/">Source on Github</a></li>
-					<li><a href="/download/website/">Download from website</a></li>
-				</ul>
 
 				<h2>Installation</h2>
 				<ul>
-					<li><a href="/installation/git-submodules/">A) Git Submodules</a></li>
 					<li><a href="/installation/bower/">B) Bower</a></li>
+					<li><a href="/installation/git-submodules/">A) Git Submodules</a></li>
 					<li><a href="/installation/manual/">C) Manual</a></li>
 				</ul>
 
 				<h2>Components</h2>
 
 				<ul>
-					<li><a href="/components/reset/">Reset</a></li>
-					<li><a href="/components/grid/">Grid</a></li>
-					<li><a href="/components/buttons/">Buttons</a></li>
-					<li><a href="/components/forms-base/">Forms - base</a></li>
-					<li><a href="/components/forms-extras/">Forms - extras</a></li>
-					<li><a href="/components/pagebars/">Pagebars</a></li>
-					<li><a href="/components/tables-lists/">Tables - lists</a></li>
-					<li><a href="/components/phone-navbar/">Phone - navbar</a></li>
+					<li><a href="/docs/component/reset/">Reset</a></li>
+					<li><a href="/docs/component/grid/">Grid</a></li>
+					<li><a href="/docs/component/buttons/">Buttons</a></li>
+					<li><a href="/docs/component/forms-base/">Forms - base</a></li>
+					<li><a href="/docs/component/forms-extras/">Forms - extras</a></li>
+					<li><a href="/docs/component/pagebars/">Pagebars</a></li>
+					<li><a href="/docs/component/tables-lists/">Tables - lists</a></li>
+					<li><a href="/docs/component/phone-navbar/">Phone - navbar</a></li>
 
 					
 				</ul>
