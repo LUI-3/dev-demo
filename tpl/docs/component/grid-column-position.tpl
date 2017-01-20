@@ -1,7 +1,7 @@
 <h1>Components - <span>Grid - Column Position</span></h1>
 
 <p>
-	LUI grid will make coding your sites way easier, with these cool features, which will allow you align content both verticaly or horizontaly
+	LUI grid will make coding your sites way easier, with these cool features, which will allow you align content both verticaly and horizontaly.
 </p>
 
 

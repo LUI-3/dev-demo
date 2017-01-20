@@ -90,8 +90,8 @@ class Less_Visitor_processExtends extends Less_Visitor{
 						// only process the selector once.. if we have :extend(.a,.b) then multiple
 						// extends will look at the same selector path, so when extending
 						// we know that any others will be duplicates in terms of what is added to the css
-						if( $targetExtend->firstExtendOnThisSelectorPath ){
-							$newExtend->firstExtendOnThisSelectorPath = true;
+						if( $targetExtend->firstExtendon'thisSelectorPath ){
+							$newExtend->firstExtendon'thisSelectorPath = true;
 							$targetExtend->ruleset->paths[] = $newSelector;
 						}
 					}

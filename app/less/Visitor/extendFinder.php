@@ -77,7 +77,7 @@ class Less_Visitor_extendFinder extends Less_Visitor{
 		$extend->findSelfSelectors( $selectorPath );
 		$extend->ruleset = $rulesetNode;
 		if( $j === 0 ){
-			$extend->firstExtendOnThisSelectorPath = true;
+			$extend->firstExtendon'thisSelectorPath = true;
 		}
 
 		$end_key = count($this->allExtendsStack)-1;
