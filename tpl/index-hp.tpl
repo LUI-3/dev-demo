@@ -100,7 +100,7 @@
 				<div class="col-xs-12 col-lg-9 texts">
 					<h2>Code your designs faster</h2>
 					<p>
-						LUI-3 grid system is the best one yet. Thanks to flexbox you can make layous that would be nearly impossible or very hard to code before.
+						LUI-3 grid system is the best one yet. Thanks to flexbox you can make layouts that would be nearly impossible or very hard to code before.
 					</p>
 				</div>
 			</div>
@@ -110,7 +110,7 @@
 				<div class="col-xs-12 col-lg-9 o-xs-2 o-lg-1 texts secondary">
 					<h2>Flexible websites like never before</h2>
 					<p>
-						Do you need to hide certaind element, or completely change their order on different breakpoints? No problem. And you dont even need javascript for that.
+						Do you need to hide certain elements, or completely change their order on different breakpoints? No problem. And you dont even need javascript for that.
 					</p>
 				</div>
 				<div class="col-xs-12 col-lg-3 o-xs-1 o-lg-2 image">
@@ -125,7 +125,7 @@
 				<div class="col-xs-12 col-lg-9 texts">
 					<h2>Awesome mobile experience</h2>
 					<p>
-						Enjoy browsing your sites on all mobile devices. With our mobile friendly components, browsing on mobiles can't be much more easier.
+						Enjoy browsing your sites on all mobile devices. With our mobile friendly components, browsing on mobiles can't be easier.
 					</p>
 				</div>
 			</div>
@@ -137,7 +137,7 @@
 		<h3>Start using LUI-3 today!</h3>
 		<p>
 			Download each component via Bower or get complete package from github.<br />
-			For better site erformance, we recommend downloading only components you need using Bower package manager
+			For better site performance, we recommend downloading only components you need using Bower package manager.
 		</p>
 		<ul>
 			<li>
