@@ -7,6 +7,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	color: #222222;
+	background: #f9f9f9;
 }
 
 @color_lui_blue: #00a0fd;
@@ -464,7 +465,7 @@ body {
 //
 .site_header {
 	padding: 10px 15px 20px 15px;
-	background: #f0f0f0;
+	background: #31373a;
 	text-align: center;
 
 	@media (min-width:@grid_lg_start){
@@ -537,14 +538,14 @@ a {
 aside.site_sidebar {
 	position: relative;
 	padding: 20px 15px;
+	
 
 	&.horizontal {
-
 		& > a.hotdog {
 			display: block;
 			padding: 15px;
-			background: #f2f2f2;
-			border: 1px solid #dedede;
+			background: white;
+			border: 1px solid #f2f2f2;
 			border-radius: 3px;
 			text-decoration: none;
 			font-size: 18px;
@@ -573,20 +574,26 @@ aside.site_sidebar {
 	}
 
 	h2 {
+		padding: 10px;
 		font-size: 18px;
 		font-weight: bold;
 		color: @color_lui_blue;
+		background: white;
 	}
 
 	ul {
 		list-style: none;
-		padding: 10px 0 15px 0;
+		padding: 0px 0 5px 0;
 		margin: 0;
+		background: white;
 
 		li {
+			display: block;
+			padding: 0;
+
 			a {
 				display: block;
-				padding: 7px 0;
+				padding: 10px;
 				border-bottom: 1px solid #f2f2f2;
 				font-size: 14px;
 				text-decoration: none;
@@ -596,12 +603,16 @@ aside.site_sidebar {
 				}
 
 				&:hover {
-					color: @color_lui_blue;
+					background: #f5f7f9;
+					border-bottom-color: #f5f7f9;
+					color: black;
 				}
 
 				&.active {
 					font-weight: bold;
-					color: @color_lui_blue;
+					background: @color_lui_blue;
+					border-bottom-color: @color_lui_blue;
+					color: white;
 				}
 			}
 		}

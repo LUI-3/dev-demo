@@ -40,13 +40,13 @@
 	<div class="site_wrapper">
 		<div class="site_header">
 			<div class="logo">
-				<a href="/"><img src="/img/logo.png" alt="LUI-3 framework logo" /></a>
+				<a href="/"><img src="/img/logo_white.png" alt="LUI-3 framework logo" /></a>
 			</div>
 			<p class="title">Framework documentation</p>
 		</div>
 	</div>
 
-	<div class="container max-xl">
+	<div class="container max-xxl">
 		<div class="row va-top">
 			<aside class="site_sidebar col-xs-12 col-lg-3">
 				<ul>
