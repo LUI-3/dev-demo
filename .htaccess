@@ -2,6 +2,7 @@ RewriteEngine on
 
 
 RewriteRule		^cache/tpl				/ [R]
+RewriteRule		^cache/tpl_c			/ [R]
 RewriteRule		^app					/ [R]
 RewriteRule		^tpl					/ [R]
 
