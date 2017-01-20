@@ -1,7 +1,7 @@
 <h1>Components - <span>Pagebars</span></h1>
 
 <p>
-	Simple component containing styles for pagebars. <strong>Responsive friendly</strong>
+	Simple component containing styles for pagebars. <strong>Responsive friendly!</strong>
 </p>
 
 <p>
@@ -99,7 +99,7 @@ LUI-3_forms-base // needed for input styles
 <h2>Color variants</h2>
 
 <p>
-	Color variant can be specified in UL tag. Current package contains 2 color variants - light and dark. These can be easily extended
+	Color variant can be specified in UL tag. Current package contains 2 color variants - light and dark. These can be easily extended.
 </p>
 
 <div class="demo_result" data-title="result">
@@ -141,8 +141,8 @@ LUI-3_forms-base // needed for input styles
 <h2>Pagebar variant per breakpoint</h2>
 
 <p>
-	Minimal variant will show only prev/next and input to write custom page number<br>
-	Normal variant will show everything
+	Minimal variant will show only prev/next and input to write custom page number.<br>
+	Normal variant will show everything.
 </p>
 
 <h3>.xs-minimal.sm-normal</h3>

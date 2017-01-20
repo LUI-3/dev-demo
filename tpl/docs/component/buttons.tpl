@@ -1,8 +1,8 @@
 <h1>Components - <span>Buttons</span></h1>
 
 <p>
-	This component contains variety of button styles and sizes you can use in your website.
-	Buttons are responsive friendly, which means you can change their size per breakpoint
+	This component contains a variety of button styles and sizes that you can use in your website.
+	Buttons are responsive friendly, which means you can change their size per breakpoint!
 </p>
 
 <h2>Basic usage</h2>
@@ -145,7 +145,7 @@
 <h2>Sizes</h2>
 
 <p>
-	Default button components comes with 4 predefined sizes:
+	Default button components come with 4 predefined sizes:
 </p>
 
 <p>
@@ -272,5 +272,5 @@
 </pre>
 
 <p>
-	If you choose not to use one of breakpoints and  turn them off in grid config, classnames for these breakpoints wont be compiled into final CSS. Same applies for other LUI-3 components.
+	If you choose not to use one of the breakpoints and turn them off in grid config, the classnames for these breakpoints won't be compiled into the final CSS. The same applies for other LUI-3 components.
 </p>

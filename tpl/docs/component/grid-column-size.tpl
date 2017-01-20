@@ -1,7 +1,7 @@
 <h1>Components - <span>Grid - Column Size</span></h1>
 
 <p>
-	There is always a situation where 12 column grid wont work. Good news, LUI can do more!
+	There is always a situation where 12 column grid won't work. Good news, LUI can do more!
 </p>
 
 
