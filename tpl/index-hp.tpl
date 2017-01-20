@@ -85,7 +85,13 @@
 					</ul>
 				</div>
 				<div class="col-xs-12 col-xl-4 preview">
-				
+					<span>Hover mouse over me. That's exactly what LUI-3 can do, no javascript needed!</span>
+					<div class="box header">Header</div>
+					<div class="box side">menu</div>
+					<div class="box banners">banners</div>
+					<div class="box content">content</div>
+					<div class="box footer">footer</div>
+					
 				</div>
 			</div>
 		</div>
