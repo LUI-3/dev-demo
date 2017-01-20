@@ -5,9 +5,9 @@
 // SMARTY CONFIGURATION
 $config->url = (object) array(
 	"/" => (object) array(
-		"tpl_file"			=> "index-hp.tpl",
-		"tpl_file_content"	=> "homepage.tpl",
-		"page_title"		=> "Modular responsive front-end framework"
+		"tpl_file"         => "index-hp.tpl",
+		"tpl_file_content" => "homepage.tpl",
+		"page_title"       => "Modular responsive front-end framework"
 	),
 	"download/" => (object) array(
 		"tpl_file"			=> "index.tpl",
