@@ -2,12 +2,6 @@
 // MASTER THEME FILE
 //
 
-/*
-html.on_hp,
-body.on_hp {
-	height: 100%;
-}*/
-
 body {
 	min-width: 320px;
 	font-family: 'Roboto', sans-serif;
@@ -541,7 +535,42 @@ a {
 // SITE SIDEBAR
 //
 aside.site_sidebar {
+	position: relative;
 	padding: 20px 15px;
+
+	&.horizontal {
+
+		& > a.hotdog {
+			display: block;
+			padding: 15px;
+			background: #f2f2f2;
+			border: 1px solid #dedede;
+			border-radius: 3px;
+			text-decoration: none;
+			font-size: 18px;
+			cursor: pointer;
+
+			.lui.user-select.none();
+
+			&:before {
+				padding-right: 10px;
+			}
+
+			&.active {
+				background: @color_lui_blue;
+				border-color: @color_lui_blue;
+				color: white;
+			}
+		}
+
+		& > .menu {
+			display: none;
+
+			&.opened {
+				display: block;
+			}
+		}
+	}
 
 	h2 {
 		font-size: 18px;
@@ -567,6 +596,11 @@ aside.site_sidebar {
 				}
 
 				&:hover {
+					color: @color_lui_blue;
+				}
+
+				&.active {
+					font-weight: bold;
 					color: @color_lui_blue;
 				}
 			}
@@ -711,6 +745,29 @@ pre.demo_source {
 		font-size: 13px;
 		font-weight: bold;
 	}
+}
+
+
+//
+// GRID DEMOS
+//
+.demo.container {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: #eff2f5;
+	min-height: 50px;
+	border: 1px dashed #aeaeae;
+}
+
+.demo.row {
+	min-height: 50px;
+	margin: 0; /* NEED SPACE */
+}
+
+.demo_col {
+	padding: 15px;
+	background: white;
+	border: 1px solid #d1dde6;
 }
 
 

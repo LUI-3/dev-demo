@@ -34,6 +34,17 @@ class flexi {
 		$this->tpl->debugging = $this->config->smarty->debug;
 	}
 
+	public static function getHTMLurlactive($url){
+		$rawget = $_GET;
+		if(htmlspecialchars("/".$_GET['url'])==$url){
+			$url = 'href="'.$url.'" class="active" ';
+		}
+		else {
+			$url = 'href="'.$url.'"';
+		}
+		echo $url;
+	}
+
 	public function init(){
 		
 		// GET URL ADDRESS

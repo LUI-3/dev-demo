@@ -39,10 +39,20 @@ $config->url = (object) array(
 		"tpl_file_content"	=> "docs/component/reset.tpl",
 		"page_title"		=> "Components - reset - Docs"
 	),
-	"docs/component/grid/" => (object) array(
-		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "docs/component/grid.tpl",
-		"page_title"		=> "Components - grid - Docs"
+	"docs/component/grid-container/" => (object) array(
+		"tpl_file"			=> "index-full-size.tpl",
+		"tpl_file_content"	=> "docs/component/grid-container.tpl",
+		"page_title"		=> "Components - container - Docs"
+	),
+	"docs/component/grid-column-size/" => (object) array(
+		"tpl_file"			=> "index-full-size.tpl",
+		"tpl_file_content"	=> "docs/component/grid-column-size.tpl",
+		"page_title"		=> "Components - column - size - Docs"
+	),
+	"docs/component/grid-column-position/" => (object) array(
+		"tpl_file"			=> "index-full-size.tpl",
+		"tpl_file_content"	=> "docs/component/grid-column-position.tpl",
+		"page_title"		=> "Components - column - position - Docs"
 	),
 	"docs/component/buttons/" => (object) array(
 		"tpl_file"			=> "index.tpl",

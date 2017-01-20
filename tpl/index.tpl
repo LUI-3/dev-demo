@@ -42,7 +42,7 @@
 			<div class="logo">
 				<a href="/"><img src="/img/logo.png" alt="LUI-3 framework logo" /></a>
 			</div>
-			<p class="title">Framework documentation<br /><small>Website is still in progress, but im trying!</small></p>
+			<p class="title">Framework documentation</p>
 		</div>
 	</div>
 
@@ -51,32 +51,30 @@
 			<aside class="site_sidebar col-xs-12 col-lg-3">
 				<ul>
 					<li><a href="/">Homepage</a></li>
-					<li><a href="/report-bug/">Report bug</a></li>
-					<li><a href="/contributing/">Contribute</a></li>
-					<li><a href="/download/">Download</a></li>
+					<li><a {flexi::getHTMLurlactive("/report-bug/")}>Report bug</a></li>
+					<li><a {flexi::getHTMLurlactive("/contributing/")}>Contribute</a></li>
+					<li><a {flexi::getHTMLurlactive("/download/")}>Download</a></li>
 				</ul>
-
 
 				<h2>Installation</h2>
 				<ul>
-					<li><a href="/installation/bower/">B) Bower</a></li>
-					<li><a href="/installation/git-submodules/">A) Git Submodules</a></li>
-					<li><a href="/installation/manual/">C) Manual</a></li>
+					<li><a {flexi::getHTMLurlactive("/installation/bower/")}>B) Bower</a></li>
+					<li><a {flexi::getHTMLurlactive("/installation/git-submodules/")}>A) Git Submodules</a></li>
+					<li><a {flexi::getHTMLurlactive("/installation/manual/")}>C) Manual</a></li>
 				</ul>
 
 				<h2>Components</h2>
-
 				<ul>
-					<li><a href="/docs/component/reset/">Reset</a></li>
-					<li><a href="/docs/component/grid/">Grid</a></li>
-					<li><a href="/docs/component/buttons/">Buttons</a></li>
-					<li><a href="/docs/component/forms-base/">Forms - base</a></li>
-					<li><a href="/docs/component/forms-extras/">Forms - extras</a></li>
-					<li><a href="/docs/component/pagebars/">Pagebars</a></li>
-					<li><a href="/docs/component/tables-lists/">Tables - lists</a></li>
-					<li><a href="/docs/component/phone-navbar/">Phone - navbar</a></li>
-
-					
+					<li><a {flexi::getHTMLurlactive("/docs/component/reset/")}>Reset</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/grid-container/")}>Grid - container</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/grid-column-size/")}>Grid - column size</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/grid-column-position/")}>Grid - column position</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/buttons/")}>Buttons</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/forms-base/")}>Forms - base</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/forms-extras/")}>Forms - extras</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/pagebars/")}>Pagebars</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/tables-lists/")}>Tables - lists</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar</a></li>
 				</ul>
 			</aside>
 			<div class="site_content col-xs-12 col-lg-9">

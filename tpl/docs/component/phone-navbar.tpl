@@ -1,5 +1,9 @@
 <h1>Components - <span>Phone - navbar</span></h1>
 
+<p>
+	Simple navbar you can use on mobile devices. <strong>Documentation will be updated when component is in its final state</strong>
+</p>
+
 
 <div class="lui_phone_navbar static">
 	<a href="#" data-target="categories">
