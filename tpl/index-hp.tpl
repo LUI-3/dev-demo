@@ -110,7 +110,7 @@
 				<div class="col-xs-12 col-lg-9 o-xs-2 o-lg-1 texts secondary">
 					<h2>Flexible websites like never before</h2>
 					<p>
-						Do you need to hide certain element, or completely change their order on different breakpoints? No problem. And you dont even need javascript for that.
+						Do you need to hide certaind element, or completely change their order on different breakpoints? No problem. And you dont even need javascript for that.
 					</p>
 				</div>
 				<div class="col-xs-12 col-lg-3 o-xs-1 o-lg-2 image">
