@@ -5,7 +5,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 	<meta name="robots" content="noindex,nofollow" />
-	
+
 
 	{if isset($less)}
 		<link rel="stylesheet/less" href="{$less}" />
@@ -24,7 +24,7 @@
 	{else}
 		<link href="/cache/css/{$css}" rel="stylesheet" />
 	{/if}
-	
+
 
 	<link href="/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -54,8 +54,8 @@
 						$(this).siblings("ul").toggleClass("opened");
 					});
 				});
-				
-			
+
+
 			</script>
 
 			<div class="row va_top">
@@ -85,7 +85,7 @@
 					</ul>
 				</div>
 				<div class="col-xs-12 col-xl-4 preview">
-				
+
 				</div>
 			</div>
 		</div>
@@ -106,11 +106,11 @@
 			</div>
 
 			<div class="row va-middle">
-				
+
 				<div class="col-xs-12 col-lg-9 o-xs-2 o-lg-1 texts secondary">
 					<h2>Flexible websites like never before</h2>
 					<p>
-						Do you need to hide certaind element, or completely change their order on different breakpoints? No problem. And you dont even need javascript for that.
+						Do you need to hide certain element, or completely change their order on different breakpoints? No problem. And you dont even need javascript for that.
 					</p>
 				</div>
 				<div class="col-xs-12 col-lg-3 o-xs-1 o-lg-2 image">
@@ -130,7 +130,7 @@
 				</div>
 			</div>
 		</div>
-	
+
 	</div>
 
 	<div class="site_download">
@@ -156,8 +156,8 @@
 	<div class="site_footer">
 		Edit source code of this site on <a href="//github.com/LUI-3/dev-demo" target="_blank">Github</a>
 	</div>
-	
-	
-	
+
+
+
 </body>
 </html>
