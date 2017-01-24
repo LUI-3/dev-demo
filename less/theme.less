@@ -308,7 +308,7 @@ body {
 			.lui.flexbox.block();
 			.lui.flexbox.align-items(center);
 			.lui.flexbox.justify-content(center);
-			
+
 			&.header {
 				top: 0;
 				left: 0;
@@ -578,8 +578,6 @@ body {
 		}
 	}
 
-
-
 	.title {
 		padding: 20px 0 0 0;
 		font-size:17px;
@@ -630,7 +628,6 @@ a {
 aside.site_sidebar {
 	position: relative;
 	padding: 20px 15px;
-	
 
 	&.horizontal {
 		& > a.hotdog {
@@ -642,7 +639,6 @@ aside.site_sidebar {
 			text-decoration: none;
 			font-size: 18px;
 			cursor: pointer;
-
 			.lui.user-select.none();
 
 			&:before {
@@ -883,66 +879,77 @@ pre.demo_source {
     padding: 15px;;
 	font-size: 13px;
     background: #F0F0F0;
-	color: #8e8e8e;
-}
-.hljs,
-.hljs-subst {
 	color: #444;
-}
-.hljs-comment {
-	color: #dd8b20;
-}
-.hljs-keyword,
-.hljs-attribute,
-.hljs-selector-tag,
-.hljs-meta-keyword,
-.hljs-doctag,
-.hljs-name {
-	font-weight: bold;
-	color: #2481b7;
-}
-.hljs-type,
-.hljs-string,
-.hljs-number,
-.hljs-selector-id,
-.hljs-selector-class,
-.hljs-quote,
-.hljs-template-tag,
-.hljs-deletion {
-	color: #00a0fd;
-}
-.hljs-title,
-.hljs-section {
-	color: #00a0fd;
-	font-weight: bold;
-}
-.hljs-regexp,
-.hljs-symbol,
-.hljs-variable,
-.hljs-template-variable,
-.hljs-link,
-.hljs-selector-attr,
-.hljs-selector-pseudo {
-	color: #BC6060;
-}
-.hljs-literal {
-	color: #78A960;
-}
-.hljs-built_in,
-.hljs-bullet,
-.hljs-code,
-.hljs-addition {
-	color: #397300;
-}
-.hljs-meta {
-	color: #1f7199;
-}
-.hljs-meta-string {
-	color: #4d99bf;
-}
-.hljs-emphasis {
-	font-style: italic;
-}
-.hljs-strong {
-	font-weight: bold;
+
+	&-subst {
+		color: #444;
+	}
+
+	&-comment {
+		color: #dd8b20;
+	}
+
+	&-keyword,
+	&-attribute,
+	&-selector-tag,
+	&-meta-keyword,
+	&-doctag,
+	&-name {
+		font-weight: bold;
+		color: #2481b7;
+	}
+
+	&-type,
+	&-string,
+	&-number,
+	&-selector-id,
+	&-selector-class,
+	&-quote,
+	&-template-tag,
+	&-deletion {
+		color: #00a0fd;
+	}
+
+	&-title,
+	&-section {
+		color: #00a0fd;
+		font-weight: bold;
+	}
+
+	&-regexp,
+	&-symbol,
+	&-variable,
+	&-template-variable,
+	&-link,
+	&-selector-attr,
+	&-selector-pseudo {
+		color: #BC6060;
+	}
+
+	&-literal {
+		color: #78A960;
+	}
+
+	&-built_in,
+	&-bullet,
+	&-code,
+	&-addition {
+		color: #397300;
+	}
+
+	&-meta {
+		color: #1f7199;
+	}
+
+	&-meta-string {
+		color: #4d99bf;
+	}
+
+	&-emphasis {
+		font-style: italic;
+	}
+
+	&-strong {
+		font-weight: bold;
+	}
 }

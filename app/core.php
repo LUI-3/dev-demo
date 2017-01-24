@@ -46,17 +46,16 @@ class flexi {
 	}
 
 	public function init(){
-		
+
 		// GET URL ADDRESS
 		$rawget = $_GET;
 		if(isset($_GET['url']))
 			$rewrite_url = htmlspecialchars($_GET['url']);
-		else 
+		else
 			$rewrite_url = "/";
 
 		//echo $rewrite_url;
 		//echo $this->config->url->$rewrite_url->tpl_file;
-
 
 		// COMPILE OR USE JS LESS COMPILER
 		$less_files = "/less/router.less";
@@ -91,13 +90,7 @@ class flexi {
 		}
 
 		$this->tpl->assign("page_content", $content_file);
-
 		echo $this->tpl->display($index_file);
-		
-	}
-
-	public function __destruct(){
-
 	}
 }
 

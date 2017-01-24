@@ -5,7 +5,6 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 	<meta name="robots" content="noindex,nofollow" />
-	
 
 	{if isset($less)}
 		<link rel="stylesheet/less" href="{$less}" />
@@ -24,14 +23,10 @@
 	{else}
 		<link href="/cache/css/{$css}" rel="stylesheet" />
 	{/if}
-	
-
-
 
 
 	<link href="/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
-	
 
 	<title>{$page_title} - LUI-3 Framework</title>
 </head>
