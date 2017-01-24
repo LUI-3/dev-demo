@@ -83,14 +83,25 @@
 			</div>
 		</div>
 	</div>
-	
 
-	
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>	
 	<script>
 		$(document).ready(function() {
 			$('pre.demo_source').each(function(i, block) {
 				hljs.highlightBlock(block);
+			});
+
+			$('a[href*="#"]:not([href="#"])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				if (target.length) {
+					$('html, body').animate({
+					scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+				}
 			});
 		});
 	</script>

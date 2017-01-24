@@ -816,11 +816,20 @@ aside.site_sidebar {
 // DEMO SOURCE
 //
 pre.demo_source {
-	/*padding: 10px;
-	border: 1px solid silver;
-	background: #f2f2f2;
-	font-size: 13px;*/
+	margin: 0 0 10px 0;;
 	tab-size: 4;
+
+	&:before {
+		display: block;
+		padding: 7px 15px;
+		margin: -15px -15px 15px -15px;
+		background: #1d1e1f;
+		color: white;
+		content: attr(data-title);
+		font-family: inherit;
+		font-size: 13px;
+		font-weight: bold;
+	}
 }
 
 
@@ -828,7 +837,7 @@ pre.demo_source {
 // DEMO RESULT
 //
 .demo_result {
-	margin: 7px 0;
+	margin: 0;
 	padding: 0 15px 15px 15px;
 	overflow: hidden;
 	background: white;
@@ -878,11 +887,11 @@ pre.demo_source {
 	margin: 10px 0;
     padding: 15px;;
 	font-size: 13px;
-    background: #F0F0F0;
-	color: #444;
+    background: #34393c;
+	color: #cbdae4;
 
 	&-subst {
-		color: #444;
+		color: #abb7bf;
 	}
 
 	&-comment {
@@ -896,7 +905,7 @@ pre.demo_source {
 	&-doctag,
 	&-name {
 		font-weight: bold;
-		color: #2481b7;
+		color: #869c43;
 	}
 
 	&-type,

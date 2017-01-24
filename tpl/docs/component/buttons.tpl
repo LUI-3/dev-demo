@@ -7,24 +7,18 @@
 
 <h2>Basic usage</h2>
 
-<p>
-	<strong>Classname:</strong>
-</p>
 
-<pre class="demo_source html">
+<pre class="demo_source html" data-title="HTML + Classname">
 {htmlspecialchars('<button class="lui_button">Button</button>')}
 </pre>
 
-<p>
-	<strong>Mixin:</strong>
-</p>
 
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Mixin">
 .lui.button.this();
 </pre>
 
 
-<div class="demo_result" data-title="result">
+<div class="demo_result" data-title="Result">
 	<button class="lui_button">Button</button>
 </div>
 
@@ -33,15 +27,11 @@
 <!-- LUI BUTTON - PRIMARY -->
 <h3>Primary</h3>
 
-<p><strong>Classname</strong></p>
-
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Classname">
 .lui_button.primary
 </pre>
 
-<p><strong>Mixins</strong></p>
-
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Mixins">
 .lui.button.this();
 .lui.button.primary();
 </pre>
@@ -55,15 +45,11 @@
 <!-- LUI BUTTON - SECONDARY -->
 <h3>Secondary</h3>
 
-<p><strong>Classname</strong></p>
-
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Classname">
 .lui_button.secondary
 </pre>
 
-<p><strong>Mixins</strong></p>
-
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Mixins">
 .lui.button.this();
 .lui.button.secondary();
 </pre>
@@ -77,20 +63,16 @@
 <!-- LUI BUTTON - INFO -->
 <h3>Info</h3>
 
-<p><strong>Classname</strong></p>
-
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Classname">
 .lui_button.info
 </pre>
 
-<p><strong>Mixins</strong></p>
-
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Mixins">
 .lui.button.this();
 .lui.button.info();
 </pre>
 
-<div class="demo_result" data-title="result">
+<div class="demo_result" data-title="Result">
 	<button class="lui_button info">Button</button>
 </div>
 
@@ -99,48 +81,38 @@
 <!-- LUI BUTTON - WARNING -->
 <h3>Info</h3>
 
-<p><strong>Classname</strong></p>
-
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Classname">
 .lui_button.warning
 </pre>
 
-<p><strong>Mixins</strong></p>
-
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Mixins">
 .lui.button.this();
 .lui.button.warning();
 </pre>
 
-<div class="demo_result" data-title="result">
+<div class="demo_result" data-title="Result">
 	<button class="lui_button warning">Button</button>
 </div>
 
 <hr />
 
-
 <!-- LUI BUTTON - ERROR -->
 <h3>Info</h3>
 
-<p><strong>Classname</strong></p>
-
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Classname">
 .lui_button.error
 </pre>
 
-<p><strong>Mixins</strong></p>
-
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Mixins">
 .lui.button.this();
 .lui.button.error();
 </pre>
 
-<div class="demo_result" data-title="result">
+<div class="demo_result" data-title="Result">
 	<button class="lui_button error">Button</button>
 </div>
 
 <hr />
-
 
 <h2>Sizes</h2>
 
