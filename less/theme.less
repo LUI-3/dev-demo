@@ -5,9 +5,9 @@
 body {
 	min-width: 320px;
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	color: #222222;
-	background: #f9f9f9;
+	//background: #f9f9f9;
 }
 
 @color_lui_blue: #00a0fd;
@@ -764,11 +764,9 @@ aside.site_sidebar {
 
 	h2 {
 		padding: 15px 0;
-		margin-bottom: 10px;
-		font-size: 16px;
+		font-size: 20px;
 		font-weight: bold;
 		color: #00a0fd;
-		border-bottom: 2px solid #f2f2f2;
 
 		@media (min-width:@grid_md_start){
 			font-size: 20px;
@@ -783,7 +781,7 @@ aside.site_sidebar {
 		padding: 10px 0;
 		font-size: 14px;
 		font-weight: normal;
-		color: #00a0fd;
+		color: #252525;
 
 		@media (min-width:@grid_md_start){
 			font-size: 18px;
@@ -795,7 +793,7 @@ aside.site_sidebar {
 	}
 
 	p {
-		padding: 7px 0;
+		padding: 15px 0;
 	}
 }
 
@@ -816,7 +814,7 @@ aside.site_sidebar {
 // DEMO SOURCE
 //
 pre.demo_source {
-	margin: 0 0 10px 0;;
+	margin: 15px 0;
 	tab-size: 4;
 
 	&:before {
@@ -837,10 +835,11 @@ pre.demo_source {
 // DEMO RESULT
 //
 .demo_result {
-	margin: 0;
+	margin: 15px 0;
 	padding: 0 15px 15px 15px;
 	overflow: hidden;
 	background: white;
+	border: 1px solid #d9d9d9;
 
 	&:before {
 		display: block;

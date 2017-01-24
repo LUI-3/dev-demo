@@ -37,6 +37,7 @@ Or you can download pagebar from its Github repository manualy:
 <a href="//github.com/LUI-3/pagebars/releases/latest" target="_blank" class="lui_button warning fa_b_github">Latest release</a>
 </p>
 
+<hr />
 
 <h2 id="pagebars_basics">Basic usage</h2>
 
@@ -113,6 +114,8 @@ Or you can download pagebar from its Github repository manualy:
 	</ul>
 </div>
 
+<hr />
+
 <h2 id="pagebars_colors">Color variants</h2>
 
 <p>
@@ -164,6 +167,8 @@ Or you can download pagebar from its Github repository manualy:
 		<li class="next"><a href="#"></a></li>
 	</ul>
 </div>
+
+<hr />
 
 <h2 id="pagebars_sizes">Pagebar variant per breakpoint</h2>
 
@@ -304,7 +309,7 @@ Or you can download pagebar from its Github repository manualy:
 	</ul>
 </div>
 
-
+<hr />
 
 <h2 id="pagebars_alignment">Align per breakpoint</h2>
 
@@ -439,6 +444,8 @@ Or you can download pagebar from its Github repository manualy:
 		<li class="next"><a href="#"></a></li>
 	</ul>
 </div>
+
+<hr />
 
 <h2 id="pagebars_config">Config variables and default values</h2>
 
