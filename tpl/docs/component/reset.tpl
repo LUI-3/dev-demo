@@ -1,5 +1,5 @@
 <h1>Components - <span>Reset</span></h1>
 
 <p>
-	Not yet implemented as extra component
+	Still working on figuring out ideal reset styles!
 </p>

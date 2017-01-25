@@ -55,22 +55,21 @@
 						<li><a href="/">Homepage</a></li>
 						<li><a {flexi::getHTMLurlactive("/report-bug/")}>Report bug</a></li>
 						<li><a {flexi::getHTMLurlactive("/contributing/")}>Contribute</a></li>
-						<li><a {flexi::getHTMLurlactive("/download/")}>Download</a></li>
+						<li><a {flexi::getHTMLurlactive("/download/manual/")}>Download manually</a></li>
+						<li><a {flexi::getHTMLurlactive("/download/bower/")}>Download using Bower</a></li>
 					</ul>
 
-					<h2>Installation</h2>
+					<h2>Grid</h2>
+
 					<ul>
-						<li><a {flexi::getHTMLurlactive("/installation/bower/")}>B) Bower</a></li>
-						<li><a {flexi::getHTMLurlactive("/installation/git-submodules/")}>A) Git Submodules</a></li>
-						<li><a {flexi::getHTMLurlactive("/installation/manual/")}>C) Manual</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/grid-container/")}>Grid - container</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/grid-column-size/")}>Grid - column size</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/grid-column-position/")}>Grid - column position</a></li>
 					</ul>
 
 					<h2>Components</h2>
 					<ul>
 						<li><a {flexi::getHTMLurlactive("/docs/component/reset/")}>Reset</a></li>
-						<li><a {flexi::getHTMLurlactive("/docs/component/grid-container/")}>Grid - container</a></li>
-						<li><a {flexi::getHTMLurlactive("/docs/component/grid-column-size/")}>Grid - column size</a></li>
-						<li><a {flexi::getHTMLurlactive("/docs/component/grid-column-position/")}>Grid - column position</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/buttons/")}>Buttons</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-base/")}>Forms - base</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-extras/")}>Forms - extras</a></li>
