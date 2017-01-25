@@ -1,7 +1,7 @@
 <h1>Components - <span>Forms - base</span></h1>
 
 <p>
-	Forms component is idea to use when you need complex forms that will work on all devices without compromises and hundreds of javascripts. Actually Forms - base component dont need any javascript at all! If you're looking for more advanced forms, containing stuff like datepicker or select handled by jQuery, check <a href="docs/component/forms-extras/">Fomrs - extras</a>
+	Forms component is idea to use when you need complex forms that will work on all devices without compromises and hundreds of javascripts. Actually Forms - base component dont need any javascript at all! If you're looking for more advanced forms, containing stuff like datepicker or select handled by jQuery, check <a href="docs/component/forms-extras/">Forms - extras</a>
 </p>
 
 <ul>
