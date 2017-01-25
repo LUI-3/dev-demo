@@ -2,7 +2,7 @@
 
 <p>
 	This component contains a variety of button styles and sizes that you can use in your website.
-	Buttons are responsive friendly, which means you can change their size per breakpoint!
+	Buttons are responsive, which means you can change their size per breakpoint!
 </p>
 
 <h2>Basic usage</h2>

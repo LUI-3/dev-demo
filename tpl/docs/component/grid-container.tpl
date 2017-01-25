@@ -1,13 +1,13 @@
 <h1>Components - <span>Grid - Container</span></h1>
 
 <p>
-	You can notice grid classnames are similar to Bootsrap, but if you look closer, you will find out that LUI-3 can do a lot more!
+	Grid classnames are similar to Bootsrap, but if you look closer, you will find that LUI-3 can do a lot more!
 </p>
-<h2>LUI Grid features:</h2>
+<h2>LUI-3 Grid features:</h2>
 <ul>
 	<li>Change col size per breakpoint (boring, everyone can do this)</li>
 	<li>Make left or right margin for each col per breakpoint</li>
-	<li>Make 1/5, 1/7, 1/8, 1/9, 1/10, 1,11 cols - there is always a situation, when you need one of these</li>
+	<li>Make 1/5, 1/7, 1/8, 1/9, 1/10, 1,11 cols - there is always a situation when you need one of these</li>
 	<li>Make 10 - 100% col widths <em>.col-[]-10p - col-[]-100p = .col-xs-100p</em><br /><br /></li>
 	<li>Chance BOTH vertical and horizontal cols alignment per breakpoint</li>
 	<li>Change cols order per breakpoint (order 1 to 12)</li>
