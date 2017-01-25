@@ -39,12 +39,12 @@
 			<nav class="site_nav">
 				<a class="hotdog fa_b_navicon">Menu</a>
 				<ul>
-					<li><a href="#">Features</a></li>
 					<li><a href="/installation/bower/">Installation</a></li>
 					<li><a href="/docs/component/reset/">Docs</a></li>
-					<li><a href="/download/github/">Github</a></li>
-					<li><a href="#">Donate</a></li>
-					<li><a href="/download/" class="download">Download</a></li>
+					<li><a href="//github.com/LUI-3" target="_blank">Github</a></li>
+					<li><a href="/donations/">Donate</a></li>
+					<li><a href="/download/manual/">Manual download</a></li>
+					<li><a href="/download/bower/" class="download">Install via bower</a></li>
 				</ul>
 			</nav>
 			<script>
@@ -74,13 +74,13 @@
 
 					<ul>
 						<li>
-							<a href="/installation/bower/" class="primary">Install via Bower</a>
+							<a href="/download/bower/" class="primary">Install via Bower</a>
 						</li>
 						<li class="spacer">
 							<span>or</span>
 						</li>
 						<li>
-							<a href="/installation/manual/" class="secondary fa_b_github">Download everything</a>
+							<a href="/download/manual/" class="secondary fa_b_github">Manual download</a>
 						</li>
 					</ul>
 				</div>
@@ -147,13 +147,13 @@
 		</p>
 		<ul>
 			<li>
-				<a href="/installation/bower/" class="primary">Install via Bower</a>
+				<a href="/download/bower/" class="primary">Install via Bower</a>
 			</li>
 			<li class="space">
 				<span>or</span>
 			</li>
 			<li>
-				<a href="/installation/manual/" class="secondary fa_b_github">Download everything</a>
+				<a href="/download/manual/" class="secondary fa_b_github">Manual download</a>
 			</li>
 		</ul>
 	</div>

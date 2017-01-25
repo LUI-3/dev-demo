@@ -9,29 +9,17 @@ $config->url = (object) array(
 		"tpl_file_content" => "homepage.tpl",
 		"page_title"       => "Modular responsive front-end framework"
 	),
-	"download/" => (object) array(
+	"download/manual/" => (object) array(
 		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "download.tpl",
-		"page_title"		=> "Download LUI-3 Framework"
+		"tpl_file_content"	=> "download-manual.tpl",
+		"page_title"		=> "Download manually"
+	),
+	"download/bower/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "download-bower.tpl",
+		"page_title"		=> "Download using Bower"
 	),
 
-
-	// INSTALLATION
-	"installation/git-submodules/" => (object) array(
-		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "installation/git_submodules.tpl",
-		"page_title"		=> "Installation - Git Submodules - Docs"
-	),
-	"installation/bower/" => (object) array(
-		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "installation/bower.tpl",
-		"page_title"		=> "Installation - bower - Docs"
-	),
-	"installation/manual/" => (object) array(
-		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "installation/manual.tpl",
-		"page_title"		=> "Installation - manual - Docs"
-	),
 
 	// COMPONENTS
 	"docs/component/reset/" => (object) array(
@@ -95,6 +83,11 @@ $config->url = (object) array(
 		"tpl_file"			=> "index.tpl",
 		"tpl_file_content"	=> "contribute.tpl",
 		"page_title"		=> "Contributing"
+	),
+	"donations/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "donate.tpl",
+		"page_title"		=> "Donations"
 	),
 );
 

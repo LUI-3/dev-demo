@@ -9,7 +9,9 @@
 
 
 <pre class="demo_source html" data-title="HTML + Classname">
-{htmlspecialchars('<button class="lui_button">Button</button>')}
+{trim(htmlspecialchars('
+<button class="lui_button">Button</button>
+'))}
 </pre>
 
 
