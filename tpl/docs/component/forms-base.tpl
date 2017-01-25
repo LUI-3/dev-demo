@@ -30,8 +30,8 @@ Or you can download pagebar from its Github repository manualy:
 </p>
 
 <p>
-<a href="//github.com/LUI-3/forms-base" target="_blank" class="lui_button success fa_b_github">Github repo</a>
-<a href="//github.com/LUI-3/forms-base/releases/latest" target="_blank" class="lui_button warning fa_b_github">Latest release</a>
+	<a href="//github.com/LUI-3/forms-base" target="_blank" class="lui_button success fa_b_github">Github repo</a>
+	<a href="//github.com/LUI-3/forms-base/releases/latest" target="_blank" class="lui_button warning fa_b_github">Latest release</a>
 </p>
 
 <hr />
@@ -144,9 +144,7 @@ Or you can download pagebar from its Github repository manualy:
 	</form>
 </div>
 
-
 <h3>Textarea</h3>
-
 
 <pre class="demo_source html" data-title="HTML">
 {trim(htmlspecialchars('
@@ -342,7 +340,6 @@ Or you can download pagebar from its Github repository manualy:
 	</form>
 </div>
 
-
 <pre class="demo_source html" data-title="HTML">
 {trim(htmlspecialchars('
 <form class="lui_form">
@@ -411,7 +408,6 @@ Or you can download pagebar from its Github repository manualy:
 	</form>
 </div>
 
-
 <hr />
 
 <h2 id="forms_radios">Radio / list of radios</h2>
@@ -419,7 +415,6 @@ Or you can download pagebar from its Github repository manualy:
 <p>
 	Just like checkboxes you are not limited to ugly default radio buttons.
 </p>
-
 
 <pre class="demo_source html" data-title="HTML">
 {trim(htmlspecialchars('
@@ -438,7 +433,6 @@ Or you can download pagebar from its Github repository manualy:
 </form>
 '))}
 </pre>
-
 
 <div class="demo_result" data-title="Result">
 	<form class="lui_form">
@@ -534,7 +528,6 @@ Or you can download pagebar from its Github repository manualy:
 	</form>
 </div>
 
-
 <pre class="demo_source html" data-title="HTML">
 {trim(htmlspecialchars('
 <form class="lui_form">
@@ -607,7 +600,6 @@ Or you can download pagebar from its Github repository manualy:
 		</div>
 	</form>
 </div>
-
 
 <hr />
 

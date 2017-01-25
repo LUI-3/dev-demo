@@ -1,3 +1,4 @@
+{strip}
 <!DOCTYPE HTML>
 <html class="on_hp">
 <head>
@@ -9,6 +10,7 @@
 
 	{if isset($less)}
 		<link rel="stylesheet/less" href="{$less}" />
+		{literal}
 		<script>
 			less = {
 				env: "development",
@@ -20,6 +22,7 @@
 				relativeUrls: false
 			};
 		</script>
+		{/literal}
 		<script src="/libs/less-js/less.min.js" type="text/javascript"></script>
 	{else}
 		<link href="/cache/css/{$css}" rel="stylesheet" />
@@ -32,8 +35,6 @@
 	<title>{$page_title} - LUI-3 Framework</title>
 </head>
 <body class="on_hp">
-
-
 	<div class="site_intro">
 		<div class="container max-xxl">
 			<nav class="site_nav">
@@ -47,16 +48,20 @@
 					<li><a href="/download/bower/" class="download">Install via bower</a></li>
 				</ul>
 			</nav>
+
+			{literal}
 			<script>
+				//
+				// TODO: MOVE INTO EXTERNAL FILE
+				//	
 				$(document).ready(function(){
 					$(".site_nav > .hotdog").click(function(){
 						$(this).toggleClass("active");
 						$(this).siblings("ul").toggleClass("opened");
 					});
 				});
-
-
 			</script>
+			{/literal}
 
 			<div class="row va_top">
 				<div class="col-xs-12 col-xl-8 texts">
@@ -91,7 +96,6 @@
 					<div class="box banners">banners</div>
 					<div class="box content">content</div>
 					<div class="box footer">footer</div>
-
 				</div>
 			</div>
 		</div>
@@ -112,7 +116,6 @@
 			</div>
 
 			<div class="row va-middle">
-
 				<div class="col-xs-12 col-lg-9 o-xs-2 o-lg-1 texts secondary">
 					<h2>Flexible websites like never before</h2>
 					<p>
@@ -136,7 +139,6 @@
 				</div>
 			</div>
 		</div>
-
 	</div>
 
 	<div class="site_download">
@@ -158,12 +160,9 @@
 		</ul>
 	</div>
 
-
 	<div class="site_footer">
 		Edit source code of this site on <a href="//github.com/LUI-3/dev-demo" target="_blank">Github</a>
 	</div>
-
-
-
 </body>
 </html>
+{/strip}

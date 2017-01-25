@@ -7,18 +7,15 @@
 
 <h2>Basic usage</h2>
 
-
 <pre class="demo_source html" data-title="HTML + Classname">
 {trim(htmlspecialchars('
 <button class="lui_button">Button</button>
 '))}
 </pre>
 
-
 <pre class="demo_source less" data-title="Mixin">
 .lui.button.this();
 </pre>
-
 
 <div class="demo_result" data-title="Result">
 	<button class="lui_button">Button</button>
@@ -170,7 +167,6 @@
 .xs-huge
 </pre>
 
-
 <p>
 	<strong>SM Breakpoint:</strong>
 </p>
@@ -231,7 +227,6 @@
 .xxl-big
 .xxl-huge
 </pre>
-
 
 <p>
 	<strong>XXXL Breakpoint:</strong>

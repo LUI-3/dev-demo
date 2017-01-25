@@ -33,8 +33,8 @@ Or you can download pagebar from its Github repository manualy:
 </p>
 
 <p>
-<a href="//github.com/LUI-3/pagebars" target="_blank" class="lui_button success fa_b_github">Github repo</a>
-<a href="//github.com/LUI-3/pagebars/releases/latest" target="_blank" class="lui_button warning fa_b_github">Latest release</a>
+	<a href="//github.com/LUI-3/pagebars" target="_blank" class="lui_button success fa_b_github">Github repo</a>
+	<a href="//github.com/LUI-3/pagebars/releases/latest" target="_blank" class="lui_button warning fa_b_github">Latest release</a>
 </p>
 
 <hr />

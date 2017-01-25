@@ -4,11 +4,8 @@
 	There is always a situation where 12 column grid won't work. Good news, LUI can do more!
 </p>
 
-
-
-
-
 <h2 class="demo">Main grid - 12 columns</h2>
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-1 demo_col">
@@ -49,8 +46,11 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <h2 class="demo">hiding columns</h2>
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-xs-0 col-md-12 demo_col">
@@ -67,7 +67,9 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-xs-12 col-sm-0 col-md-12 demo_col">
@@ -75,7 +77,9 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-xs-12 col-lg-1 demo_col">
@@ -116,8 +120,11 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <h2 class="demo">5 columns </h2>
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-5th demo_col">
@@ -137,7 +144,9 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-xs-12 col-lg-5th demo_col">
@@ -157,8 +166,11 @@
 		</div>
 	</div>
 </div>
+
 <br />
-<h2 class="demo">7 columns </h2>
+
+<h2 class="demo">7 columns</h2>
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-7th demo_col">
@@ -184,7 +196,9 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-xs-12 col-lg-7th demo_col">
@@ -210,8 +224,11 @@
 		</div>
 	</div>
 </div>
+
 <br />
-<h2 class="demo">8 columns </h2>
+
+<h2 class="demo">8 columns</h2>
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-8th demo_col">
@@ -240,7 +257,9 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-xs-12 col-lg-8th demo_col">
@@ -271,7 +290,9 @@
 </div>
 
 <br />
-<h2 class="demo">9 columns </h2>
+
+<h2 class="demo">9 columns</h2>
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-9th demo_col">
@@ -303,7 +324,9 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-xs-12 col-lg-9th demo_col">
@@ -337,7 +360,9 @@
 </div>
 
 <br />
-<h2 class="demo">10 columns </h2>
+
+<h2 class="demo">10 columns</h2>
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-10th demo_col">
@@ -372,7 +397,9 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-xs-12 col-lg-10th demo_col">
@@ -408,9 +435,10 @@
 	</div>
 </div>
 
-
 <br />
+
 <h2 class="demo">11 columns </h2>
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-11th demo_col">
@@ -448,7 +476,9 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-xs-12 col-lg-11th demo_col">
@@ -487,9 +517,10 @@
 	</div>
 </div>
 
-
 <br />
+
 <h2 class="demo">10p - 100p columns (percent)</h2>
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-10p demo_col">
@@ -506,7 +537,9 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-xs-12 col-lg-10p demo_col">

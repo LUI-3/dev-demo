@@ -4,9 +4,8 @@
 	LUI-3 grid will make coding your sites easier with these cool features that allow you to align content both vertically and horizontally.
 </p>
 
-
-
 <h2 class="demo">Horizontal alignment</h2>
+
 <div class="container demo">
 	<div class="row a-left demo">
 		<div class="col-4 demo_col">
@@ -14,7 +13,9 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <div class="container demo">
 	<div class="row a-center demo">
 		<div class="col-4 demo_col">
@@ -22,8 +23,11 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <h2 class="demo">Horizontal alignment - per breakpoint</h2>
+
 <div class="container demo">
 	<div class="row a-xs-center a-lg-left demo">
 		<div class="col-4 demo_col">
@@ -31,7 +35,9 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <div class="container demo">
 	<div class="row a-xs-center a-lg-right demo">
 		<div class="col-4 demo_col">
@@ -39,8 +45,11 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <h2 class="demo">vertical alignment</h2>
+
 <div class="container demo">
 	<div class="row va-top demo">
 		<div class="col-4 demo_col">
@@ -53,7 +62,9 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <div class="container demo">
 	<div class="row va-center demo">
 		<div class="col-4 demo_col">
@@ -66,7 +77,9 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <div class="container demo">
 	<div class="row va-bottom demo">
 		<div class="col-4 demo_col">
@@ -79,8 +92,11 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <h2 class="demo">vertical alignment - per breakpoint</h2>
+
 <div class="container demo">
 	<div class="row va-xs-top va-lg-bottom demo">
 		<div class="col-4 demo_col">
@@ -93,8 +109,11 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <h2 class="demo">combined alignment</h2>
+
 <div class="container demo">
 	<div class="row a-center va-center demo">
 		<div class="col-4 demo_col">
@@ -107,8 +126,11 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <h2 class="demo">combined alignment with breakpoint difference</h2>
+
 <div class="container demo">
 	<div class="row a-xs-left va-xs-top a-lg-right va-lg-bottom va-center demo">
 		<div class="col-4 demo_col">
@@ -121,8 +143,11 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <h2 class="demo">change order per breakpoint</h2>
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-4 o-xs-1 o-md-3 demo_col">
@@ -139,8 +164,11 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <h2 class="demo">space between</h2>
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-4 ml-1 demo_col">
@@ -151,7 +179,9 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-xs-12 col-lg-6 ml-lg-6 demo_col">
@@ -161,6 +191,7 @@
 </div>
 
 <br />
+
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-xs-12 col-lg-4 mr-lg-2 demo_col">
@@ -171,7 +202,9 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <h2 class="demo">fill space verticaly</h2>
 
 <div class="container demo">
@@ -189,7 +222,9 @@
 		</div>
 	</div>
 </div>
+
 <br />
+
 <h2 class="demo">fill space horizontaly</h2>
 
 <div class="container demo">

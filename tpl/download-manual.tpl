@@ -4,7 +4,6 @@
 	<strong>We recommend using Bower for LUI-3</strong>, but if you really need to download it manually, you can do that one of the ways bellow
 </p>
 
-
 <h2>Per-component download</h2>
 
 <p>

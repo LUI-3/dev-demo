@@ -4,7 +4,6 @@
 	Simple navbar you can use on mobile devices. <strong>Documentation will be updated when component is in its final state</strong>
 </p>
 
-
 <div class="lui_phone_navbar static">
 	<a href="#" data-target="categories">
 		<div class="fa_b_navicon">Kategorie</div>
@@ -56,7 +55,13 @@
 		<div class="fa_b_shopping-cart">Košík</div>
 	</a>
 </div>
+
 <script>
+
+//
+// TODO: PUT THIS STUFF INTO EXTERNAL FILE
+//
+
 $(document).ready(function(){
 	$(".lui_phone_navbar > a").click(function(){
 
@@ -69,7 +74,7 @@ $(document).ready(function(){
 			if($("html").hasClass("overlay_opened")){
 				$("html").removeClass("overlay_opened");
 			}
-			
+
 			// CLOSE ALL OPENED WINDOWS
 			$(".lui_phone_navbar_overlay.opened").each(function(){
 				$(this).removeClass("opened");
@@ -91,7 +96,7 @@ $(document).ready(function(){
 
 			// SET ACTIVE
 			$(this).addClass("active");
-			
+
 			var attr = $(this).attr("data-target");
 			// IF LINK OPENS WINDOW, DISABLE BODY SCROLL
 			if(attr){
@@ -101,5 +106,4 @@ $(document).ready(function(){
 		}
 	});
 });
-
 </script>
