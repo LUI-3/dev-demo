@@ -55,6 +55,7 @@
 						<li><a href="/">Homepage</a></li>
 						<li><a {flexi::getHTMLurlactive("/report-bug/")}>Report bug</a></li>
 						<li><a {flexi::getHTMLurlactive("/contributing/")}>Contribute</a></li>
+						<li><a {flexi::getHTMLurlactive("/donations/")}>Donate</a></li>
 						<li><a {flexi::getHTMLurlactive("/download/manual/")}>Download manually</a></li>
 						<li><a {flexi::getHTMLurlactive("/download/bower/")}>Download using Bower</a></li>
 					</ul>

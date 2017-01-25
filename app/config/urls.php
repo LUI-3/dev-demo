@@ -84,6 +84,11 @@ $config->url = (object) array(
 		"tpl_file_content"	=> "contribute.tpl",
 		"page_title"		=> "Contributing"
 	),
+	"donations/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "donate.tpl",
+		"page_title"		=> "Donations"
+	),
 );
 
 
