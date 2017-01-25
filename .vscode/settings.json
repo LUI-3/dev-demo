@@ -2,5 +2,6 @@
 {
 	// Is git enabled
 	"git.enabled": true,
-	"git.autofetch": true
+	"git.autofetch": true,
+	"cSpell.enabled": true
 }
