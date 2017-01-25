@@ -6,8 +6,11 @@
 
 <ul>
 	<li><a href="#forms_installation">Installation</a></li>
-	<li><a href="#pagebars_basics">Basic usage</a></li>
-
+	<li><a href="#forms_basics">Basic usage (input, select, textarea)</a></li>
+	<li><a href="#forms_checks">Checkboxes</a></li>
+	<li><a href="#forms_radios">Radios</a></li>
+	<li><a href="#forms_prefixes">Prefix / postfix for inputs</a></li>
+	<li><a href="#forms_statuses">Status messages for form items</a></li>
 </ul>
 
 <hr />
@@ -33,7 +36,7 @@ Or you can download pagebar from its Github repository manualy:
 
 <hr />
 
-<h2>Basic usage</h2>
+<h2 id="forms_basics">Basic usage</h2>
 
 <p>
 	Forms, same as other components, are made to be responsive. Additionally you can turn whole responsive off for sites that have fixed width. Forms layouts are made similar way as grid rows columns itself.
@@ -221,7 +224,7 @@ Or you can download pagebar from its Github repository manualy:
 
 <hr />
 
-<h2>Checkbox / list of checkboxes</h2>
+<h2 id="forms_checks">Checkbox / list of checkboxes</h2>
 
 <p>
 	There is always a situation, when you need to use custom styles for checkbox. Before, you would be forced to use jQuery UI or some similar library. Thanks to FontAwesome and CSS3, thats not needed anymore!
@@ -411,7 +414,7 @@ Or you can download pagebar from its Github repository manualy:
 
 <hr />
 
-<h2>Radio / list of radios</h2>
+<h2 id="forms_radios">Radio / list of radios</h2>
 
 <p>
 	Same thing as for checkboxes can happen to ugly default radio buttons.
@@ -608,7 +611,7 @@ Or you can download pagebar from its Github repository manualy:
 
 <hr />
 
-<h2>Prefix / postfix for inputs</h2>
+<h2 id="forms_prefixes">Prefix / postfix for inputs</h2>
 
 <p>
 	This is ideal for inputs like price, discount and such, where you want users to input number only, without specifying currency and such. Thanks to flexbox, you dont need any CSS hacks or javascripts to handle width or positioning
@@ -730,7 +733,7 @@ Or you can download pagebar from its Github repository manualy:
 
 <hr />
 
-<h2>Status messages for form items</h2>
+<h2 id="forms_statuses">Status messages for form items</h2>
 
 <p>
 	Forms - base component does not use any formvalidator, however it includes basic styles for typical confirm/info/warning/error texts you may need to display for users on your site. FontAwesome icons can be used as well
