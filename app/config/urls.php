@@ -5,63 +5,84 @@
 // SMARTY CONFIGURATION
 $config->url = (object) array(
 	"/" => (object) array(
-		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "homepage.tpl",
-		"page_title"		=> "Modular responsive front-end framework"
+		"tpl_file"         => "index-hp.tpl",
+		"tpl_file_content" => "homepage.tpl",
+		"page_title"       => "Modular responsive front-end framework"
 	),
-	"download/website/" => (object) array(
+	"download/" => (object) array(
 		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "download/website.tpl",
-		"page_title"		=> "Download from website"
+		"tpl_file_content"	=> "download.tpl",
+		"page_title"		=> "Download LUI-3 Framework"
 	),
-	"download/github/" => (object) array(
-		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "download/github.tpl",
-		"page_title"		=> "Download from Github"
-	),
+
 
 	// INSTALLATION
 	"installation/git-submodules/" => (object) array(
 		"tpl_file"			=> "index.tpl",
 		"tpl_file_content"	=> "installation/git_submodules.tpl",
-		"page_title"		=> "Installation - Git Submodules"
+		"page_title"		=> "Installation - Git Submodules - Docs"
 	),
 	"installation/bower/" => (object) array(
 		"tpl_file"			=> "index.tpl",
 		"tpl_file_content"	=> "installation/bower.tpl",
-		"page_title"		=> "Installation - bower"
+		"page_title"		=> "Installation - bower - Docs"
 	),
 	"installation/manual/" => (object) array(
 		"tpl_file"			=> "index.tpl",
 		"tpl_file_content"	=> "installation/manual.tpl",
-		"page_title"		=> "Installation - manual"
+		"page_title"		=> "Installation - manual - Docs"
 	),
 
 	// COMPONENTS
-	"components/reset/" => (object) array(
+	"docs/component/reset/" => (object) array(
 		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "components/reset.tpl",
-		"page_title"		=> "Components - reset"
+		"tpl_file_content"	=> "docs/component/reset.tpl",
+		"page_title"		=> "Components - reset - Docs"
 	),
-	"components/grid/" => (object) array(
-		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "components/grid.tpl",
-		"page_title"		=> "Components - grid"
+	"docs/component/grid-container/" => (object) array(
+		"tpl_file"			=> "index-full-size.tpl",
+		"tpl_file_content"	=> "docs/component/grid-container.tpl",
+		"page_title"		=> "Components - container - Docs"
 	),
-	"components/buttons/" => (object) array(
-		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "components/buttons.tpl",
-		"page_title"		=> "Components - buttons"
+	"docs/component/grid-column-size/" => (object) array(
+		"tpl_file"			=> "index-full-size.tpl",
+		"tpl_file_content"	=> "docs/component/grid-column-size.tpl",
+		"page_title"		=> "Components - column - size - Docs"
 	),
-	"components/forms/" => (object) array(
-		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "components/forms.tpl",
-		"page_title"		=> "Components - forms"
+	"docs/component/grid-column-position/" => (object) array(
+		"tpl_file"			=> "index-full-size.tpl",
+		"tpl_file_content"	=> "docs/component/grid-column-position.tpl",
+		"page_title"		=> "Components - column - position - Docs"
 	),
-	"components/tables-lists/" => (object) array(
+	"docs/component/buttons/" => (object) array(
 		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "components/tables-lists.tpl",
-		"page_title"		=> "Components - tables - lists"
+		"tpl_file_content"	=> "docs/component/buttons.tpl",
+		"page_title"		=> "Components - buttons - Docs"
+	),
+	"docs/component/forms-base/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/forms-base.tpl",
+		"page_title"		=> "Components - forms - base - Docs"
+	),
+	"docs/component/forms-extras/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/forms-extras.tpl",
+		"page_title"		=> "Components - forms - extras - Docs"
+	),
+	"docs/component/pagebars/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/pagebars.tpl",
+		"page_title"		=> "Components - pagebars - Docs"
+	),
+	"docs/component/tables-lists/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/tables-lists.tpl",
+		"page_title"		=> "Components - tables - lists - Docs"
+	),
+	"docs/component/phone-navbar/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/phone-navbar.tpl",
+		"page_title"		=> "Components - phone - navbar - Docs"
 	),
 
 	// OTHER

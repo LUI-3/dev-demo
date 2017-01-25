@@ -1,1 +1,0 @@
-<h1>Components - <span>Reset</span></h1>
