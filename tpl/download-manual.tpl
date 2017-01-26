@@ -7,7 +7,8 @@
 <h2>Per-component download</h2>
 
 <p>
-	If you want to build LUI-3 package by yourself, <a href="//github.com/LUI-3/base/releases/latest" target="_blank">download LUI-3_base</a> as this component is needed for all other components. Others component can be found on our <a href="//github.com/LUI-3">github page</a>.
+	If you want to build LUI-3 package by yourself, <a href="//github.com/LUI-3/base/releases/latest" target="_blank">download LUI-3_base</a> 
+	as this component is needed for all other components. Others component can be found on our <a href="//github.com/LUI-3">github page</a>.
 </p>
 
 <p>

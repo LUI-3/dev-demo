@@ -1,7 +1,9 @@
 <h1>Components - <span>Forms - base</span></h1>
 
 <p>
-	The forms component is ideal to use when you need complex forms that will work on all devices with no compromises and without hundreds of javascripts. Actually Forms - base component doesn't need any javascript at all! If you're looking for more advanced forms, containing stuff like datepicker or select handled by jQuery, check <a href="docs/component/forms-extras/">Forms - extras</a>
+	The forms component is ideal to use when you need complex forms that will work on all devices with no compromises and without hundreds of javascripts. 
+	Actually Forms - base component doesn't need any javascript at all! If you're looking for more advanced forms, 
+	containing stuff like datepicker or select handled by jQuery, check <a href="docs/component/forms-extras/">Forms - extras</a>
 </p>
 
 <ul>
@@ -11,6 +13,7 @@
 	<li><a href="#forms_radios">Radios</a></li>
 	<li><a href="#forms_prefixes">Prefix / postfix for inputs</a></li>
 	<li><a href="#forms_statuses">Status messages for form items</a></li>
+	<li><a href="#forms_configuration">Default Configuration</a></li>
 </ul>
 
 <hr />
@@ -39,7 +42,8 @@ Or you can download pagebar from its Github repository manualy:
 <h2 id="forms_basics">Basic usage</h2>
 
 <p>
-	Forms, same as other components, are made to be responsive. Additionally, you can turn whole responsive off for sites that have fixed width. Forms layouts are made similar way as grid rows columns itself.
+	Forms, same as other components, are made to be responsive. Additionally, you can turn whole responsive off for sites that have fixed width. 
+	Forms layouts are made similar way as grid rows columns itself.
 </p>
 
 <h3>Input</h3>
@@ -225,7 +229,8 @@ Or you can download pagebar from its Github repository manualy:
 <h2 id="forms_checks">Checkbox / list of checkboxes</h2>
 
 <p>
-	There is always a situation when you need to use custom styles for checkbox. Before, you would be forced to use jQuery UI or some similar library. Thanks to FontAwesome and CSS3, thats not needed anymore!
+	There is always a situation when you need to use custom styles for checkbox. Before, you would be forced to use jQuery UI or some similar library. 
+	Thanks to FontAwesome and CSS3, that's not needed anymore!
 </p>
 
 <pre class="demo_source html" data-title="HTML">
@@ -900,3 +905,45 @@ Or you can download pagebar from its Github repository manualy:
 		</div>
 	</form>
 </div>
+
+<hr />
+
+<h2 id="forms_configuration">Default configuration</h2>
+
+<pre class="demo_source less" data-title="config.less - default values">
+@lui_form:	true;
+
+@lui_form_item_spacing:		7.5px;
+
+@lui_form_label:			true;
+@lui_form_label_spacing:	9.5px;
+
+@lui_form_info:				true;
+
+@lui_form_inputs:			true;
+
+@lui_form_inputs_text:		true;
+@lui_form_inputs_prefix:	true;
+@lui_form_inputs_postfix:	true;
+@lui_form_inputs_textarea:	true;
+@lui_form_inputs_select:	true;
+
+@lui_form_check:			true;
+@lui_form_radio:			true;
+
+@lui_form_mixins:				true;
+
+@lui_form_mixins_label:			true;
+@lui_form_mixins_status:		true;
+@lui_form_mixins_value:			true;
+@lui_form_mixins_prefix:		true;
+@lui_form_mixins_postfix:		true;
+@lui_form_mixins_input:			true;
+@lui_form_mixins_textarea:		true;
+@lui_form_mixins_select:		true;
+@lui_form_mixins_check:			true;
+@lui_form_mixins_check_list:	true;
+@lui_form_mixins_radio:			true;
+@lui_form_mixins_radio_list:	true;
+
+</pre>

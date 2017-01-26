@@ -20,27 +20,45 @@ $config->url = (object) array(
 		"page_title"		=> "Download using Bower"
 	),
 
+	// BASICS
+	"docs/basics/using-in-project/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/basics/using-lui.tpl",
+		"page_title"		=> "Using LUI-3 in your project - Docs"
+	),
+	"docs/basics/configuration/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/basics/configuration.tpl",
+		"page_title"		=> "Configuration - Docs"
+	),
+	"docs/basics/debug-mode/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/basics/debug-mode.tpl",
+		"page_title"		=> "Debug Mode - Docs"
+	),
+
+	// GRID
+	"docs/component/grid-container/" => (object) array(
+		"tpl_file"			=> "index-full-size.tpl",
+		"tpl_file_content"	=> "docs/grid/grid-container.tpl",
+		"page_title"		=> "Components - container - Docs"
+	),
+	"docs/component/grid-column-size/" => (object) array(
+		"tpl_file"			=> "index-full-size.tpl",
+		"tpl_file_content"	=> "docs/grid/grid-column-size.tpl",
+		"page_title"		=> "Components - column - size - Docs"
+	),
+	"docs/component/grid-column-position/" => (object) array(
+		"tpl_file"			=> "index-full-size.tpl",
+		"tpl_file_content"	=> "docs/grid/grid-column-position.tpl",
+		"page_title"		=> "Components - column - position - Docs"
+	),
 
 	// COMPONENTS
 	"docs/component/reset/" => (object) array(
 		"tpl_file"			=> "index.tpl",
 		"tpl_file_content"	=> "docs/component/reset.tpl",
 		"page_title"		=> "Components - reset - Docs"
-	),
-	"docs/component/grid-container/" => (object) array(
-		"tpl_file"			=> "index-full-size.tpl",
-		"tpl_file_content"	=> "docs/component/grid-container.tpl",
-		"page_title"		=> "Components - container - Docs"
-	),
-	"docs/component/grid-column-size/" => (object) array(
-		"tpl_file"			=> "index-full-size.tpl",
-		"tpl_file_content"	=> "docs/component/grid-column-size.tpl",
-		"page_title"		=> "Components - column - size - Docs"
-	),
-	"docs/component/grid-column-position/" => (object) array(
-		"tpl_file"			=> "index-full-size.tpl",
-		"tpl_file_content"	=> "docs/component/grid-column-position.tpl",
-		"page_title"		=> "Components - column - position - Docs"
 	),
 	"docs/component/buttons/" => (object) array(
 		"tpl_file"			=> "index.tpl",

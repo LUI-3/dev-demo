@@ -7,7 +7,12 @@
 <h2>Base component</h2>
 
 <p>
-	Base components is needed for all other LUI-3 components and included collection of mixins (prefixers), reset styles, grid system and main configration file. All others submodules are imported as "optional" in router.less. When using LUI-3 in your project, simply import router.less file in the beginning of your main project Less file.
+	Base component is needed for all other LUI-3 components. It contains collection of mixins (prefixers), reset styles, 
+	grid system and main configration file. All others submodules are imported as "optional" in <code>router.less</code>. <strong>Make sure your LESS compiler supports</strong> <code>@import (optional) "somefile.less";</code>. 
+</p>
+
+<p>
+	When using LUI-3 in your project, simply import <code>router.less</code> file in the beginning of your main project Less file. More info with examples can be found on <a href="/docs/basics/using-in-project/">Using LUI-3 in your project</a> page.
 </p>
 
 <p>

@@ -57,6 +57,14 @@
 						<li><a {flexi::getHTMLurlactive("/download/bower/")}>Download using Bower</a></li>
 					</ul>
 
+					<h2>Basics</h2>
+
+					<ul>
+						<li><a {flexi::getHTMLurlactive("/docs/basics/using-in-project/")}>Using LUI-3 in your project</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/basics/configuration/")}>Configuration</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/basics/debug-mode/")}>Debug Mode</a></li>
+					</ul>
+
 					<h2>Grid</h2>
 
 					<ul>
