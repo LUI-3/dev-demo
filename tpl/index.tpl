@@ -45,45 +45,58 @@
 
 	<div class="container max-xxl">
 		<div class="row va-top">
-			<aside class="site_sidebar col-xs-12 col-lg-3">
-				<ul>
-					<li><a href="/">Homepage</a></li>
-					<li><a {flexi::getHTMLurlactive("/report-bug/")}>Report bug</a></li>
-					<li><a {flexi::getHTMLurlactive("/contributing/")}>Contribute</a></li>
-					<li><a {flexi::getHTMLurlactive("/donations/")}>Donate</a></li>
-					<li><a {flexi::getHTMLurlactive("/download/manual/")}>Download manually</a></li>
-					<li><a {flexi::getHTMLurlactive("/download/bower/")}>Download using Bower</a></li>
-				</ul>
+			<aside class="site_sidebar col-xs-12 col-lg-3 col-xxl-2">
+				<div class="mobile_warning">
+					Some source code areas will be overflowing on your device. You can scroll horizontally to see rest of the code
+				</div>
+				<button class="hotdog fa_b_navicon">Menu</button>
+				<div class="menu_wrapper">
+					<ul>
+						<li><a href="/">Homepage</a></li>
+						<li><a {flexi::getHTMLurlactive("/report-bug/")}>Report bug</a></li>
+						<li><a {flexi::getHTMLurlactive("/contributing/")}>Contribute</a></li>
+						<li><a {flexi::getHTMLurlactive("/donations/")}>Donate</a></li>
+						<li><a {flexi::getHTMLurlactive("/download/manual/")}>Download manually</a></li>
+						<li><a {flexi::getHTMLurlactive("/download/bower/")}>Download using Bower</a></li>
+					</ul>
 
-				<h2>Basics</h2>
+					<h2>Basics</h2>
 
-				<ul>
-					<li><a {flexi::getHTMLurlactive("/docs/basics/using-in-project/")}>Using LUI-3 in your project</a></li>
-					<li><a {flexi::getHTMLurlactive("/docs/basics/configuration/")}>Configuration</a></li>
-					<li><a {flexi::getHTMLurlactive("/docs/basics/debug-mode/")}>Debug Mode</a></li>
-				</ul>
+					<ul>
+						<li><a {flexi::getHTMLurlactive("/docs/basics/using-in-project/")}>Using LUI-3 in your project</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/basics/configuration/")}>Configuration</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/basics/debug-mode/")}>Debug Mode</a></li>
+					</ul>
 
-				<h2>Grid</h2>
+					<h2>Grid</h2>
 
-				<ul>
-					<li><a {flexi::getHTMLurlactive("/docs/component/grid-container/")}>Grid - container</a></li>
-					<li><a {flexi::getHTMLurlactive("/docs/component/grid-column-size/")}>Grid - column size</a></li>
-					<li><a {flexi::getHTMLurlactive("/docs/component/grid-column-position/")}>Grid - column position</a></li>
-				</ul>
+					<ul>
+						<li><a {flexi::getHTMLurlactive("/docs/component/grid-container/")}>Grid - container</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/grid-column-size/")}>Grid - column size</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/grid-column-position/")}>Grid - column position</a></li>
+					</ul>
 
-				<h2>Components</h2>
+					<h2>Components</h2>
 
-				<ul>
-					<li><a {flexi::getHTMLurlactive("/docs/component/reset/")}>Reset</a></li>
-					<li><a {flexi::getHTMLurlactive("/docs/component/buttons/")}>Buttons</a></li>
-					<li><a {flexi::getHTMLurlactive("/docs/component/forms-base/")}>Forms - base</a></li>
-					<li><a {flexi::getHTMLurlactive("/docs/component/forms-extras/")}>Forms - extras</a></li>
-					<li><a {flexi::getHTMLurlactive("/docs/component/pagebars/")}>Pagebars</a></li>
-					<li><a {flexi::getHTMLurlactive("/docs/component/tables-lists/")}>Tables - lists</a></li>
-					<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar</a></li>
-				</ul>
+					<ul>
+						<li><a {flexi::getHTMLurlactive("/docs/component/reset/")}>Reset</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/buttons/")}>Buttons</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/forms-base/")}>Forms - base</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/forms-extras/")}>Forms - extras</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/pagebars/")}>Pagebars</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/tables-lists/")}>Tables - lists</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar</a></li>
+					</ul>
+				</div>
+
+				<script>
+					$(".site_sidebar > .hotdog").click(function(){
+						$(this).toggleClass("active");
+						$(this).siblings(".menu_wrapper").toggleClass("opened");
+					});
+				</script>
 			</aside>
-			<div class="site_content col-xs-12 col-lg-9">
+			<div class="site_content col-xs-12 col-lg-9 col-xxl-10">
 				{include file=$page_content}
 			</div>
 		</div>

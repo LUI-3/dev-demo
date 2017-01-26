@@ -561,16 +561,25 @@ body {
 	text-align: center;
 
 	@media (min-width:@grid_lg_start){
-		padding: 40px 15px 50px 15px;
+		padding: 30px 15px 40px 15px;
 	}
 
 	.logo {
 		display: inline-block;
 		margin: 0 auto;
-		padding-left: 30px;
+		padding-left: 10px;
+
+		@media (min-width:@grid_md_start){
+			padding-left: 30px;
+		}
 
 		img {
-			width: 100px;
+			width: 80px;
+
+			@media (min-width:@grid_md_start){
+				width: 100px;
+				
+			}
 
 			@media (min-width:@grid_lg_start){
 				width: 150px;
@@ -579,9 +588,14 @@ body {
 	}
 
 	.title {
+		display: none;
 		padding: 20px 0 0 0;
 		font-size:17px;
 		color: @color_lui_blue;
+
+		@media (min-width:@grid_lg_start){
+			display: block;
+		}
 
 		small {
 			color: black;
@@ -635,38 +649,69 @@ code {
 //
 aside.site_sidebar {
 	position: relative;
-	padding: 20px 15px;
+	padding: 15px 15px 0 15px;
 
-	&.horizontal {
-		& > a.hotdog {
-			display: block;
-			padding: 15px;
-			margin: 0 -15px;
-			background: #f2f2f2;
-			border: 1px solid #dbdbdb;
-			border-radius: 3px;
-			text-decoration: none;
-			font-size: 18px;
-			cursor: pointer;
-			.lui.user-select.none();
+	@media (min-width:@grid_lg_start){
+		padding: 20px 15px;
+	}
+
+	.mobile_warning {
+		padding: 15px;
+		margin-bottom: 15px;
+		font-size: 13px;
+		background: #fbb951;
+		color: #38260a;
+
+		@media (min-width:@grid_md_start){
+			display: none;
+		}
+	}
+
+	.hotdog {
+		display: block;
+		width: 100%;
+		border: 0;
+		padding: 15px;
+		cursor: pointer;
+		background: #d9e3ea;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: left;
+		outline: none;
+		color: #142530;
+		.lui.user-select.none();
+
+		@media (min-width:@grid_lg_start){
+			display: none;
+		}
+
+		&:before {
+			padding-right: 10px;
+		}
+
+		&:hover {
+			background: #c7d3dc;
+		}
+
+		&.active {
+			background: #aec1cf;
 
 			&:before {
-				padding-right: 10px;
-			}
-
-			&.active {
-				background: @color_lui_blue;
-				border-color: @color_lui_blue;
 				color: white;
 			}
 		}
+	}
 
-		& > .menu {
-			display: none;
 
-			&.opened {
-				display: block;
-			}
+	.menu_wrapper {
+		display: none;
+
+		&.opened {
+			display: block;
+		}
+
+		@media (min-width:@grid_lg_start){
+			display: block;
 		}
 	}
 

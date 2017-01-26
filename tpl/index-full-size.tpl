@@ -43,11 +43,14 @@
 		</div>
 	</div>
 
-	<div class="container max-xxl">
+	<div class="container fluid">
 		<div class="row va-top">
-			<aside class="site_sidebar horizontal col-12" data-hover-label="Hover to expand">
-				<a class="hotdog fa_b_navicon">Navigation</a>
-				<div class="menu">
+			<aside class="site_sidebar col-xs-12 col-lg-3 col-xl-2">
+				<div class="mobile_warning">
+					Some source code areas will be overflowing on your device. You can scroll horizontally to see rest of the code
+				</div>
+				<button class="hotdog fa_b_navicon">Menu</button>
+				<div class="menu_wrapper">
 					<ul>
 						<li><a href="/">Homepage</a></li>
 						<li><a {flexi::getHTMLurlactive("/report-bug/")}>Report bug</a></li>
@@ -89,16 +92,16 @@
 				<script>
 					$(".site_sidebar > .hotdog").click(function(){
 						$(this).toggleClass("active");
-						$(this).siblings(".menu").toggleClass("opened");
+						$(this).siblings(".menu_wrapper").toggleClass("opened");
 					});
 				</script>
 			</aside>
+			<div class="site_content col-xs-12 col-lg-9 col-xl-10">
+				{include file=$page_content}
+			</div>
 		</div>
 	</div>
 
-	<div class="site_content container">
-		{include file=$page_content}
-	</div>
 
 	<div class="container max-lg">
 		<div class="row">
