@@ -209,7 +209,7 @@ Or you can download messages from its Github repository manualy:
 	<div class="inside">
 		<div class="title">Notice message with icon and long text</div>
 		<div class="text">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in neque congue nulla tempor tristique. Nullam orci elit, cursus ut enim eu, pharetra pulvinar nulla. In nunc est, viverra nec justo id, molestie hendrerit lorem. Nulla facilisi. Suspendisse potenti. Duis eget sodales magna. Donec bibendum pharetra elit, porta egestas arcu dignissim in. Etiam metus leo, vehicula quis purus et, ullamcorper commodo nulla.
+			Lorem ipsum dolor sit amet, ...
 		</div>
 	</div>
 </div>
