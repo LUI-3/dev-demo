@@ -90,6 +90,11 @@ $config->url = (object) array(
 		"tpl_file_content"	=> "docs/component/phone-navbar.tpl",
 		"page_title"		=> "Components - phone - navbar - Docs"
 	),
+	"docs/component/messages/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/messages.tpl",
+		"page_title"		=> "Components - messages - Docs"
+	),
 
 	// OTHER
 	"report-bug/" => (object) array(

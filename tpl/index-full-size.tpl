@@ -86,6 +86,7 @@
 						<li><a {flexi::getHTMLurlactive("/docs/component/pagebars/")}>Pagebars</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/tables-lists/")}>Tables - lists</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/messages/")}>Messages</a></li>
 					</ul>
 				</div>
 
