@@ -29,7 +29,7 @@ LUI-3_base
 </pre>
 
 <p>
-Or you can download pagebar from its Github repository manualy:
+Or you can download forms - base from its Github repository manualy:
 </p>
 
 <p>
