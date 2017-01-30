@@ -101,7 +101,27 @@
 		</div>
 	</div>
 
-	<div class="site_features">
+	<div class="side_features_primary">
+		<div class="container max-xl">
+			<div class="row va-top">
+				<div class="col-xs-12 col-lg-4 item fa_b_mobile">
+					<h2>Mobile First</h2>
+					<p>Every component is coded for mobile devices first</p>
+				</div>
+				<div class="col-xs-12 col-lg-4 item fa_b_css3">
+					<h2>Latest standards</h2>
+					<p>Using the latest and most awesome CSS3 features</p>
+				</div>
+				<div class="col-xs-12 col-lg-4 item fa_b_compress">
+					<h2>Fully modular</h2>
+					<p>Need compact framework? no problem!</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="site_features_secondary">
 		<div class="container max-xl">
 			<div class="row va-middle">
 				<div class="col-xs-12 col-lg-3 image">
