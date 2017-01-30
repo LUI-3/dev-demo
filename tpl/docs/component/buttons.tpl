@@ -28,7 +28,7 @@ LUI-3_base
 </pre>
 
 <p>
-Or you can download pagebar from its Github repository manualy:
+Or you can download buttons from its Github repository manualy:
 </p>
 
 <p>
@@ -387,7 +387,7 @@ Or you can download pagebar from its Github repository manualy:
 
 <h2 id="buttons_mixins">Mixins</h2>
 
-<pre class="demo_source less" data-title="Available classnames">
+<pre class="demo_source less" data-title="Available mixins">
 .lui.button.this();
 
 .lui.button.hidden();
