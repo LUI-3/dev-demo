@@ -29,6 +29,7 @@
 
 	<link href="/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 
 	<title>{$page_title} - LUI-3 Framework</title>
 </head>

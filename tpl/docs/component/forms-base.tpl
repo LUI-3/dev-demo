@@ -910,7 +910,7 @@ Or you can download forms - base from its Github repository manualy:
 
 <h2 id="forms_configuration">Default configuration</h2>
 
-<pre class="demo_source less" data-title="config.less - default values">
+<pre class="demo_source less" data-title="forms-base.config.less - default values">
 @lui_form:	true;
 
 @lui_form_item_spacing:		7.5px;

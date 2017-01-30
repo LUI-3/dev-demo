@@ -666,7 +666,7 @@ Or you can download messages from its Github repository manualy:
 
 <h2 id="messages_configuration">Default Configuration</h2>
 
-<pre class="demo_source less" data-title="config.less - default values">
+<pre class="demo_source less" data-title="messages.config.less - default values">
 @lui_messages_class_enabled:			true;
 
 @lui_messages_mixins_enabled:			true;

@@ -269,7 +269,7 @@ Or you can download buttons from its Github repository manualy:
 
 <h2 id="buttons_configuration">Default configuration</h2>
 
-<pre class="demo_source less" data-title="config.less - default values">
+<pre class="demo_source less" data-title="buttons.config.less - default values">
 @lui_button_border-radius:	3px;
 @lui_button_icon_padding:	7px;
 

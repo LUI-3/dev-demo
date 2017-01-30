@@ -447,9 +447,9 @@ Or you can download pagebar from its Github repository manualy:
 
 <hr />
 
-<h2 id="pagebars_config">Config variables and default values</h2>
+<h2 id="pagebars_config">Default configuration</h2>
 
-<pre class="demo_source less" data-title="pagebars.config.less">
+<pre class="demo_source less" data-title="pagebars.config.less - default values">
 {trim(htmlspecialchars('
 @lui_pagebar_class_enabled:				true;
 
