@@ -90,12 +90,15 @@
 					</ul>
 				</div>
 				<div class="col-xs-12 col-xl-4 preview">
-					<span>Hover mouse over me. This's what LUI-3 can do, no javascript needed!</span>
-					<div class="box header">Header</div>
-					<div class="box side">menu</div>
-					<div class="box banners">banners</div>
-					<div class="box content">content</div>
-					<div class="box footer">footer</div>
+					<div class="device">
+						<div class="inside">
+							<div class="box header"></div>
+							<div class="box side"></div>
+							<div class="box banners"></div>
+							<div class="box content"></div>
+							<div class="box footer"></div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -121,37 +124,36 @@
 		</div>
 	</div>
 
-	<div class="site_features_secondary">
-		<div class="container max-xl">
-			<div class="row va-middle">
-				<div class="col-xs-12 col-lg-3 image">
-					<img src="/img/notebook_preview.png" alt="LUI-3 on phone" />
-				</div>
-				<div class="col-xs-12 col-lg-9 texts">
+	<div class="site_device_preview desktop">
+		<div class="container max-lg ">
+			<div class="row va-xs-bottom va-lg-center">
+				<div class="texts col-xs-12 col-lg-8 ml-lg-4">
 					<h2>Code your designs faster</h2>
 					<p>
 						LUI-3 grid system is the best one yet. Thanks to flexbox you can make layouts that would be nearly impossible or very hard to code before.
 					</p>
 				</div>
 			</div>
+		</div>
+	</div>
 
-			<div class="row va-middle">
-				<div class="col-xs-12 col-lg-9 o-xs-2 o-lg-1 texts secondary">
+	<div class="site_device_preview tablet">
+		<div class="container max-lg va-center">
+			<div class="row va-xs-bottom va-lg-center">
+				<div class="texts col-xs-12 col-lg-8 mr-lg-4">
 					<h2>Flexible websites like never before</h2>
 					<p>
 						Do you need to hide a certain element, or completely change their order on different breakpoints? No problem. And you don't even need javascript for that.
 					</p>
 				</div>
-				<div class="col-xs-12 col-lg-3 o-xs-1 o-lg-2 image">
-					<img src="/img/tablet_preview.png" alt="LUI-3 on phone" />
-				</div>
 			</div>
+		</div>
+	</div>
 
-			<div class="row va-middle">
-				<div class="col-xs-12 col-lg-3 image">
-					<img src="/img/phone_preview.png" alt="LUI-3 on phone" />
-				</div>
-				<div class="col-xs-12 col-lg-9 texts">
+	<div class="site_device_preview phone">
+		<div class="container max-lg va-center">
+			<div class="row va-xs-bottom va-lg-center">
+				<div class="texts col-xs-12 col-lg-8 ml-lg-4">
 					<h2>Awesome mobile experience</h2>
 					<p>
 						Enjoy browsing your sites on all mobile devices. With our mobile friendly components, browsing on mobiles can't be much easier.
