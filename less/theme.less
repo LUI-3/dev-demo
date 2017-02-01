@@ -509,11 +509,19 @@ body {
 			}
 
 			@media (min-width:@grid_lg_start){
-				top: 0px;
-				left: 0;
-				bottom: 0;
+				top: 30px;
+				left: 30px;
+				bottom: 30px;
 				height: auto;
 				width: 50%;
+			}
+
+			@media (min-width:@grid_xxl_start){
+				top: 30px;
+				left: 100px;
+				bottom: 30px;
+				height: auto;
+				width: 35%;
 			}
 		}
 	}
@@ -526,7 +534,7 @@ body {
 			top: 20px;
 			left: 20px;
 			right: 20px;
-			height: 200px;
+			height: 180px;
 			content: "";
 			background: url(/img/tablet_preview.png) center no-repeat;
 			background-size: contain;
@@ -537,17 +545,17 @@ body {
 			}
 
 			@media (min-width:@grid_lg_start){
-				top: 20px;
-				right: 20px;
+				top: 40px;
+				right: 40px;
 				left: auto;
 				bottom: 0;
 				height: auto;
-				width: 30%;
+				width: 25%;
 			}
 
-			@media (min-width:@grid_xl_start){
-
-				width: 50%;
+			@media (min-width:@grid_xxl_start){
+				right: 150px;
+				width: 40%;
 			}
 		}
 	}
