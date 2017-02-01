@@ -25,11 +25,13 @@ body {
 .site_intro {
 	height: 100%;
 	background: url(/img/intro_test_4.jpg) center no-repeat #31373a;
+	background-size: cover;
 
 	// NAVIGATION
 	nav {
+		padding: 5px;
 		margin: 0 -15px;
- 		border-bottom: 1px solid rgba(255,255,255,0.2);
+ 		//border-bottom: 1px solid rgba(255,255,255,0.2);
 		.lui.clear.after();
 
 		@media (min-width:@grid_lg_start){
@@ -47,6 +49,9 @@ body {
 			color: white;
 			text-decoration: none;
 			.lui.user-select.none();
+			
+			//border: 1px solid rgba(0,0,0,0.5);
+			background: rgba(0,0,0,0.4);
 
 			@media (min-width:@grid_lg_start){
 				display: none;
@@ -98,6 +103,7 @@ body {
 					}
 				}
 
+				&:first-child:before,
 				&:last-child:before {
 					display: none;
 				}
