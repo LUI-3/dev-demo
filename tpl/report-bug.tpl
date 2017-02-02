@@ -17,5 +17,5 @@
 </p>
 
 <p>
-	<a href="//github.com/LUI-3" target="_blank" class="lui_button success fa_b_github">Github page</a>
+	<a href="//github.com/LUI-3" target="_blank" class="lui_button primary fa_b_github">Github page</a>
 </p>

@@ -44,8 +44,8 @@ Or you can download forms - extras from its Github repository manually:
 </p>
 
 <p>
-	<a href="//github.com/LUI-3/forms-extras" target="_blank" class="lui_button success fa_b_github">Github repo</a>
-	<a href="//github.com/LUI-3/forms-extras/releases/latest" target="_blank" class="lui_button warning fa_b_github">Latest release</a>
+	<a href="//github.com/LUI-3/forms-extras" target="_blank" class="lui_button primary fa_b_github">Github repo</a>
+	<a href="//github.com/LUI-3/forms-extras/releases/latest" target="_blank" class="lui_button secondary fa_b_github">Latest release</a>
 </p>
 
 <hr />
