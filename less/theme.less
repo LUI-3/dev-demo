@@ -7,7 +7,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #222222;
-	//background: #f9f9f9;
 }
 
 @color_lui_blue: #00a0fd;
@@ -31,8 +30,7 @@ body {
 	nav {
 		padding: 5px;
 		margin: 0 -15px;
- 		//border-bottom: 1px solid rgba(255,255,255,0.2);
-		.lui.clear.after();
+ 		.lui.clear.after();
 
 		@media (min-width:@grid_lg_start){
 			margin: 0;
@@ -41,6 +39,7 @@ body {
 			border-bottom: 0;
 		}
 
+		// HOTDOG BUTTON (ON MOBILE DEVICES ONLY)
 		a.hotdog {
 			display: block;
 			padding: 15px;
@@ -48,10 +47,8 @@ body {
 			font-size: 16px;
 			color: white;
 			text-decoration: none;
-			.lui.user-select.none();
-			
-			//border: 1px solid rgba(0,0,0,0.5);
 			background: rgba(0,0,0,0.4);
+			.lui.user-select.none();
 
 			@media (min-width:@grid_lg_start){
 				display: none;
@@ -67,6 +64,7 @@ body {
 			}
 		}
 
+		// MENU ITSELF
 		ul {
 			list-style: none;
 			margin: 0;
@@ -143,7 +141,7 @@ body {
 		}
 	}
 
-	// TEXTS
+	// INTRO TEXTS (HEADLINE, SHORT DESC)
 	.texts {
 		text-align: center;
 		padding-bottom: 50px;
@@ -310,8 +308,7 @@ body {
 		}
 	}
 
-
-	// PREVIEW
+	// DEVICE PREVIEW
 	.preview {
 		display: none;
 		position: relative;
@@ -390,7 +387,6 @@ body {
 				color: white;
 			}
 
-
 			&.content {
 				top: 160px;
 				left: 40%;
@@ -419,6 +415,7 @@ body {
 			font-style: italic;
 		}
 
+		// HOVER EFFECT ON DEVICE (CONVERTS TO PHONE)
 		&:hover .box.header {
 			height: 60px;
 		}
@@ -458,7 +455,6 @@ body {
 //
 .side_features_primary {
 	padding: 40px 0 0px 0;
-	//background: #dfeaed;
 
 	.item {
 		text-align: center;
@@ -471,14 +467,17 @@ body {
 			color: #2b3747;
 		}
 
+		// MOBILE PHONE
 		&.fa_b_mobile:before {
 			color: #af2121;
 		}
 
+		// CSS3 LOGO
 		&.fa_b_css3:before {
 			color: #2162af;
 		}
 
+		// ARROWS POING TO EACH OTHER
 		&.fa_b_compress:before {
 			color: #3caf21;
 		}
@@ -662,7 +661,6 @@ body {
 }
 
 
-
 //
 // SITE DOWNLOAD
 //
@@ -761,13 +759,12 @@ body {
 
 
 //
-// SITE HEADER
+// SITE HEADER - ONLY ON SUB PAGES
 //
 .site_header {
 	padding: 10px 15px 20px 15px;
 	background: url(/img/intro_test_4.jpg) center no-repeat #31373a;
 	background-size: cover;
-
 	text-align: center;
 
 	@media (min-width:@grid_lg_start){
@@ -788,7 +785,6 @@ body {
 
 			@media (min-width:@grid_md_start){
 				width: 100px;
-				
 			}
 
 			@media (min-width:@grid_lg_start){
@@ -911,7 +907,6 @@ aside.site_sidebar {
 			}
 		}
 	}
-
 
 	.menu_wrapper {
 		display: none;
