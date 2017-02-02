@@ -28,7 +28,11 @@
 	{/if}
 
 	<link href="/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+
+	<script src="//code.jquery.com/jquery-3.1.1.min.js" async></script>
+	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js" async></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" async></script>
+	<script src="/js/lui.dev-demo.js" async></script>
 
 	<title>{$page_title} - LUI-3 Framework</title>
 </head>
@@ -89,20 +93,12 @@
 						<li><a {flexi::getHTMLurlactive("/docs/component/messages/")}>Messages</a></li>
 					</ul>
 				</div>
-
-				<script>
-					$(".site_sidebar > .hotdog").click(function(){
-						$(this).toggleClass("active");
-						$(this).siblings(".menu_wrapper").toggleClass("opened");
-					});
-				</script>
 			</aside>
 			<div class="site_content col-xs-12 col-lg-9 col-xl-10">
 				{include file=$page_content}
 			</div>
 		</div>
 	</div>
-
 
 	<div class="container max-lg">
 		<div class="row">
@@ -111,20 +107,6 @@
 			</div>
 		</div>
 	</div>
-
-	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
-	{literal}
-	<script>
-		//
-		// TODO: PUT THIS INTO EXTERNAL FILE
-		//
-		$(document).ready(function() {
-			$('pre.demo_source').each(function(i, block) {
-				hljs.highlightBlock(block);
-			});
-		});
-	</script>
-	{/literal}
 </body>
 </html>
 {/strip}

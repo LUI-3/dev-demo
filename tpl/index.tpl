@@ -28,8 +28,11 @@
 	{/if}
 
 	<link href="/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+	<script src="//code.jquery.com/jquery-3.1.1.min.js" async></script>
+	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js" async></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" async></script>
+	<script src="/js/lui.dev-demo.js" async></script>
 
 	<title>{$page_title} - LUI-3 Framework</title>
 </head>
@@ -90,13 +93,6 @@
 						<li><a {flexi::getHTMLurlactive("/docs/component/messages/")}>Messages</a></li>
 					</ul>
 				</div>
-
-				<script>
-					$(".site_sidebar > .hotdog").click(function(){
-						$(this).toggleClass("active");
-						$(this).siblings(".menu_wrapper").toggleClass("opened");
-					});
-				</script>
 			</aside>
 			<div class="site_content col-xs-12 col-lg-9 col-xxl-10">
 				{include file=$page_content}
@@ -109,34 +105,6 @@
 			</div>
 		</div>
 	</div>
-
-	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
-	{literal}
-	<script>
-		//
-		// TODO: PUT THIS INTO EXTERNAL FILE
-		//
-		$(document).ready(function() {
-			$('pre.demo_source').each(function(i, block) {
-				hljs.highlightBlock(block);
-			});
-
-			// ♥ //css-tricks.com/snippets/jquery/smooth-scrolling/
-			$('a[href*="#"]:not([href="#"])').click(function() {
-				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-				var target = $(this.hash);
-				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-				if (target.length) {
-					$('html, body').animate({
-					scrollTop: target.offset().top
-					}, 1000);
-					return false;
-				}
-				}
-			});
-		});
-	</script>
-	{/literal}
 </body>
 </html>
 {/strip}

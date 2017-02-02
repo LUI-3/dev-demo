@@ -28,9 +28,12 @@
 		<link href="/cache/css/{$css}" rel="stylesheet" />
 	{/if}
 
-
 	<link href="/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+
+	<script src="//code.jquery.com/jquery-3.1.1.min.js" async></script>
+	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js" async></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" async></script>
+	<script src="/js/lui.dev-demo.js" async></script>
 
 	<title>{$page_title} - LUI-3 Framework</title>
 </head>
@@ -48,20 +51,6 @@
 					<li><a href="/download/bower/" class="download">Install via bower</a></li>
 				</ul>
 			</nav>
-
-			{literal}
-			<script>
-				//
-				// TODO: MOVE INTO EXTERNAL FILE
-				//	
-				$(document).ready(function(){
-					$(".site_nav > .hotdog").click(function(){
-						$(this).toggleClass("active");
-						$(this).siblings("ul").toggleClass("opened");
-					});
-				});
-			</script>
-			{/literal}
 
 			<div class="row va_top">
 				<div class="col-xs-12 col-xl-6 col-xxl-7 texts">
