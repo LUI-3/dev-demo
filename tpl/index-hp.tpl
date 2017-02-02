@@ -64,7 +64,7 @@
 			{/literal}
 
 			<div class="row va_top">
-				<div class="col-xs-12 col-xl-8 texts">
+				<div class="col-xs-12 col-xl-6 col-xxl-7 texts">
 					<img src="/img/logo_white.png" alt="LUI-3 logo" class="logo" />
 
 					<h1>
@@ -89,7 +89,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-xs-12 col-xl-4 preview">
+				<div class="col-xs-12 col-xl-6 col-xxl-5 preview">
 					<div class="device">
 						<div class="inside">
 							<div class="box header"></div>
