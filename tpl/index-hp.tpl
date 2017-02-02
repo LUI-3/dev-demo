@@ -43,7 +43,6 @@
 			<nav class="site_nav">
 				<a class="hotdog fa_b_navicon">Menu</a>
 				<ul>
-					<li><a href="/installation/bower/">Installation</a></li>
 					<li><a href="/docs/component/reset/">Docs</a></li>
 					<li><a href="//github.com/LUI-3" target="_blank">Github</a></li>
 					<li><a href="/donations/">Donate</a></li>
