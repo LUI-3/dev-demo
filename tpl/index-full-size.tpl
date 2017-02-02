@@ -29,8 +29,8 @@
 
 	<link href="/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
-	<script src="//code.jquery.com/jquery-3.1.1.min.js" async></script>
-	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js" async></script>
+	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" async></script>
 	<script src="/js/lui.dev-demo.js" async></script>
 
