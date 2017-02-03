@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-	<meta name="robots" content="noindex,nofollow" />
+	<meta name="robots" content="index,follow" />
 
 	{if isset($less)}
 		<link rel="stylesheet/less" href="{$less}" />
@@ -83,13 +83,13 @@
 					<h2>Components</h2>
 
 					<ul>
-						<li><a {flexi::getHTMLurlactive("/docs/component/reset/")}>Reset</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/reset/")}>Reset <small>in development</small></a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/buttons/")}>Buttons</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-base/")}>Forms - base</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-extras/")}>Forms - extras</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/pagebars/")}>Pagebars</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/tables-lists/")}>Tables - lists</a></li>
-						<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar <small>in development</small></a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/messages/")}>Messages</a></li>
 					</ul>
 				</div>

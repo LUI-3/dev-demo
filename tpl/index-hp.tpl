@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-	<meta name="robots" content="noindex,nofollow" />
+	<meta name="robots" content="index,follow" />
 
 
 	{if isset($less)}
