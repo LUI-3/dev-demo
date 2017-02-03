@@ -32,8 +32,8 @@ Or you can download buttons from its Github repository manually:
 </p>
 
 <p>
-	<a href="//github.com/LUI-3/buttons" target="_blank" class="lui_button primary fa_b_github">Github repo</a>
-	<a href="//github.com/LUI-3/buttons/releases/latest" target="_blank" class="lui_button secondary fa_b_github">Latest release</a>
+	<a href="//github.com/LUI-3/buttons" target="_blank" class="lui_button xs-block md-regular primary fa_b_github">Github repo</a>
+	<a href="//github.com/LUI-3/buttons/releases/latest" target="_blank" class="lui_button xs-block md-regular secondary fa_b_github">Latest release</a>
 </p>
 
 <hr />
@@ -137,32 +137,28 @@ Or you can download buttons from its Github repository manually:
 <h2 id="buttons_sizes">Sizes</h2>
 
 <p>
-	Default button components come with 4 predefined sizes:
+	Default button components come with 5 predefined sizes:
 </p>
 
-<p>
-	<strong>XS Breakpoint:</strong>
-</p>
-
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Classnames">
 .hidden /* hide button */
 .small
 .regular
 .big
 .huge
+.block
 </pre>
 
-<p><strong>Usage in code</strong></p>
-
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="HTML">
 {htmlspecialchars('<button class="lui_button small">button</button>')}
 </pre>
 
 <div class="demo_result" data-title="results">
-	<button class="lui_button primary huge">button</button>
-	<button class="lui_button primary big">button</button>
-	<button class="lui_button primary regular">button</button>
-	<button class="lui_button primary small">button</button>
+	<button class="lui_button primary block">block</button>
+	<button class="lui_button primary huge">huge</button>
+	<button class="lui_button primary big">big</button>
+	<button class="lui_button primary regular">regular</button>
+	<button class="lui_button primary small">small</button>
 </div>
 
 <hr />
@@ -180,60 +176,65 @@ Or you can download buttons from its Github repository manually:
 	<strong>XS Breakpoint:</strong>
 </p>
 
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Classnames">
 .xs-hidden /* hide button for this breakpoint */
 .xs-small
 .xs-regular
 .xs-big
 .xs-huge
+.xs-block
 </pre>
 
 <p>
 	<strong>SM Breakpoint:</strong>
 </p>
 
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Classnames">
 .sm-hidden /* hide button for this breakpoint */
 .sm-small
 .sm-regular
 .sm-big
 .sm-huge
+.sm-block
 </pre>
 
 <p>
 	<strong>MD Breakpoint:</strong>
 </p>
 
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Classnames">
 .md-hidden /* hide button for this breakpoint */
 .md-small
 .md-regular
 .md-big
 .md-huge
+.md-block
 </pre>
 
 <p>
 	<strong>LG Breakpoint:</strong>
 </p>
 
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Classnames">
 .lg-hidden /* hide button for this breakpoint */
 .lg-small
 .lg-regular
 .lg-big
 .lg-huge
+.lg-block
 </pre>
 
 <p>
 	<strong>XL Breakpoint:</strong>
 </p>
 
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Classnames">
 .xl-hidden /* hide button for this breakpoint */
 .xl-small
 .xl-regular
 .xl-big
 .xl-huge
+.xl-block
 </pre>
 
 
@@ -241,24 +242,26 @@ Or you can download buttons from its Github repository manually:
 	<strong>XXL Breakpoint:</strong>
 </p>
 
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Classnames">
 .xxl-hidden /* hide button for this breakpoint */
 .xxl-small
 .xxl-regular
 .xxl-big
 .xxl-huge
+.xxl-block
 </pre>
 
 <p>
 	<strong>XXXL Breakpoint:</strong>
 </p>
 
-<pre class="demo_source less">
+<pre class="demo_source less" data-title="Classnames">
 .xxxl-hidden /* hide button for this breakpoint */
 .xxxl-small
 .xxxl-regular
 .xxxl-big
 .xxxl-huge
+.xxxl-block
 </pre>
 
 <p>

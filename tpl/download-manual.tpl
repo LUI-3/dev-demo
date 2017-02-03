@@ -12,8 +12,8 @@
 </p>
 
 <p>
-	<a href="//github.com/LUI-3/base/releases/latest" class="lui_button primary fa_b_github">Base component</a>
-	<a href="//github.com/LUI-3" class="lui_button secondary fa_b_github">List of all repositories</a>
+	<a href="//github.com/LUI-3/base/releases/latest" class="lui_button xs-block md-regular primary fa_b_github">Base component</a>
+	<a href="//github.com/LUI-3" class="lui_button xs-block md-regular secondary fa_b_github">List of all repositories</a>
 </p>
 
 <h2>Complete package</h2>
@@ -23,5 +23,5 @@
 </p>
 
 <p>
-	<a href="//github.com/LUI-3/complete" class="lui_button primary fa_b_github">Download LUI-3 complete</a>
+	<a href="//github.com/LUI-3/complete" class="lui_button xs-block md-regular primary fa_b_github">Download LUI-3 complete</a>
 </p>

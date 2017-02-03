@@ -32,8 +32,8 @@ Or you can download messages from its Github repository manually:
 </p>
 
 <p>
-	<a href="//github.com/LUI-3/messages" target="_blank" class="lui_button primary fa_b_github">Github repo</a>
-	<a href="//github.com/LUI-3/messages/releases/latest" target="_blank" class="lui_button secondary fa_b_github">Latest release</a>
+	<a href="//github.com/LUI-3/messages" target="_blank" class="lui_button xs-block md-regular primary fa_b_github">Github repo</a>
+	<a href="//github.com/LUI-3/messages/releases/latest" target="_blank" class="lui_button xs-block md-regular secondary fa_b_github">Latest release</a>
 </p>
 
 <hr />
