@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://lui-3.cz/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/docs/component/reset/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/donations/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/download/manual/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/download/bower/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/report-bug/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/contributing/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/docs/basics/using-in-project/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/docs/basics/configuration/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/docs/basics/debug-mode/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/docs/component/grid-container/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/docs/component/grid-column-size/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/docs/component/grid-column-position/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/docs/component/buttons/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/docs/component/forms-base/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/docs/component/forms-extras/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/docs/component/pagebars/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/docs/component/tables-lists/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/docs/component/phone-navbar/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/docs/component/messages/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://lui-3.cz/docs/component/forms-base/docs/component/forms-extras/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>

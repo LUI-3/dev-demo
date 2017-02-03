@@ -7,6 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 	<meta name="robots" content="index,follow" />
 
+	<meta name="description" content="LUI-3 is the most modular front-end framework in the world for website development" />
+	<meta name="keywords" content="LUI-3, front-end, responsive, modular, framework, html, css3, less" />
+	<meta property="og:site_name" content="LUI-3 - Modular and responsive front-end framework" />
 
 	{if isset($less)}
 		<link rel="stylesheet/less" href="{$less}" />
