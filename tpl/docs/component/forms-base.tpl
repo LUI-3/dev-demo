@@ -42,7 +42,7 @@ Or you can download <code>Forms - base</code> from its Github repository manuall
 <h2 id="forms_basics">Basic usage</h2>
 
 <p>
-	Forms, as same as other components, are made to be responsive. Additionally, you can turn whole responsive off for sites that have fixed width. 
+	Forms, as the same as other components, are made to be responsive. Additionally, you can turn whole responsive off for sites that have fixed width. 
 	Layouts of forms are made in similar way as colums of grid rows.
 </p>
 
