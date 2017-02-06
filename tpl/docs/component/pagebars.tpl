@@ -75,7 +75,7 @@ Or you can download pagebar from its Github repository manually:
 <h2>Pagebar with input</h2>
 
 <pre class="demo_source html" data-title="HTML">
-{htmlspecialchars('<ul class="lui_pagebar a-center va-top">
+{htmlspecialchars('<ul class="lui_pagebar xs-minimal md-normal md-a-center va-top">
 	<li class="prev"><a href="#"></a></li>
 	<!-- INPUT STARTS HERE -->
 	<li class="input">
@@ -96,7 +96,7 @@ Or you can download pagebar from its Github repository manually:
 </pre>
 
 <div class="demo_result" data-title="result">
-	<ul class="lui_pagebar a-center va-top">
+	<ul class="lui_pagebar xs-minimal md-normal md-a-center va-top">
 		<li class="prev"><a href="#"></a></li>
 		<li class="input">
 			<label>Page:</label>
