@@ -26,6 +26,7 @@
 			};
 		</script>
 		{/literal}
+
 		<script src="/libs/less-js/less.min.js" type="text/javascript"></script>
 	{else}
 		<link href="/cache/css/{$css}" rel="stylesheet" />
