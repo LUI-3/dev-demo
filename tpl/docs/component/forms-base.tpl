@@ -1,9 +1,9 @@
 <h1>Components - <span>Forms - base</span></h1>
 
 <p>
-	The forms component is ideal to use when you need complex forms that will work on all devices with no compromises and without hundreds of javascripts. 
-	Actually Forms - base component doesn't need any javascript at all! If you're looking for more advanced forms, 
-	containing stuff like datepicker or select handled by jQuery, check <a href="docs/component/forms-extras/">Forms - extras</a>
+	It's ideal to use a component of form when you need complex forms that will work on all devices with no compromises and without hundreds of javascripts. 
+	Actual <code>Forms - base</code> component doesn't need any javascript at all! If you're looking for more advanced forms, 
+	containing stuffs like datepicker or selects handled by jQuery, check <a href="docs/component/forms-extras/">Forms - extras</a>
 </p>
 
 <ul>
@@ -29,7 +29,7 @@ LUI-3_base
 </pre>
 
 <p>
-Or you can download forms - base from its Github repository manually:
+Or you can download <code>Forms - base</code> from its Github repository manually:
 </p>
 
 <p>
@@ -42,8 +42,8 @@ Or you can download forms - base from its Github repository manually:
 <h2 id="forms_basics">Basic usage</h2>
 
 <p>
-	Forms, same as other components, are made to be responsive. Additionally, you can turn whole responsive off for sites that have fixed width. 
-	Forms layouts are made similar way as grid rows columns itself.
+	Forms, as same as other components, are made to be responsive. Additionally, you can turn whole responsive off for sites that have fixed width. 
+	Layouts of forms are made in similar way as colums of grid rows.
 </p>
 
 <h3>Input</h3>
@@ -229,7 +229,7 @@ Or you can download forms - base from its Github repository manually:
 <h2 id="forms_checks">Checkbox / list of checkboxes</h2>
 
 <p>
-	There is always a situation when you need to use custom styles for checkbox. Before, you would be forced to use jQuery UI or some similar library. 
+	There is always some situation when you need to use custom styles for checkbox. In the past you would be forced to use jQuery UI or some similar library. 
 	Thanks to FontAwesome and CSS3, that's not needed anymore!
 </p>
 
@@ -418,7 +418,7 @@ Or you can download forms - base from its Github repository manually:
 <h2 id="forms_radios">Radio / list of radios</h2>
 
 <p>
-	Just like checkboxes you are not limited to ugly default radio buttons.
+	As the same as in the case of checkboxes you can make nice radio buttons too. No limits in styles of form components. Forever.
 </p>
 
 <pre class="demo_source html" data-title="HTML">
@@ -611,7 +611,7 @@ Or you can download forms - base from its Github repository manually:
 <h2 id="forms_prefixes">Prefix / postfix for inputs</h2>
 
 <p>
-	This is ideal for inputs like price, discounts and such, where you want users to input numbers only, without specifying currency and such. Thanks to flexbox, you don't need any CSS hacks or javascripts to handle width or positioning.
+	This is ideal for inputs like price, discounts etc., where you want to write only numbers without specifying currency or any other symbols. Thanks the flexbox you don't need any CSS hacks or javascripts to handling or positioning them.
 </p>
 
 <h3>Prefix</h3>
@@ -691,7 +691,7 @@ Or you can download forms - base from its Github repository manually:
 <h2>Clickable postfix / prefix</h2>
 
 <p>
-	If you need clickable postfix/prefix for stuff like file upload or selecting some value that will fill input afterwards, you can do that by using "a" element instead of "div" and add the css class ".clickable" for additional hover effect (this may not be required in future versions).
+	If you need clickable postfix/prefix for stuff like file upload or for selecting some value that will fill input afterwards, you can do it using "a" element instead of "div" and add the css class ".clickable" for additional hover effect (this may not be required in future versions).
 </p>
 
 <pre class="demo_source html" data-title="HTML">
@@ -733,7 +733,7 @@ Or you can download forms - base from its Github repository manually:
 <h2 id="forms_statuses">Status messages for form items</h2>
 
 <p>
-	Forms - base component does not use any formvalidator, however it includes basic styles for typical confirm/info/warning/error texts you may need to display for users on your site. FontAwesome icons can be used as well.
+	<code>Forms - base</code> component does not use any formvalidators, however it includes basic styles for typical confirm/info/warning/error texts you may need to display for users on your site. FontAwesome icons can be used as well.
 </p>
 
 <pre class="demo_source html" data-title="HTML">
