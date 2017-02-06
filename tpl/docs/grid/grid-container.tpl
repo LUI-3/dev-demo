@@ -1,7 +1,7 @@
 <h1>Components - <span>Grid - Container</span></h1>
 
 <p>
-	Grid classnames are similar to Bootsrap, but if you look closer, you will find that LUI-3 can do a lot more!
+	Grid classnames are similar to Bootsrap, but if you look closer, you will find that LUI-3 can do much more!
 </p>
 
 <h2>LUI-3 Grid features:</h2>
