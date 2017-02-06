@@ -2,7 +2,7 @@
 
 <p>
 	This component contains a variety of button styles and sizes that you can use in your website.
-	Buttons are responsive, which means you can change their size per breakpoint!
+	Buttons are responsive which means you can change their size per breakpoint!
 </p>
 
 <ul>
@@ -164,11 +164,11 @@ Or you can download buttons from its Github repository manually:
 <hr />
 
 <p>
-	If you would like to change button size depending on actual breakpoint, you can doo that simply by using these classnames in your code:
+	If you would like to change button size depending on actual breakpoint, you can do it simply using these classnames in your code:
 </p>
 
 <p>
-	<strong>If you choose to hide button for certain breakpoint, you must overwrite it for larger ones using another class.<br />
+	<strong>If you choose hiding of button for certain breakpoint, you must overwrite it for larger ones using another class.<br />
 	Example: .xs-hidden.sm-regular</strong>
 </p>
 
