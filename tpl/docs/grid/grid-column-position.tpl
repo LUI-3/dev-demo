@@ -1,7 +1,7 @@
 <h1>Components - <span>Grid - Column Position</span></h1>
 
 <p>
-	LUI-3 grid will make coding your sites easier with these cool features that allow you to align content both vertically and horizontally.
+	LUI-3 grid will make coding of your sites easier with these cool features that allow you to align content both vertically and horizontally.
 </p>
 
 <h2 class="demo">Horizontal alignment</h2>

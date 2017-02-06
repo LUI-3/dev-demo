@@ -6,7 +6,7 @@
 <h1>Components - <span>Forms - extras</span></h1>
 
 <p>
-	This component is made as extension to forms - base. It's ideal to use this component, when you need stuff like custom selects, datepickers and such.
+	This component is made as extension to <code>Forms - base</code>. It's ideal to use this component when you need something like custom selects, datepickers etc.
 </p>
 
 
@@ -54,7 +54,7 @@ Or you can download forms - extras from its Github repository manually:
 <h2 id="jquery-select">jQuery-Select</h2>
 
 <p>
-	Simple select handled by jQuery. Ideal if you're tired of default ugly browser selects
+	Simple select handled by jQuery. It's ideal when you're tired of default ugly browser selects
 </p>
 
 <pre class="demo_source html" data-title="jQuery and jQuery UI from CDN">

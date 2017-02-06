@@ -183,7 +183,7 @@
 			.col-7th
 		</div>
 		<div class="col-7th demo_col">
-			.col-5th
+			.col-7th
 		</div>
 		<div class="col-7th demo_col">
 			.col-7th
