@@ -137,11 +137,12 @@ Or you can download buttons from its Github repository manually:
 <h2 id="buttons_sizes">Sizes</h2>
 
 <p>
-	Default button components come with 5 predefined sizes:
+	Default button components come with 6 predefined sizes:
 </p>
 
 <pre class="demo_source less" data-title="Classnames">
 .hidden /* hide button */
+.tiny
 .small
 .regular
 .big
@@ -159,6 +160,7 @@ Or you can download buttons from its Github repository manually:
 	<button class="lui_button primary big">big</button>
 	<button class="lui_button primary regular">regular</button>
 	<button class="lui_button primary small">small</button>
+	<button class="lui_button primary tiny">tiny</button>
 </div>
 
 <hr />
@@ -178,6 +180,7 @@ Or you can download buttons from its Github repository manually:
 
 <pre class="demo_source less" data-title="Classnames">
 .xs-hidden /* hide button for this breakpoint */
+.xs-tiny
 .xs-small
 .xs-regular
 .xs-big
@@ -191,6 +194,7 @@ Or you can download buttons from its Github repository manually:
 
 <pre class="demo_source less" data-title="Classnames">
 .sm-hidden /* hide button for this breakpoint */
+.sm-tiny
 .sm-small
 .sm-regular
 .sm-big
@@ -204,6 +208,7 @@ Or you can download buttons from its Github repository manually:
 
 <pre class="demo_source less" data-title="Classnames">
 .md-hidden /* hide button for this breakpoint */
+.md-tiny
 .md-small
 .md-regular
 .md-big
@@ -217,6 +222,7 @@ Or you can download buttons from its Github repository manually:
 
 <pre class="demo_source less" data-title="Classnames">
 .lg-hidden /* hide button for this breakpoint */
+.lg-tiny
 .lg-small
 .lg-regular
 .lg-big
@@ -230,6 +236,7 @@ Or you can download buttons from its Github repository manually:
 
 <pre class="demo_source less" data-title="Classnames">
 .xl-hidden /* hide button for this breakpoint */
+.xl-tiny
 .xl-small
 .xl-regular
 .xl-big
@@ -244,6 +251,7 @@ Or you can download buttons from its Github repository manually:
 
 <pre class="demo_source less" data-title="Classnames">
 .xxl-hidden /* hide button for this breakpoint */
+.xxl-tiny
 .xxl-small
 .xxl-regular
 .xxl-big
@@ -257,6 +265,7 @@ Or you can download buttons from its Github repository manually:
 
 <pre class="demo_source less" data-title="Classnames">
 .xxxl-hidden /* hide button for this breakpoint */
+.xxxl-tiny
 .xxxl-small
 .xxxl-regular
 .xxxl-big
