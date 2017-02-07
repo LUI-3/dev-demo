@@ -274,6 +274,25 @@ Or you can download buttons from its Github repository manually:
 </pre>
 
 <p>
+	<strong>Print styles:</strong>
+</p>
+
+<pre class="demo_source less" data-title="Classnames">
+.pnt-hidden /* hide button for this breakpoint */
+.pnt-tiny
+.pnt-small
+.pnt-regular
+.pnt-big
+.pnt-huge
+.pnt-block
+</pre>
+
+<div class="demo_result" data-title="results">
+	<p>Button bellow will be <code>.regular</code> size on website, but <code>.block</code> when viewing website in print preview</p>
+	<button class="lui_button primary regular pnt-block">Regular on website, Block on print</button>
+</div>
+
+<p>
 	If you choose not to use one of the breakpoints and turn them off in grid config, the classnames for these breakpoints won't be compiled into the final CSS. The same applies for other LUI-3 components.
 </p>
 
