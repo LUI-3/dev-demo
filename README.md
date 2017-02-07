@@ -1,9 +1,6 @@
-[![GitHub issues](https://img.shields.io/github/issues/LUI-3/dev-demo.svg)](https://github.com/LUI-3/dev-demo/issues)
-[![GitHub forks](https://img.shields.io/github/forks/LUI-3/dev-demo.svg)](https://github.com/LUI-3/dev-demo/network)
-[![GitHub stars](https://img.shields.io/github/stars/LUI-3/dev-demo.svg)](https://github.com/LUI-3/dev-demo/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/LUI-3/dev-demo/master/license.md)
+[![GitHub license](http://content.github.lui-3.cz/LUI-3_logo-small.png)](//lui-3.cz/)
+# Website
 
-# LUI-3 dev-demo
-This repository contains source code of https://lui-3.cz/ website. Website itself can be used to develop and test new components, all you need is working webserver running PHP. Database is not needed.
+This repository contains source code of https://lui-3.cz/ website. Website itself can be used to develop and test new components, all you need is working webserver running PHP with mod_rewrite support. Database is not needed.
 
-Each LUI-3 component is set as Git submodule, to make development easier
+Each LUI-3 component is setup as Git submodule, to make it easier to push new changes to their repositories.
