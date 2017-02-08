@@ -155,7 +155,7 @@ Or you can download forms - extras from its Github repository manually:
 		</div>
 		<div class="col-xs-12 col-md-4">
 			<div class="value">
-				<input type="text" class="make_lui_datepicker" data-formar="dd.mm.yy" />
+				<input type="text" class="make_lui_datepicker" data-format="dd.mm.yy" />
 			</div>
 		</div>
 	</div>
@@ -171,7 +171,7 @@ Or you can download forms - extras from its Github repository manually:
 			</div>
 			<div class="col-xs-12 col-md-4">
 				<div class="value">
-					<input type="text" class="make_lui_datepicker" data-formar="dd.mm.yy" />
+					<input type="text" class="make_lui_datepicker" data-format="dd.mm.yy" />
 				</div>
 			</div>
 		</div>
