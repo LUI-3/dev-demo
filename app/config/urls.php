@@ -80,10 +80,10 @@ $config->url = (object) array(
 		"tpl_file_content"	=> "docs/component/pagebars.tpl",
 		"page_title"		=> "Components - pagebars - Docs"
 	),
-	"docs/component/tables-lists/" => (object) array(
+	"docs/component/tables/" => (object) array(
 		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "docs/component/tables-lists.tpl",
-		"page_title"		=> "Components - tables - lists - Docs"
+		"tpl_file_content"	=> "docs/component/tables.tpl",
+		"page_title"		=> "Components - tables - Docs"
 	),
 	"docs/component/phone-navbar/" => (object) array(
 		"tpl_file"			=> "index.tpl",

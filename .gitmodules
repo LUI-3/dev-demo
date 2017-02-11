@@ -25,3 +25,6 @@
 [submodule "less/lui3/LUI-3_phone-navbar"]
 	path = less/lui3/LUI-3_phone-navbar
 	url = https://github.com/LUI-3/phone-navbar
+[submodule "less/lui3/tablesorter"]
+	path = less/lui3/tablesorter
+	url = https://github.com/christianbach/tablesorter.git
