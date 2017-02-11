@@ -1,4 +1,7 @@
+
+
 <script src="/less/lui3/tablesorter/jquery.tablesorter.min.js"></script>
+
 <script src="/less/lui3/LUI-3_tables/js/lui.tables.sorting.js"></script>
 <h1>Components - <span>Tables - lists</span></h1>
 
@@ -15,7 +18,7 @@
 			<th>Name</th>
 			<th>Type</th>
 			<th>Date</th>
-			<th class="options">Options</th>
+			<th class="a-right">Options</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -26,7 +29,7 @@
 			</td>
 			<td class="block_title" data-title="Type:">Admin template</td>
 			<td data-title="Date:">25.2.2015</td>
-			<td class="options">
+			<td class="a-right">
 				<button class="lui_button xs-block lg-small warning fa_b_pencil">Edit</button>
 				<button class="lui_button xs-block lg-small error fa_b_times">Delete</button>
 			</td>
@@ -38,7 +41,7 @@
 			</td>
 			<td class="block_title" data-title="Type:">Admin template</td>
 			<td data-title="Date:">25.2.2015</td>
-			<td class="options">
+			<td class="a-right">
 				<button class="lui_button xs-block lg-small warning fa_b_pencil">Edit</button>
 				<button class="lui_button xs-block lg-small error fa_b_times">Delete</button>
 			</td>
@@ -50,7 +53,7 @@
 			</td>
 			<td class="block_title" data-title="Type:">Admin template</td>
 			<td data-title="Date:">25.2.2015</td>
-			<td class="options">
+			<td class="a-right">
 				<button class="lui_button xs-block lg-small warning fa_b_pencil">Edit</button>
 				<button class="lui_button xs-block lg-small error fa_b_times">Delete</button>
 			</td>
@@ -61,7 +64,7 @@
 
 <h2>Sortable (jQuery tablesorter)</h2>
 
-<table class="lui_table sortable-js xs-block md-list">
+<table class="lui_table sortable-js xs-block lg-list">
 	<thead>
 		<tr>
 			<th class="id">#</th>
@@ -80,8 +83,8 @@
 			<td data-title="Type:">XXXX</td>
 			<td data-title="Date:">1.1.1920</td>
 			<td class="a-right">
-				<button class="lui_button small warning fa_b_pencil">Edit</button>
-				<button class="lui_button small error fa_b_times">Delete</button>
+				<button class="lui_button xs-block lg-small warning fa_b_pencil">Edit</button>
+				<button class="lui_button xs-block lg-small error fa_b_times">Delete</button>
 			</td>
 		</tr>
 		<tr>
@@ -92,8 +95,8 @@
 			<td data-title="Type:">AAAAA</td>
 			<td data-title="Date:">27.2.2015</td>
 			<td class="a-right">
-				<button class="lui_button small warning fa_b_pencil">Edit</button>
-				<button class="lui_button small error fa_b_times">Delete</button>
+				<button class="lui_button xs-block lg-small warning fa_b_pencil">Edit</button>
+				<button class="lui_button xs-block lg-small error fa_b_times">Delete</button>
 			</td>
 		</tr>
 		<tr>
@@ -104,8 +107,61 @@
 			<td data-title="Type:">ZZZZ</td>
 			<td data-title="Date:">24.12.2999</td>
 			<td class="a-right">
-				<button class="lui_button small warning fa_b_pencil">Edit</button>
-				<button class="lui_button small error fa_b_times">Delete</button>
+				<button class="lui_button xs-block lg-small warning fa_b_pencil">Edit</button>
+				<button class="lui_button xs-block lg-small error fa_b_times">Delete</button>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<h2>Dragable (move row on different line)</h2>
+
+<table class="lui_table draggable-js xs-block lg-list">
+	<thead>
+		<tr>
+			<th class="id">Order</th>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Date</th>
+			<th class="a-right">Options</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-title="ID:"><input readonly class="js-order" type="number" value="1" /></td>
+			<td data-title="Name:">
+				AAA Free Responsive Admin Center
+			</td>
+			<td data-title="Type:">XXXX</td>
+			<td data-title="Date:">1.1.1920</td>
+			<td class="a-right">
+				<button class="lui_button xs-block lg-small warning fa_b_pencil">Edit</button>
+				<button class="lui_button xs-block lg-small error fa_b_times">Delete</button>
+			</td>
+		</tr>
+		<tr>
+			<td data-title="ID:"><input readonly class="js-order" type="number" value="2" /></td>
+			<td data-title="Name:">
+				FFF Free Responsive Admin Center
+			</td>
+			<td data-title="Type:">AAAAA</td>
+			<td data-title="Date:">27.2.2015</td>
+			<td class="a-right">
+				<button class="lui_button xs-block lg-small warning fa_b_pencil">Edit</button>
+				<button class="lui_button xs-block lg-small error fa_b_times">Delete</button>
+			</td>
+		</tr>
+		<tr>
+			<td data-title="ID:"><input readonly class="js-order" type="number" value="3" /></td>
+			<td data-title="Name:">
+				CCC Free Responsive Admin Center
+			</td>
+			<td data-title="Type:">ZZZZ</td>
+			<td data-title="Date:">24.12.2999</td>
+			<td class="a-right">
+				<button class="lui_button xs-block lg-small warning fa_b_pencil">Edit</button>
+				<button class="lui_button xs-block lg-small error fa_b_times">Delete</button>
 			</td>
 		</tr>
 	</tbody>

@@ -28,3 +28,6 @@
 [submodule "less/lui3/tablesorter"]
 	path = less/lui3/tablesorter
 	url = https://github.com/christianbach/tablesorter.git
+[submodule "less/lui3/jqueryui-touch-punch"]
+	path = less/lui3/jqueryui-touch-punch
+	url = https://github.com/furf/jquery-ui-touch-punch.git

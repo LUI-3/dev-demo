@@ -37,6 +37,10 @@
 	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" async></script>
+
+	<!-- jQuery touch events -->
+	<script src="/less/lui3/jqueryui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+	
 	<script src="/js/lui.dev-demo.js" async></script>
 
 	<title>{$page_title} - LUI-3 Framework</title>
