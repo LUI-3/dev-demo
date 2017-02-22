@@ -54,6 +54,13 @@ $config->url = (object) array(
 		"page_title"		=> "Components - column - position - Docs"
 	),
 
+	// GRID - NEW DOCS
+	"docs/component/flexbox-grid/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/flexbox-grid.tpl",
+		"page_title"		=> "Components - Flexbox Grid - Docs"
+	),
+
 	// COMPONENTS
 	"docs/component/reset/" => (object) array(
 		"tpl_file"			=> "index.tpl",

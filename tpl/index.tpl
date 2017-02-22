@@ -81,6 +81,7 @@
 						<li><a {flexi::getHTMLurlactive("/docs/basics/debug-mode/")}>Debug Mode</a></li>
 					</ul>
 
+					<!--
 					<h2>Grid</h2>
 
 					<ul>
@@ -88,17 +89,19 @@
 						<li><a {flexi::getHTMLurlactive("/docs/component/grid-column-size/")}>Grid - column size</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/grid-column-position/")}>Grid - column position</a></li>
 					</ul>
+					-->
 
 					<h2>Components</h2>
 
 					<ul>
-						<li><a {flexi::getHTMLurlactive("/docs/component/reset/")}>Reset <small>in development</small></a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/flexbox-grid/")}>Flexbox Grid</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/reset/")}>Reset <small>beta</small></a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/buttons/")}>Buttons</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-base/")}>Forms - base</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-extras/")}>Forms - extras</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/pagebars/")}>Pagebars</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/tables/")}>Tables</a></li>
-						<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar <small>in development</small></a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar <small>alpha</small></a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/messages/")}>Messages</a></li>
 					</ul>
 				</div>
