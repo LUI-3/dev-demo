@@ -101,7 +101,7 @@
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-extras/")}>Forms - extras</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/pagebars/")}>Pagebars</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/tables/")}>Tables</a></li>
-						<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar <small>alpha</small></a></li>
+						<!--<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar <small>alpha</small></a></li>-->
 						<li><a {flexi::getHTMLurlactive("/docs/component/messages/")}>Messages</a></li>
 					</ul>
 				</div>
