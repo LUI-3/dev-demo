@@ -99,6 +99,7 @@
 						<li><a {flexi::getHTMLurlactive("/docs/component/buttons/")}>Buttons</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-base/")}>Forms - base</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-extras/")}>Forms - extras</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/forms-validator/")}>Forms - validator</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/pagebars/")}>Pagebars</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/tables/")}>Tables</a></li>
 						<!--<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar <small>alpha</small></a></li>-->

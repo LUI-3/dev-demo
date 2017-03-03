@@ -82,6 +82,11 @@ $config->url = (object) array(
 		"tpl_file_content"	=> "docs/component/forms-extras.tpl",
 		"page_title"		=> "Components - forms - extras - Docs"
 	),
+	"docs/component/forms-validator/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/forms-validator.tpl",
+		"page_title"		=> "Components - forms - validator - Docs"
+	),
 	"docs/component/pagebars/" => (object) array(
 		"tpl_file"			=> "index.tpl",
 		"tpl_file_content"	=> "docs/component/pagebars.tpl",
