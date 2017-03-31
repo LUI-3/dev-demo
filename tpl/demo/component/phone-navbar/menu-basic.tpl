@@ -2,29 +2,34 @@
 
 <div class="lui_phone_navbar_overlay opened" data-target="categories">
 	<ul class="menu">
-		<li class="head">
-			Logged in as: <strong>wUFr</strong>
-		</li>
 		<li>
-			<a href="#" class="fa_b_user">
-				View profile
+			<a href="#">
+				Homepage
 			</a>
 		</li>
 		<li>
-			<a href="#" class="fa_b_cog">
-				Settings
+			<a href="#">
+				About us
 			</a>
 		</li>
-		<li class="spacer"></li>
 		<li>
-			<a href="#" class="fa_b_shopping-cart">
-				Orders history
+			<a href="#">
+				Our products
 			</a>
 		</li>
-		<li class="spacer"></li>
 		<li>
-			<a href="#" class="fa_a_sign-out">
-				Logout
+			<a href="#">
+				Reviews
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				Gallery
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				Contact us
 			</a>
 		</li>
 	</ul>
@@ -32,7 +37,7 @@
 
 
 <div class="lui_phone_navbar">
-	<a  data-target="categories" style="pointer-events:none;">
+	<a class="active" data-target="categories">
 		<div class="fa_b_navicon">Menu</div>
 	</a>
 	<a data-target="search" style="pointer-events:none;">
@@ -41,7 +46,7 @@
 	<a style="pointer-events:none;">
 		<div class="fa_b_home">Home</div>
 	</a>
-	<a class="active" data-target="user">
+	<a data-target="user" style="pointer-events:none;">
 		<div class="fa_b_user">User</div>
 	</a>
 	<a data-target="basket" style="pointer-events:none;">
