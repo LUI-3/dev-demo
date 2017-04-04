@@ -102,6 +102,11 @@ $config->url = (object) array(
 		"tpl_file_content"	=> "docs/component/phone-navbar.tpl",
 		"page_title"		=> "Components - phone - navbar - Docs"
 	),
+	"demo/component/phone-navbar/overview/" => (object) array(
+		"tpl_file"			=> "index-empty.tpl",
+		"tpl_file_content"	=> "demo/component/phone-navbar/overview.tpl",
+		"page_title"		=> "Components - phone - navbar - Docs"
+	),
 	"demo/component/phone-navbar/menu/user/" => (object) array(
 		"tpl_file"			=> "index-empty.tpl",
 		"tpl_file_content"	=> "demo/component/phone-navbar/menu-user.tpl",
