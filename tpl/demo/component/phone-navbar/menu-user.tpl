@@ -1,6 +1,6 @@
 
 
-<div class="lui_phone_navbar_overlay opened" data-target="categories">
+<div class="lui_phone_navbar_overlay opened" data-target="user">
 	<ul class="menu">
 		<li class="head">
 			Logged in as: <strong>wUFr</strong>
@@ -32,7 +32,7 @@
 
 
 <div class="lui_phone_navbar">
-	<a  data-target="categories" style="pointer-events:none;">
+	<a data-target="categories" style="pointer-events:none;">
 		<div class="fa_b_navicon">Menu</div>
 	</a>
 	<a data-target="search" style="pointer-events:none;">

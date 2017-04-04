@@ -112,6 +112,20 @@ $config->url = (object) array(
 		"tpl_file_content"	=> "demo/component/phone-navbar/menu-basic.tpl",
 		"page_title"		=> "Components - phone - navbar - Docs"
 	),
+
+	"demo/component/phone-navbar/basket/empty/" => (object) array(
+		"tpl_file"			=> "index-empty.tpl",
+		"tpl_file_content"	=> "demo/component/phone-navbar/basket-empty.tpl",
+		"page_title"		=> "Components - phone - navbar - Docs"
+	),
+
+	"demo/component/phone-navbar/basket/filled/" => (object) array(
+		"tpl_file"			=> "index-empty.tpl",
+		"tpl_file_content"	=> "demo/component/phone-navbar/basket-filled.tpl",
+		"page_title"		=> "Components - phone - navbar - Docs"
+	),
+
+
 	"docs/component/messages/" => (object) array(
 		"tpl_file"			=> "index.tpl",
 		"tpl_file_content"	=> "docs/component/messages.tpl",
