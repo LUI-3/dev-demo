@@ -43,3 +43,34 @@
 <p>
 	<a href="/demo/component/phone-navbar/basket/filled/" class="lui_button primary">Open demo</a>
 </p>
+
+
+<h2>Search</h2>
+
+<div class="row va-top fill">
+	<div class="col-xs-12 col-lg-6 col-xxl-4">
+		<iframe src="/demo/component/phone-navbar/search/" frameborder="0" style="width:320px;height:480px;border:10px solid black;border-radius: 10px;"></iframe>
+		<p>
+			<a href="/demo/component/phone-navbar/search/" class="lui_button primary">Open demo</a>
+		</p>
+	</div>
+	<div class="col-xs-12 col-lg-6 col-xxl-4">
+		<iframe src="/demo/component/phone-navbar/search/loading/" frameborder="0" style="width:320px;height:480px;border:10px solid black;border-radius: 10px;"></iframe>
+		<p>
+			<a href="/demo/component/phone-navbar/search/loading/" class="lui_button primary">Open demo</a>
+		</p>
+	</div>
+	<div class="col-xs-12 col-lg-6 col-xxl-4">
+		<iframe src="/demo/component/phone-navbar/search/notfound/" frameborder="0" style="width:320px;height:480px;border:10px solid black;border-radius: 10px;"></iframe>
+		<p>
+			<a href="/demo/component/phone-navbar/search/notfound/" class="lui_button primary">Open demo</a>
+		</p>
+	</div>
+	<div class="col-xs-12 col-lg-6 col-xxl-4">
+		<iframe src="/demo/component/phone-navbar/search/found/" frameborder="0" style="width:320px;height:480px;border:10px solid black;border-radius: 10px;"></iframe>
+		<p>
+			<a href="/demo/component/phone-navbar/search/found/" class="lui_button primary">Open demo</a>
+		</p>
+	</div>
+</div>
+

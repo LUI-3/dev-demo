@@ -130,6 +130,30 @@ $config->url = (object) array(
 		"page_title"		=> "Components - phone - navbar - Docs"
 	),
 
+	"demo/component/phone-navbar/search/" => (object) array(
+		"tpl_file"			=> "index-empty.tpl",
+		"tpl_file_content"	=> "demo/component/phone-navbar/search.tpl",
+		"page_title"		=> "Components - phone - navbar - Docs"
+	),
+
+	"demo/component/phone-navbar/search/loading/" => (object) array(
+		"tpl_file"			=> "index-empty.tpl",
+		"tpl_file_content"	=> "demo/component/phone-navbar/search-loading.tpl",
+		"page_title"		=> "Components - phone - navbar - Docs"
+	),
+
+	"demo/component/phone-navbar/search/notfound/" => (object) array(
+		"tpl_file"			=> "index-empty.tpl",
+		"tpl_file_content"	=> "demo/component/phone-navbar/search-notfound.tpl",
+		"page_title"		=> "Components - phone - navbar - Docs"
+	),
+
+	"demo/component/phone-navbar/search/found/" => (object) array(
+		"tpl_file"			=> "index-empty.tpl",
+		"tpl_file_content"	=> "demo/component/phone-navbar/search-found.tpl",
+		"page_title"		=> "Components - phone - navbar - Docs"
+	),
+
 
 	"docs/component/messages/" => (object) array(
 		"tpl_file"			=> "index.tpl",
