@@ -40,7 +40,12 @@
 </div>
 
 <div class="lui_phone_navbar_overlay" data-target="search">
-	work in progress
+	<div class="search">
+		<form action="">
+			<input type="text" placeholder="Enter search term" />
+			<button class="lui_button secondary fa_b_search"></button>
+		</form>
+	</div>
 </div>
 
 <div class="lui_phone_navbar_overlay" data-target="user">
