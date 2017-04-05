@@ -1,6 +1,6 @@
 {strip}
 <!DOCTYPE HTML>
-<html class="full_height noscroll">
+<html class="full_height">
 <head>
 	<meta charset="utf-8" />
 
