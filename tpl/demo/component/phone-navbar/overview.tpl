@@ -1,7 +1,9 @@
-<div style="padding:30px 0;text-align:center;">
+<div class="overlay_demo_page">
 	Click the buttons!
 	<br />
 	<small>Except "home" that doesn't open anything</small>
+	<br /><br />
+	<small><em>Photo by <a href="//jakubkokes.com" target="_blank">jakubkokes.com</a></em></small>
 </div>
 
 <div class="lui_phone_navbar_overlay" data-target="categories">

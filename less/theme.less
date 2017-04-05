@@ -2,11 +2,17 @@
 // MASTER THEME FILE
 //
 
+
 body {
 	//min-width: 320px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #222222;
+}
+
+html.full_height,
+html.full_height body {
+	height: 100%;
 }
 
 @color_lui_blue: #00a0fd;
@@ -23,6 +29,7 @@ body {
 //
 .paypal_donate_button {
 	padding: 10px 0;
+
 	&:hover {
 		opacity: 0.8;
 	}
@@ -1150,6 +1157,22 @@ pre.demo_source {
 		content: attr(data-title);
 		font-size: 13px;
 		font-weight: bold;
+	}
+}
+
+//
+// DEMO - OVERLAY PAGE (LUI-3_phone-navbar)
+//
+.overlay_demo_page {
+	height: 100%;
+	background: url(/img/photo_demo.jpg) center no-repeat;
+	background-size: cover;
+	padding: 15px;
+	text-align: center;
+	color: #403d37;
+
+	a:hover {
+		color: black;
 	}
 }
 
