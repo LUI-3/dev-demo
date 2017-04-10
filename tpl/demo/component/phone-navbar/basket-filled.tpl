@@ -124,7 +124,7 @@
 			<strong>15 697 Kč (580 EUR)</strong> with VAT
 		</div>
 		<div class="actions">
-			<div class="lui_button xs-block primary fa_b_shopping-cart">Show basket</div>
+			<a href="#" class="lui_button xs-block primary fa_b_shopping-cart">Show basket</a>
 		</div>
 	</div>
 </div>
