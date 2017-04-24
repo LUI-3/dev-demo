@@ -73,7 +73,17 @@ Or you can download <code>Forms - base</code> from its Github repository manuall
 			</div>
 			<div class="col-xs-12 col-md-6">
 				<div class="value">
-					<input type="text" />
+					<input type="text" placeholder="Placeholder" />
+				</div>
+			</div>
+		</div>
+		<div class="item row va-center">
+			<div class="col-xs-12 col-md-4">
+				<label class="label xs-block md-inline">Input</label>
+			</div>
+			<div class="col-xs-12 col-md-6">
+				<div class="value">
+					<input type="text" value="Value content" />
 				</div>
 			</div>
 		</div>
@@ -87,11 +97,11 @@ Or you can download <code>Forms - base</code> from its Github repository manuall
 <form class="lui_form">
 	<div class="item row va-center">
 		<div class="col-xs-12 col-md-4">
-			<label class="label xs-block md-inline">Input w/ placeholder readonly</label>
+			<label class="label xs-block md-inline">Input w/ value readonly</label>
 		</div>
 		<div class="col-xs-12 col-md-6">
 			<div class="value">
-				<input type="text" placeholder="Lorem ipsum dolor" readonly="readonly" />
+				<input type="text" value="Lorem ipsum dolor" readonly="readonly" />
 			</div>
 		</div>
 	</div>
@@ -103,11 +113,11 @@ Or you can download <code>Forms - base</code> from its Github repository manuall
 	<form class="lui_form">
 		<div class="item row va-center">
 			<div class="col-xs-12 col-md-4">
-				<label class="label xs-block md-inline">Input w/ placeholder readonly</label>
+				<label class="label xs-block md-inline">Input w/ value readonly</label>
 			</div>
 			<div class="col-xs-12 col-md-6">
 				<div class="value">
-					<input type="text" placeholder="Lorem ipsum dolor" readonly="readonly" />
+					<input type="text" value="Lorem ipsum dolor" readonly="readonly" />
 				</div>
 			</div>
 		</div>
@@ -121,11 +131,11 @@ Or you can download <code>Forms - base</code> from its Github repository manuall
 <form class="lui_form">
 	<div class="item row va-center">
 		<div class="col-xs-12 col-md-4">
-			<label class="label xs-block md-inline">Input w/ placeholder readonly</label>
+			<label class="label xs-block md-inline">Input w/ value disabled</label>
 		</div>
 		<div class="col-xs-12 col-md-6">
 			<div class="value">
-				<input type="text" placeholder="Lorem ipsum dolor" disabled="disabled" />
+				<input type="text" value="Lorem ipsum dolor" disabled="disabled" />
 			</div>
 		</div>
 	</div>
@@ -137,11 +147,11 @@ Or you can download <code>Forms - base</code> from its Github repository manuall
 	<form class="lui_form">
 		<div class="item row va-center">
 			<div class="col-xs-12 col-md-4">
-				<label class="label xs-block md-inline">Input w/ placeholder readonly</label>
+				<label class="label xs-block md-inline">Input w/ value disabled</label>
 			</div>
 			<div class="col-xs-12 col-md-6">
 				<div class="value">
-					<input type="text" placeholder="Lorem ipsum dolor" disabled="disabled" />
+					<input type="text" value="Lorem ipsum dolor" disabled="disabled" />
 				</div>
 			</div>
 		</div>
