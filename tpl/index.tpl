@@ -40,7 +40,7 @@
 
 	<!-- jQuery touch events -->
 	<script src="/less/lui3/jqueryui-touch-punch/jquery.ui.touch-punch.min.js"></script>
-	
+
 	<script src="/js/lui.dev-demo.js" async></script>
 
 	<title>{$page_title} - LUI-3 Framework</title>
@@ -81,16 +81,6 @@
 						<li><a {flexi::getHTMLurlactive("/docs/basics/debug-mode/")}>Debug Mode</a></li>
 					</ul>
 
-					<!--
-					<h2>Grid</h2>
-
-					<ul>
-						<li><a {flexi::getHTMLurlactive("/docs/component/grid-container/")}>Grid - container</a></li>
-						<li><a {flexi::getHTMLurlactive("/docs/component/grid-column-size/")}>Grid - column size</a></li>
-						<li><a {flexi::getHTMLurlactive("/docs/component/grid-column-position/")}>Grid - column position</a></li>
-					</ul>
-					-->
-
 					<h2>Components</h2>
 
 					<ul>
@@ -99,10 +89,10 @@
 						<li><a {flexi::getHTMLurlactive("/docs/component/buttons/")}>Buttons</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-base/")}>Forms - base</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-extras/")}>Forms - extras</a></li>
-						<li><a {flexi::getHTMLurlactive("/docs/component/forms-validator/")}>Forms - validator</a></li>
+						<!--<li><a {flexi::getHTMLurlactive("/docs/component/forms-validator/")}>Forms - validator</a></li>-->
 						<li><a {flexi::getHTMLurlactive("/docs/component/pagebars/")}>Pagebars</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/tables/")}>Tables</a></li>
-						<!--<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar <small>alpha</small></a></li>-->
+						<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar <small>beta</small></a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/messages/")}>Messages</a></li>
 					</ul>
 				</div>
