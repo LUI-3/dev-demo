@@ -85,14 +85,14 @@
 
 					<ul>
 						<li><a {flexi::getHTMLurlactive("/docs/component/flexbox-grid/")}>Flexbox Grid</a></li>
-						<li><a {flexi::getHTMLurlactive("/docs/component/reset/")}>Reset <small>beta</small></a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/reset/")}>Reset</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/buttons/")}>Buttons</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-base/")}>Forms - base</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-extras/")}>Forms - extras</a></li>
 						<!--<li><a {flexi::getHTMLurlactive("/docs/component/forms-validator/")}>Forms - validator</a></li>-->
 						<li><a {flexi::getHTMLurlactive("/docs/component/pagebars/")}>Pagebars</a></li>
-						<li><a {flexi::getHTMLurlactive("/docs/component/tables/")}>Tables</a></li>
-						<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar <small>beta</small></a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/tables/")}>Tables <small>WIP</small></a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar <small>WIP</small></a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/messages/")}>Messages</a></li>
 					</ul>
 				</div>
