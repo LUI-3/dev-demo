@@ -169,7 +169,7 @@ $config->url = (object) array(
 	"docs/component/prefixer/animation/" => (object) array(
 		"tpl_file"			=> "index.tpl",
 		"tpl_file_content"	=> "docs/component/prefixer/animation.tpl",
-		"page_title"		=> "Components - Prefixer - Animations - Docs"
+		"page_title"		=> "Components - Prefixer - animation - Docs"
 	),
 	"docs/component/prefixer/border-radius/" => (object) array(
 		"tpl_file"			=> "index.tpl",
@@ -190,6 +190,31 @@ $config->url = (object) array(
 		"tpl_file"			=> "index.tpl",
 		"tpl_file_content"	=> "docs/component/prefixer/filter.tpl",
 		"page_title"		=> "Components - Prefixer - filter - Docs"
+	),
+	"docs/component/prefixer/flexbox/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/prefixer/flexbox.tpl",
+		"page_title"		=> "Components - Prefixer - flexbox - Docs"
+	),
+	"docs/component/prefixer/gradient/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/prefixer/gradient.tpl",
+		"page_title"		=> "Components - Prefixer - gradient - Docs"
+	),
+	"docs/component/prefixer/transform/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/prefixer/transform.tpl",
+		"page_title"		=> "Components - Prefixer - transform - Docs"
+	),
+	"docs/component/prefixer/transition/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/prefixer/transition.tpl",
+		"page_title"		=> "Components - Prefixer - transition - Docs"
+	),
+	"docs/component/prefixer/user-select/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/prefixer/user-select.tpl",
+		"page_title"		=> "Components - Prefixer - user-select - Docs"
 	),
 
 	// OTHER
