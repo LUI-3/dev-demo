@@ -154,11 +154,42 @@ $config->url = (object) array(
 		"page_title"		=> "Components - phone - navbar - Docs"
 	),
 
-
 	"docs/component/messages/" => (object) array(
 		"tpl_file"			=> "index.tpl",
 		"tpl_file_content"	=> "docs/component/messages.tpl",
 		"page_title"		=> "Components - messages - Docs"
+	),
+
+	// PREFIXER
+	"docs/component/prefixers/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/prefixer/prefixers.tpl",
+		"page_title"		=> "Components - Prefixers - Docs"
+	),
+	"docs/component/prefixer/animation/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/prefixer/animation.tpl",
+		"page_title"		=> "Components - Prefixer - Animations - Docs"
+	),
+	"docs/component/prefixer/border-radius/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/prefixer/border-radius.tpl",
+		"page_title"		=> "Components - Prefixer - border-radius - Docs"
+	),
+	"docs/component/prefixer/box-sizing/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/prefixer/box-sizing.tpl",
+		"page_title"		=> "Components - Prefixer - box-sizing - Docs"
+	),
+	"docs/component/prefixer/clearer/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/prefixer/clearer.tpl",
+		"page_title"		=> "Components - Prefixer - clearer - Docs"
+	),
+	"docs/component/prefixer/filter/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/prefixer/filter.tpl",
+		"page_title"		=> "Components - Prefixer - filter - Docs"
 	),
 
 	// OTHER

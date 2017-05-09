@@ -84,6 +84,21 @@
 					<h2>Components</h2>
 
 					<ul>
+						<li>
+							<a {flexi::getHTMLurlactive("/docs/component/prefixers/")}>Prefixers</a>
+							<ul>
+								<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/animation/")}>animation</a></li>
+								<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/border-radius/")}>border-radius</a></li>
+								<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/box-sizing/")}>box-sizing</a></li>
+								<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/clearer/")}>clearer</a></li>
+								<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/filter/")}>filter</a></li>
+								<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/flexbox/")}>flexbox</a></li>
+								<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/gradient/")}>gradient</a></li>
+								<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/transform/")}>transform</a></li>
+								<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/transition/")}>transition</a></li>
+								<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/user-select/")}>user-select</a></li>
+							</ul>
+						</li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/flexbox-grid/")}>Flexbox Grid</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/reset/")}>Reset</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/buttons/")}>Buttons</a></li>

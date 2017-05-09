@@ -935,6 +935,15 @@ aside.site_sidebar {
 		}
 	}
 
+	h2 {
+		padding: 10px;
+		font-size: 18px;
+		font-weight: bold;
+		color: @color_lui_blue;
+		background: white;
+	}
+
+	// SHOP/HIDE MENU ON MOBILE DEVICES
 	.menu_wrapper {
 		display: none;
 
@@ -947,25 +956,20 @@ aside.site_sidebar {
 		}
 	}
 
-	h2 {
-		padding: 10px;
-		font-size: 18px;
-		font-weight: bold;
-		color: @color_lui_blue;
-		background: white;
-	}
-
-	ul {
+	// FIRST LEVEL - LIST
+	.menu_wrapper > ul {
 		list-style: none;
 		padding: 0px 0 5px 0;
 		margin: 0;
 		background: white;
 
-		li {
+		// FIRST LEVEL - ITEM
+		& > li {
 			display: block;
 			padding: 0;
 
-			a {
+			// FIRST LEVEL - LINK
+			& > a {
 				display: block;
 				padding: 10px;
 				border-bottom: 1px solid #f2f2f2;
@@ -983,7 +987,6 @@ aside.site_sidebar {
 				}
 
 				&.active {
-					font-weight: bold;
 					background: @color_lui_blue;
 					border-bottom-color: @color_lui_blue;
 					color: white;
@@ -1000,6 +1003,47 @@ aside.site_sidebar {
 
 				&.active > small {
 					background: #0290e3;
+				}
+			}
+
+			// SECOND LEVEL - LIST
+			& > ul {
+				list-style: none;
+				padding: 0 0 0 20px;
+				margin: 0;
+				border-bottom: 1px solid #f2f2f2;
+
+				// SECOND LEVEL - ITEM
+				& > li {
+					padding: 0;
+					border-bottom: 1px solid #f2f2f2;
+
+					&:last-child {
+						border-bottom: 0;
+					}
+
+					// SECOND LEVEL - LINK
+					a {
+						display: block;
+						padding: 7px 10px;
+						font-size: 13px;
+						text-decoration: none;
+
+						&:before {
+							padding-right: 6px;
+						}
+
+						&:hover {
+							background: #f5f7f9;
+							border-bottom-color: #f5f7f9;
+							color: black;
+						}
+
+						&.active {
+							background: @color_lui_blue;
+							color: white;
+						}
+					}
 				}
 			}
 		}
@@ -1206,6 +1250,64 @@ pre.demo_source {
 	padding: 15px;
 	background: white;
 	border: 1px solid #d1dde6;
+}
+
+
+//
+// PREFIXER - FILTER - DEMOS
+//
+.demo_filter {
+	width: 350px;
+
+	img {
+		display: block;
+		width: 100%;
+		max-width: 250px;
+	}
+
+	&.this {
+		.lui.filter.this(blur(2px));
+	}
+
+	&.brightness {
+		.lui.filter.brightness(180%);
+	}
+
+	&.contrast {
+		.lui.filter.contrast(50%);
+	}
+
+	&.contrast2 {
+		.lui.filter.contrast(150%);
+	}
+
+	&.grayscale {
+		.lui.filter.grayscale(50%);
+	}
+
+	&.grayscale2 {
+		.lui.filter.grayscale(150%);
+	}
+
+	&.hue-rotate {
+		.lui.filter.hue-rotate(-50deg);
+	}
+
+	&.hue-rotate2 {
+		.lui.filter.hue-rotate(150deg);
+	}
+
+	&.invert {
+		.lui.filter.invert(100%);
+	}
+
+	&.saturate {
+		.lui.filter.saturate(5);
+	}
+
+	&.sepia {
+		.lui.filter.sepia(75%);
+	}
 }
 
 

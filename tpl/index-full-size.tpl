@@ -39,7 +39,7 @@
 
 	<!-- jQuery touch events -->
 	<script src="/less/lui3/jqueryui-touch-punch/jquery.ui.touch-punch.min.js"></script>
-	
+
 	<script src="/js/lui.dev-demo.js" async></script>
 
 	<title>{$page_title} - LUI-3 Framework</title>
