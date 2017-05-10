@@ -1,9 +1,18 @@
+<h1>Components - <span>Prefixer - transform</span></h1>
+
+<ul>
+	<li><a href="#transform">transform</a></li>
+	<li><a href="#transform-origin">transform-origin</a></li>
+	<li><a href="#transform-style">transform-style</a></li>
+	<li><a href="#transform-rotate">transform: rotate(...)</a></li>
+	<li><a href="#transform-scale">transform: scale(...)</a></li>
+	<li><a href="#transform-translate">transform: translate(...)</a></li>
+	<li><a href="#transform-translategpu">transform: translate(...) with gpu acceleration</a></li>
+	<li><a href="#transform-translate3D">transform: translate3d(...)</a></li>
+</ul>
 
 
-
-
-
-<h2>transform</h2>
+<h2 id="transform">transform</h2>
 
 <pre class="demo_source less" data-title="Mixins in Less">
 .lui.transform.this(@args);
@@ -17,7 +26,7 @@ transform: @args;
 </pre>
 
 
-<h2>transform-origin</h2>
+<h2 id="transform-origin">transform-origin</h2>
 
 <pre class="demo_source less" data-title="Mixins in Less">
 .lui.transform.origin(@args);
@@ -31,7 +40,7 @@ transform-origin: @args;
 </pre>
 
 
-<h2>transform-style</h2>
+<h2 id="transform-style">transform-style</h2>
 
 <pre class="demo_source less" data-title="Mixins in Less">
 .lui.transform.style(@style);
@@ -45,7 +54,7 @@ transform-style: @style;
 </pre>
 
 
-<h2>transform: rotate(...)</h2>
+<h2 id="transform-rotate">transform: rotate(...)</h2>
 
 <pre class="demo_source less" data-title="Mixins in Less">
 .lui.transform.rotate(@deg);
@@ -59,7 +68,7 @@ transform: rotate(@deg);
 </pre>
 
 
-<h2>transform: scale(...)</h2>
+<h2 id="transform-scale">transform: scale(...)</h2>
 
 <pre class="demo_source less" data-title="Mixins in Less">
 .lui.transform.scale(@scale);
@@ -73,7 +82,7 @@ transform: scale(@scale);
 </pre>
 
 
-<h2>transform: translate(...)</h2>
+<h2 id="transform-translate">transform: translate(...)</h2>
 
 <pre class="demo_source less" data-title="Mixins in Less">
 .lui.transform.translate(@x,@y);
@@ -87,7 +96,7 @@ transform: translate(@x,@y);
 </pre>
 
 
-<h2>transform: translate(...) with gpu acceleration</h2>
+<h2 id="transform-translategpu">transform: translate(...) with gpu acceleration</h2>
 
 <p>
 	<strong>TODO:</strong> Recode mixing - use <code>translateZ()</code> instead
@@ -109,7 +118,7 @@ transform: translate3d(@x,@y,0);
 </pre>
 
 
-<h2>.translate3d(...)</h2>
+<h2 id="transform-translate3D">transform: translate3d(...)</h2>
 
 <pre class="demo_source less" data-title="Mixins in Less">
 .lui.transform.translate3d(@x,@y,@z);
