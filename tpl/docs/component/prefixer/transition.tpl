@@ -1,6 +1,14 @@
 <h1>Components - <span>Prefixer - transition</span></h1>
 
-<h2>transition</h2>
+<ul>
+	<li><a href="#transition">transition</a></li>
+	<li><a href="#transition-delay">transition-delay</a></li>
+	<li><a href="#transition-duration">transition-duration</a></li>
+	<li><a href="#transition-property">transition-property</a></li>
+	<li><a href="#transition-timing-function">transition-timing-function</a></li>
+</ul>
+
+<h2 id="transition">transition</h2>
 
 <pre class="demo_source less" data-title="Mixins in Less">
 .lui.transition.this(@args);
@@ -14,7 +22,7 @@ transition: @args;
 </pre>
 
 
-<h2>transition-delay</h2>
+<h2 id="transition-delay">transition-delay</h2>
 
 <pre class="demo_source less" data-title="Mixins in Less">
 .lui.transition.delay(@delay);
@@ -28,7 +36,7 @@ transition-delay: @delay;
 </pre>
 
 
-<h2>transition-duration</h2>
+<h2 id="transition-duration">transition-duration</h2>
 
 <pre class="demo_source less" data-title="Mixins in Less">
 .lui.transition.duration(@duration);
@@ -42,7 +50,7 @@ transition-duration: @duration;
 </pre>
 
 
-<h2>transition-property</h2>
+<h2 id="transition-property">transition-property</h2>
 
 <pre class="demo_source less" data-title="Mixins in Less">
 .lui.transition.property(@property:all);
@@ -56,7 +64,7 @@ transition-property: @property;
 </pre>
 
 
-<h2>transition-timing-function</h2>
+<h2 id="transition-timing-function">transition-timing-function</h2>
 
 <pre class="demo_source less" data-title="Mixins in Less">
 .lui.transition.timing-function(@function:ease);
