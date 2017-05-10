@@ -1,6 +1,10 @@
 <h1>Components - <span>Flexbox Grid</span></h1>
 
 <p>
+	<strong>Documentation is still work in progress, but grid itself is ready to use!</strong>
+</p>
+
+<p>
 	LUI-3 framework contains one of the most advanced grid systems you can find. Forget floats. With flexbox you can do way more, than just putting few columns beside each other. From setting up both horizontal and vertical alignment of columns, changing spacing, setting their height to fill current row or to completely changing their order and all of these settings can be completely different for each breakpoint.
 </p>
 
