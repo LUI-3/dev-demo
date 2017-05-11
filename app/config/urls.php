@@ -154,11 +154,31 @@ $config->url = (object) array(
 		"page_title"		=> "Components - phone - navbar - Docs"
 	),
 
+	// DEMO - FLEXBOX GRID
+	"docs/component/flexbox-grid/containers/" => (object) array(
+		"tpl_file"			=> "demo/component/flexbox-grid/index.tpl",
+		"tpl_file_content"	=> "demo/component/flexbox-grid/containers.tpl",
+		"page_title"		=> "Components - Flexbox Grid - Containers - Docs"
+	),
+	"docs/component/flexbox-grid/alignment/" => (object) array(
+		"tpl_file"			=> "demo/component/flexbox-grid/index.tpl",
+		"tpl_file_content"	=> "demo/component/flexbox-grid/alignment.tpl",
+		"page_title"		=> "Components - Flexbox Grid - Alignment - Docs"
+	),
+	"docs/component/flexbox-grid/columns/" => (object) array(
+		"tpl_file"			=> "demo/component/flexbox-grid/index.tpl",
+		"tpl_file_content"	=> "demo/component/flexbox-grid/columns.tpl",
+		"page_title"		=> "Components - Flexbox Grid - Columns - Demo"
+	),
+
+
+
 	"docs/component/messages/" => (object) array(
 		"tpl_file"			=> "index.tpl",
 		"tpl_file_content"	=> "docs/component/messages.tpl",
 		"page_title"		=> "Components - messages - Docs"
 	),
+
 
 	// PREFIXER
 	"docs/component/prefixers/" => (object) array(

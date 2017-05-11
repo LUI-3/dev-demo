@@ -4,6 +4,38 @@
 	<strong>Documentation is still work in progress, but grid itself is ready to use!</strong>
 </p>
 
+<ul>
+	<li>
+		<a href="#containers">Containers</a>
+		<ul>
+			<li><a href="#containers-breakpoint-width">Breakpoints and widths</a></li>
+			<li><a href="#containers-max-width">Maximum container width</a></li>
+			<li><a href="#containers-fluid">Fluid containers</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#rows">Rows</a>
+		<ul>
+			<li><a href="#rows-alignment">Alignment</a></li>
+			<li><a href="#rows-alignment-breakpoint">Alignment per breakpoint</a></li>
+			<li><a href="#rows-spacing">Horizontal spacing</a></li>
+			<li><a href="#rows-spacing-breakpoint">Horizontal spacing per breakpoint</a></li>
+			<li><a href="#rows-vertical-space-fill">Vertical space filling</a></li>
+			<li><a href="#rows-vertical-space-fill-breakpoint">Vertical space filling per breakpoint</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#columns">Columns</a>
+		<ul>
+			<li><a href="#columns-basics">Basic grid</a></li>
+			<li><a href="#columns-responsive">Responsive grid</a></li>
+			<li><a href="">Additional sizes (TODO)</a></li>
+			<li><a href="">Columns spacing (TODO)</a></li>
+			<li><a href="#columns-order-breakpoint">Order per breakpoint</a></li>
+		</ul>
+	</li>
+</ul>
+
 <p>
 	LUI-3 framework contains one of the most advanced grid systems you can find. Forget floats. With flexbox you can do way more, than just putting few columns beside each other. From setting up both horizontal and vertical alignment of columns, changing spacing, setting their height to fill current row or to completely changing their order and all of these settings can be completely different for each breakpoint.
 </p>
@@ -44,10 +76,14 @@
 </div>
 
 
-<h2>Containers</h2>
+<h2 id="containers">Containers</h2>
 
 <p>
 	Containers are mainly used to wrap website content area and center it in the middle, which you can see on this website itself, where sidebar and content are not on full width of your browser window, unless you are reading this on a device with smaller screen :)
+</p>
+
+<p>
+	<a href="/docs/component/flexbox-grid/containers/" target="_blank" class="lui_button primary fa_a_external-link-square">Containers demo</a>
 </p>
 
 <pre class="demo_source html" data-title="Basic grid">
@@ -67,7 +103,7 @@
 
 <br />
 
-<h3>Breakpoints and container widths</h3>
+<h3 id="containers-breakpoint-width">Breakpoints and container widths</h3>
 
 <p>
 	Each <code>.container</code> will adjust its width based on configuration set in main <code>grid/grid.config.less</code> file, which is part of <code>LUI-3_base</code>
@@ -115,7 +151,7 @@
 	You can notice XS breakpoint does not have start point and XXXL breakpoint does not have end point. If you want to modify breakpoint resolution, you need to change at least 2 variables
 </p>
 
-<h3>Specifying maximum width</h3>
+<h3 id="containers-max-width">Specifying maximum width</h3>
 
 <p>
 	Maximum width of <code>.container</code> is specified by adding <code>.max-XYZ</code> class. If you want your container to be maximum width of "XL" (actual size is set in config), you can do by adding <code>.max-xl</code>
@@ -129,7 +165,7 @@
 '))}
 </pre>
 
-<h3>Fluid containers</h3>
+<h3 id="containers-fluid">Fluid containers</h3>
 
 <p>
 	making <code>.container</code> 100% width of parent can be done by simply adding <code>.fluid</code> class.
@@ -143,17 +179,27 @@
 '))}
 </pre>
 
+<p>
+	<a href="/docs/component/flexbox-grid/containers/" target="_blank" class="lui_button primary fa_a_external-link-square">Containers demo</a>
+</p>
 
-<h2>Rows</h2>
+<hr />
+
+
+<h2 id="rows">Rows</h2>
 
 <p>
 	are used to wrap around <code>.col</code> elements. Grid system won't work without <code>.row</code> wrapper, unless you specify your own flexbox settings.
 </p>
 
-<h3>Alignment</h3>
+<h3 id="rows-alignment">Alignment</h3>
 
 <p>
 	Column alignment can be set using various classes
+</p>
+
+<p>
+	<a href="/docs/component/flexbox-grid/alignment/" target="_blank" class="lui_button primary fa_a_external-link-square">Alignment demo</a>
 </p>
 
 <pre class="demo_source less" data-title="Horizontal alignment">
@@ -185,11 +231,16 @@
 </pre>
 
 
-<h3>Alignment per breakpoint</h3>
+<h3 id="rows-alignment-breakpoint">Alignment per breakpoint</h3>
 
 <p>
 	Alignment configuration can be specified for each breakpoint using classes bellow:
 </p>
+
+<p>
+	<a href="/docs/component/flexbox-grid/alignment/" target="_blank" class="lui_button primary fa_a_external-link-square">Alignment demo</a>
+</p>
+
 
 <pre class="demo_source less" data-title="XS Breakpoint">
 {trim(htmlspecialchars('
@@ -300,7 +351,7 @@
 '))}
 </pre>
 
-<h3>Spacing columns across</h3>
+<h3 id="rows-spacing">Horizontal spacing</h3>
 
 <p>
 	In some cases you may need <code>.col</code> to spaced across whole <code>.row</code>. Ideal when you need logo of website on left, search input in the middle and basket on right
@@ -340,7 +391,7 @@
 
 <br />
 
-<h3>Spacing columns across per breakpoint</h3>
+<h3 id="rows-spacing-breakpoint">Horizontal spacing per breakpoint</h3>
 
 <pre class="demo_source less" data-title="Classnames">
 {trim(htmlspecialchars('
@@ -356,7 +407,7 @@
 
 <br />
 
-<h3>Fill space vertically</h3>
+<h3 id="rows-vertical-space-fill">Fill space vertically</h3>
 
 <p>In this case <code>.row</code> has fixed height of 150px. This can be used even when hight is set by the highest <code>.col</code> inside <code>.row</code></p>
 
@@ -396,7 +447,7 @@
 
 <br />
 
-<h3>Fill space vertically per breakpoint</h3>
+<h3 id="rows-vertical-space-fill-breakpoint">Fill space vertically per breakpoint</h3>
 
 <pre class="demo_source less" data-title="Classnames">
 {trim(htmlspecialchars('
@@ -424,53 +475,24 @@
 '))}
 </pre>
 
-<h2>Columns</h2>
+<h2 id="columns">Columns</h2>
 
 <p>
 	Each <code>.col</code> needs to have its size set via class. LUI-3 has various ways of setting <code>.col</code> width, from basic 12 column grid system, to extra sizes like "5th" or percents.
 </p>
 
-<h3>Basic grid</h3>
+
+<h3 id="columns-basic">Basic grid</h3>
 
 <pre class="demo_source html" data-title="Static grid">
 {trim(htmlspecialchars('
 <div class="container">
 	<div class="row">
-		<div class="col-1 demo_col">
-			1
+		<div class="col-6 demo_col">
+			<code>.col-6</code>
 		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
+		<div class="col-6 demo_col">
+			<code>.col-6</code>
 		</div>
 	</div>
 </div>
@@ -479,96 +501,32 @@
 
 <div class="container demo" style="width:100%;">
 	<div class="row">
-		<div class="col-1 demo_col">
-			1
+		<div class="col-6 demo_col">
+			<code>.col-6</code>
 		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
-		</div>
-		<div class="col-1 demo_col">
-			1
+		<div class="col-6 demo_col">
+			<code>.col-6</code>
 		</div>
 	</div>
 </div>
+
+<p>
+	<a href="/docs/component/flexbox-grid/columns/" target="_blank" class="lui_button primary fa_a_external-link-square">View all available column sizes</a>
+</p>
+
+<br />
+
+<h3 id="columns-responsive">Responsive grid</h3>
 
 <pre class="demo_source html" data-title="Responsive grid">
 {trim(htmlspecialchars('
 <div class="container">
 	<div class="row">
-		<div class="col-xs-12 col-md-1">
-			xs-12<br />
-			md-1
+		<div class="col-xs-12 col-xl-6">
+			<code>.col-xs-12.col-xl-6</code>
 		</div>
-		<div class="col-xs-12 col-md-1">
-			xs-12<br />
-			md-1
-		</div>
-		<div class="col-xs-12 col-md-1">
-			xs-12<br />
-			md-1
-		</div>
-		<div class="col-xs-12 col-md-1">
-			xs-12<br />
-			md-1
-		</div>
-		<div class="col-xs-12 col-md-1">
-			xs-12<br />
-			md-1
-		</div>
-		<div class="col-xs-12 col-md-1">
-			xs-12<br />
-			md-1
-		</div>
-		<div class="col-xs-12 col-md-1">
-			xs-12<br />
-			md-1
-		</div>
-		<div class="col-xs-12 col-md-1">
-			xs-12<br />
-			md-1
-		</div>
-		<div class="col-xs-12 col-md-1">
-			xs-12<br />
-			md-1
-		</div>
-		<div class="col-xs-12 col-md-1">
-			xs-12<br />
-			md-1
-		</div>
-		<div class="col-xs-12 col-md-1">
-			xs-12<br />
-			md-1
-		</div>
-		<div class="col-xs-12 col-md-1">
-			xs-12<br />
-			md-1
+		<div class="col-xs-12 col-xl-6">
+			<code>.col-xs-12.col-xl-6</code>
 		</div>
 	</div>
 </div>
@@ -577,53 +535,57 @@
 
 <div class="container demo" style="width:100%;">
 	<div class="row">
-		<div class="col-xs-12 col-md-1 demo_col">
-			xs-12<br />
-			md-1
+		<div class="col-xs-12 col-xl-6 demo_col">
+			<code>.col-xs-12.col-xl-6</code>
 		</div>
-		<div class="col-xs-12 col-md-1 demo_col">
-			xs-12<br />
-			md-1
+		<div class="col-xs-12 col-xl-6 demo_col">
+			<code>.col-xs-12.col-xl-6</code>
 		</div>
-		<div class="col-xs-12 col-md-1 demo_col">
-			xs-12<br />
-			md-1
+	</div>
+</div>
+
+<br />
+
+<h3 id="columns-order-breakpoint">Order per breakpoint</h3>
+
+<p>
+	Again, thanks to flexbox awesomeness, you can specify it's children order without changing html structure. 
+	So if you have <code>.col.first</code> then <code>.col.second</code> in your code, you can swap their order and <code>.col.second</code> will be acting like it is before <code>.col.first</code> in html code itself.
+</p>
+
+<p>
+	LUI-3 can do this simply by adding CSS classes to <code>.col</code> elements. <strong>Sadly, you have to specify order for every single <code>.col</code> if you want to do any swapping.</strong>
+</p>
+
+
+<pre class="demo_source html" data-title="Responsive grid">
+{trim(htmlspecialchars('
+<div class="container">
+	<div class="row">
+		<div class="col-6 o-xs-2 o-lg-1">
+			<code>.col-6.o-xs-2.o-lg-1</code>
 		</div>
-		<div class="col-xs-12 col-md-1 demo_col">
-			xs-12<br />
-			md-1
+		<div class="col-6 o-xs-1 o-lg-2">
+			<code>.col-6.o-xs-1.o-lg-2</code>
 		</div>
-		<div class="col-xs-12 col-md-1 demo_col">
-			xs-12<br />
-			md-1
+	</div>
+</div>
+'))}
+</pre>
+
+<div class="lui_message colored">
+	Resize browser to see columns below swap their order.
+</div>
+
+<div class="container demo" style="width:100%">
+	<div class="row">
+		<div class="col-6 demo_col o-xs-2 o-xl-1">
+			<code>.col-6.o-xs-2.o-xl-1</code>
+			<div style="background:red;width:100%;padding:4px;color:white">placeholder 1</div>
 		</div>
-		<div class="col-xs-12 col-md-1 demo_col">
-			xs-12<br />
-			md-1
-		</div>
-		<div class="col-xs-12 col-md-1 demo_col">
-			xs-12<br />
-			md-1
-		</div>
-		<div class="col-xs-12 col-md-1 demo_col">
-			xs-12<br />
-			md-1
-		</div>
-		<div class="col-xs-12 col-md-1 demo_col">
-			xs-12<br />
-			md-1
-		</div>
-		<div class="col-xs-12 col-md-1 demo_col">
-			xs-12<br />
-			md-1
-		</div>
-		<div class="col-xs-12 col-md-1 demo_col">
-			xs-12<br />
-			md-1
-		</div>
-		<div class="col-xs-12 col-md-1 demo_col">
-			xs-12<br />
-			md-1
+		<div class="col-6 demo_col o-xs-1 o-xl-2">
+			<code>.col-6.o-xs-1.o-xl-2</code>
+			<div style="background:green;width:100%;padding:4px;color:white">placeholder 2</div>
 		</div>
 	</div>
 </div>
