@@ -16,8 +16,11 @@
 	<li>
 		<a href="#rows">Rows</a>
 		<ul>
-			<li><a href="#rows-alignment">Alignment</a></li>
-			<li><a href="#rows-alignment-breakpoint">Alignment per breakpoint</a></li>
+			<li><a href="#rows-horizontal-alignment">Horizontal alignment</a></li>
+			<li><a href="#rows-horizontal-alignment-breakpoint">Horizontal alignment per breakpoint</a></li>
+			
+			<li><a href="#rows-vertical-alignment">Vertical alignment</a> (TODO)</li>
+			<li><a href="#rows-vertical-alignment-breakpoint">Vertical alignment per breakpoint</a> (TODO)</li>
 			<li><a href="#rows-spacing">Horizontal spacing</a></li>
 			<li><a href="#rows-spacing-breakpoint">Horizontal spacing per breakpoint</a></li>
 			<li><a href="#rows-vertical-space-fill">Vertical space filling</a></li>
@@ -29,8 +32,8 @@
 		<ul>
 			<li><a href="#columns-basics">Basic grid</a></li>
 			<li><a href="#columns-responsive">Responsive grid</a></li>
-			<li><a href="">Additional sizes (TODO)</a></li>
-			<li><a href="">Columns spacing (TODO)</a></li>
+			<li><a href="">Additional sizes</a> (TODO)</li>
+			<li><a href="">Columns spacing</a> (TODO)</li>
 			<li><a href="#columns-order-breakpoint">Order per breakpoint</a></li>
 		</ul>
 	</li>
@@ -192,7 +195,7 @@
 	are used to wrap around <code>.col</code> elements. Grid system won't work without <code>.row</code> wrapper, unless you specify your own flexbox settings.
 </p>
 
-<h3 id="rows-alignment">Alignment</h3>
+<h3 id="rows-horizontal-alignment">Horizontal alignment</h3>
 
 <p>
 	Column alignment can be set using various classes
@@ -231,7 +234,7 @@
 </pre>
 
 
-<h3 id="rows-alignment-breakpoint">Alignment per breakpoint</h3>
+<h3 id="rows-horizontal-alignment-breakpoint">Horizontal alignment per breakpoint</h3>
 
 <p>
 	Alignment configuration can be specified for each breakpoint using classes bellow:
