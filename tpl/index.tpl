@@ -62,7 +62,7 @@
 				<div class="mobile_warning">
 					Some source code areas will be overflowing on your device. You can scroll horizontally to see rest of the code
 				</div>
-				<button class="hotdog fa_b_navicon">Menu</button>
+				<!--<button class="hotdog fa_b_navicon">Menu</button>-->
 				<div class="menu_wrapper">
 					<ul>
 						<li><a href="/">Homepage</a></li>
@@ -104,7 +104,6 @@
 						<li><a {flexi::getHTMLurlactive("/docs/component/buttons/")}>Buttons</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-base/")}>Forms - base</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-extras/")}>Forms - extras</a></li>
-						<!--<li><a {flexi::getHTMLurlactive("/docs/component/forms-validator/")}>Forms - validator</a></li>-->
 						<li><a {flexi::getHTMLurlactive("/docs/component/pagebars/")}>Pagebars</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/tables/")}>Tables <small>WIP</small></a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar <small>WIP</small></a></li>
@@ -112,6 +111,66 @@
 					</ul>
 				</div>
 			</aside>
+
+			<div class="lui_phone_navbar_overlay" data-target="docs-menu">
+				<ul class="menu">
+					<li class="head">
+						Basics
+					</li>
+					<li><a {flexi::getHTMLurlactive("/docs/basics/using-in-project/")}>Using LUI-3 in your project</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/basics/configuration/")}>Configuration</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/basics/debug-mode/")}>Debug Mode</a></li>
+					<li class="head">
+						Components
+					</li>
+					<li>
+						<a {flexi::getHTMLurlactive("/docs/component/prefixers/")}>Prefixers</a>
+						<ul>
+							<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/animation/")}>animation</a></li>
+							<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/border-radius/")}>border-radius</a></li>
+							<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/box-sizing/")}>box-sizing</a></li>
+							<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/clearer/")}>clearer</a></li>
+							<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/filter/")}>filter</a></li>
+							<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/flexbox/")}>flexbox</a></li>
+							<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/gradient/")}>gradient</a></li>
+							<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/transform/")}>transform</a></li>
+							<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/transition/")}>transition</a></li>
+							<li><a {flexi::getHTMLurlactive("/docs/component/prefixer/user-select/")}>user-select</a></li>
+						</ul>
+					</li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/flexbox-grid/")}>Flexbox Grid</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/reset/")}>Reset</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/buttons/")}>Buttons</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/forms-base/")}>Forms - base</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/forms-extras/")}>Forms - extras</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/pagebars/")}>Pagebars</a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/tables/")}>Tables <small>WIP</small></a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar <small>WIP</small></a></li>
+					<li><a {flexi::getHTMLurlactive("/docs/component/messages/")}>Messages</a></li>
+				</ul>
+			</div>
+
+
+			<nav class="lui_phone_navbar site_nav_mobile">
+				<a href="/">
+					<div class="fa_b_navicon">Home</div>
+				</a>
+				<a data-target="docs-menu">
+					<div class="fa_b_question-circle">Docs</div>
+				</a>
+				<a href="/download/bower/">
+					<div class="fa_b_cloud-download">Download</div>
+				</a>
+				<a href="//github.com/lui-3" target="_blank">
+					<div class="fa_b_github">
+						<span class="fa_a_external-link-square">Github</span>
+					</div>
+				</a>
+			</nav>
+
+			<script src="/less/lui3/LUI-3_phone-navbar/js/lui.phone-navbar.js"></script>
+
+
 			<div class="site_content col-xs-12 col-lg-9 col-xxl-10">
 				{include file=$page_content}
 			</div>

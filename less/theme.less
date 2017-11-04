@@ -54,16 +54,20 @@ html.full_height body {
 	background-size: cover;
 
 	// NAVIGATION
-	nav {
-		padding: 5px;
-		margin: 0 -15px;
- 		.lui.clear.after();
+	// 
+	nav.site_nav {
+		display: none;
 
 		@media (min-width:@grid_lg_start){
-			margin: 0;
+			display: block;
+
 			padding: 25px 0 0 0;
+			margin: 0;
+
 			text-align: center;
 			border-bottom: 0;
+
+			.lui.clear.after();
 		}
 
 		// HOTDOG BUTTON (ON MOBILE DEVICES ONLY)
@@ -900,7 +904,7 @@ aside.site_sidebar {
 		}
 	}
 
-	.hotdog {
+	/*.hotdog {
 		display: block;
 		width: 100%;
 		border: 0;
@@ -933,7 +937,7 @@ aside.site_sidebar {
 				color: white;
 			}
 		}
-	}
+	}*/
 
 	h2 {
 		padding: 10px;
@@ -947,9 +951,9 @@ aside.site_sidebar {
 	.menu_wrapper {
 		display: none;
 
-		&.opened {
+		/*&.opened {
 			display: block;
-		}
+		}*/
 
 		@media (min-width:@grid_lg_start){
 			display: block;
@@ -1046,6 +1050,43 @@ aside.site_sidebar {
 					}
 				}
 			}
+		}
+	}
+}
+
+
+// MOBILE NAVIGATION
+// EXTENDS .lui_phone_navbar
+nav.site_nav_mobile {
+	background: #1a1a1a;
+	border-top-color: black;
+
+	@media (min-width:@grid_lg_start){
+		display: none;
+	}
+
+	a {
+		width: 25%;
+
+		&:not(.active):hover {
+			background: rgba(0,0,0,0.2);
+		}
+
+		&:before {
+			border-left-color: rgba(255, 255, 255, 0.2);
+		}
+
+		div {
+			color: rgb(228, 228, 228);
+
+			span:after {
+				padding-left: 6px;
+				font-size: 11px;
+			}
+		}
+
+		&:not(.active):hover div {
+			color: white;
 		}
 	}
 }

@@ -20,6 +20,13 @@ $config->url = (object) array(
 		"page_title"		=> "Download using Bower"
 	),
 
+	"test/" => (object) array(
+		"tpl_file"			=> "index-empty.tpl",
+		"tpl_file_content"	=> "devel.tpl",
+		"page_title"		=> "Development file"
+	),
+
+
 	// BASICS
 	"docs/basics/using-in-project/" => (object) array(
 		"tpl_file"			=> "index.tpl",
