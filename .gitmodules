@@ -37,3 +37,6 @@
 [submodule "less/lui3/LUI-3_forms-validator"]
 	path = less/lui3/LUI-3_forms-validator
 	url = https://github.com/LUI-3/forms-validator.git
+[submodule "less/lui3/LUI-3_buttons-extras"]
+	path = less/lui3/LUI-3_buttons-extras
+	url = https://github.com/LUI-3/buttons-extras.git

@@ -102,6 +102,7 @@
 						<li><a {flexi::getHTMLurlactive("/docs/component/flexbox-grid/")}>Flexbox Grid</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/reset/")}>Reset</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/buttons/")}>Buttons</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/buttons-extras/")}>Buttons - extras <small>WIP</small></a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-base/")}>Forms - base</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-extras/")}>Forms - extras</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/pagebars/")}>Pagebars</a></li>

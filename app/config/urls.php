@@ -79,6 +79,11 @@ $config->url = (object) array(
 		"tpl_file_content"	=> "docs/component/buttons.tpl",
 		"page_title"		=> "Components - buttons - Docs"
 	),
+	"docs/component/buttons-extras/" => (object) array(
+		"tpl_file"			=> "index.tpl",
+		"tpl_file_content"	=> "docs/component/buttons-extras.tpl",
+		"page_title"		=> "Components - buttons - extras - Docs"
+	),
 	"docs/component/forms-base/" => (object) array(
 		"tpl_file"			=> "index.tpl",
 		"tpl_file_content"	=> "docs/component/forms-base.tpl",
