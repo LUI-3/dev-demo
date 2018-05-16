@@ -11,7 +11,7 @@
 
 
 
-<table class="lui_table xs-block lg-list">
+<table class="lui_table xs-block lg-table">
 	<thead>
 		<tr>
 			<th class="id">#</th>
@@ -58,13 +58,40 @@
 				<button class="lui_button xs-block lg-small error fa_b_times">Delete</button>
 			</td>
 		</tr>
-		
 	</tbody>
 </table>
 
+
+<table class="lui_table xs-block lg-table">
+	<thead>
+		<tr>
+			<th class="id">#</th>
+			<th>laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</th>
+			<th>Type</th>
+			<th>Date</th>
+			<th class="a-right">Options</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-title="ID:">1</td>
+			<td class="block_title" data-title="Name:">
+				laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+			</td>
+			<td class="block_title" data-title="Type:">Admin template</td>
+			<td data-title="Date:">25.2.2015</td>
+			<td class="a-right">
+				<button class="lui_button xs-block lg-small warning fa_b_pencil">Edit</button>
+				<button class="lui_button xs-block lg-small error fa_b_times">Delete</button>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+
 <h2>Sortable (jQuery tablesorter)</h2>
 
-<table class="lui_table sortable-js xs-block lg-list">
+<table class="lui_table sortable-js xs-block lg-table">
 	<thead>
 		<tr>
 			<th class="id">#</th>
@@ -117,7 +144,7 @@
 
 <h2>Dragable (move row on different line)</h2>
 
-<table class="lui_table draggable-js xs-block lg-list">
+<table class="lui_table draggable-js xs-block lg-table">
 	<thead>
 		<tr>
 			<th class="id">Order</th>

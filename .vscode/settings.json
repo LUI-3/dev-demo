@@ -1,7 +1,4 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-	// Is git enabled
-	"git.enabled": false,
-	"git.autofetch": false,
 	"cSpell.enabled": true
 }
