@@ -43,3 +43,6 @@
 [submodule "less/lui3/LUI-3_tabs"]
 	path = less/lui3/LUI-3_tabs
 	url = https://github.com/LUI-3/tabs.git
+[submodule "less/lui3/LUI-3_labels"]
+	path = less/lui3/LUI-3_labels
+	url = https://github.com/LUI-3/labels.git
