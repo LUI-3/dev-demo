@@ -40,3 +40,6 @@
 [submodule "less/lui3/LUI-3_buttons-extras"]
 	path = less/lui3/LUI-3_buttons-extras
 	url = https://github.com/LUI-3/buttons-extras.git
+[submodule "less/lui3/LUI-3_tabs"]
+	path = less/lui3/LUI-3_tabs
+	url = https://github.com/LUI-3/tabs.git
