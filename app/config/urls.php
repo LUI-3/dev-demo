@@ -5,26 +5,11 @@
 // SMARTY CONFIGURATION
 $config->url = (object) array(
 	"/" => (object) array(
-		"tpl_file"         => "index-hp.tpl",
-		"tpl_file_content" => "homepage.tpl",
+		"tpl_file"         => "index.tpl",
+		"tpl_file_content" => "out-of-development.tpl",
 		"page_title"       => "Modular responsive front-end framework"
 	),
-	"download/manual/" => (object) array(
-		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "download-manual.tpl",
-		"page_title"		=> "Download manually"
-	),
-	"download/bower/" => (object) array(
-		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "download-bower.tpl",
-		"page_title"		=> "Download using Bower"
-	),
 
-	"test/" => (object) array(
-		"tpl_file"			=> "index-empty.tpl",
-		"tpl_file_content"	=> "devel.tpl",
-		"page_title"		=> "Development file"
-	),
 
 
 	// BASICS
@@ -78,11 +63,6 @@ $config->url = (object) array(
 		"tpl_file"			=> "index.tpl",
 		"tpl_file_content"	=> "docs/component/buttons.tpl",
 		"page_title"		=> "Components - buttons - Docs"
-	),
-	"docs/component/buttons-extras/" => (object) array(
-		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "docs/component/buttons-extras.tpl",
-		"page_title"		=> "Components - buttons - extras - Docs"
 	),
 	"docs/component/forms-base/" => (object) array(
 		"tpl_file"			=> "index.tpl",
@@ -249,22 +229,6 @@ $config->url = (object) array(
 		"page_title"		=> "Components - Prefixer - user-select - Docs"
 	),
 
-	// OTHER
-	"report-bug/" => (object) array(
-		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "report-bug.tpl",
-		"page_title"		=> "Report bug"
-	),
-	"contributing/" => (object) array(
-		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "contribute.tpl",
-		"page_title"		=> "Contributing"
-	),
-	"donations/" => (object) array(
-		"tpl_file"			=> "index.tpl",
-		"tpl_file_content"	=> "donate.tpl",
-		"page_title"		=> "Donations"
-	),
 );
 
 

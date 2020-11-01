@@ -1,14 +1,14 @@
 
 
 <script src="/less/lui3/tablesorter/jquery.tablesorter.min.js"></script>
-
 <script src="/less/lui3/LUI-3_tables/js/lui.tables.sorting.js"></script>
+
+
 <h1>Components - <span>Tables - lists</span></h1>
 
 <p>
-	Documentation not finished yet.
+	<a href="https://gitlab.com/LUI-3/components/tables" target="_blank" class="lui_button xs-block md-regular secondary fa_b_gitlab">View on Gitlab</a>
 </p>
-
 
 
 <table class="lui_table xs-block lg-table">

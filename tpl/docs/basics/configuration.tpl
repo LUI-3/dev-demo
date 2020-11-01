@@ -19,7 +19,7 @@
 
 <pre class="demo_source less" data-title="config.less - default values">
 @lui_debug: 		false;
-@lui_location: 		"/lui2";
+@lui_location: 		"/lui3";
 @lui_class_prefix: 	lui;
 @lui_responsive: 	true;
 @lui_css_reset: 	true;

@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-	<meta name="robots" content="index,follow" />
+	<meta name="robots" content="noindex,nofollow" />
 
 	<meta name="description" content="LUI-3 is the most modular front-end responsive framework in the world" />
 	<meta name="keywords" content="LUI-3, front-end, responsive, modular, framework, html, css3, less" />
@@ -65,12 +65,7 @@
 				<!--<button class="hotdog fa_b_navicon">Menu</button>-->
 				<div class="menu_wrapper">
 					<ul>
-						<li><a href="/">Homepage</a></li>
-						<li><a {flexi::getHTMLurlactive("/report-bug/")}>Report bug</a></li>
-						<li><a {flexi::getHTMLurlactive("/contributing/")}>Contribute</a></li>
-						<li><a {flexi::getHTMLurlactive("/donations/")}>Donate</a></li>
-						<li><a {flexi::getHTMLurlactive("/download/manual/")}>Download manually</a></li>
-						<li><a {flexi::getHTMLurlactive("/download/bower/")}>Download using Bower</a></li>
+						<li><a href="/">Index</a></li>
 					</ul>
 
 					<h2>Basics</h2>
@@ -102,12 +97,11 @@
 						<li><a {flexi::getHTMLurlactive("/docs/component/flexbox-grid/")}>Flexbox Grid</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/reset/")}>Reset</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/buttons/")}>Buttons</a></li>
-						<li><a {flexi::getHTMLurlactive("/docs/component/buttons-extras/")}>Buttons - extras <small>WIP</small></a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-base/")}>Forms - base</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/forms-extras/")}>Forms - extras</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/pagebars/")}>Pagebars</a></li>
-						<li><a {flexi::getHTMLurlactive("/docs/component/tables/")}>Tables <small>WIP</small></a></li>
-						<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar <small>WIP</small></a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/tables/")}>Tables</a></li>
+						<li><a {flexi::getHTMLurlactive("/docs/component/phone-navbar/")}>Phone - navbar</a></li>
 						<li><a {flexi::getHTMLurlactive("/docs/component/messages/")}>Messages</a></li>
 					</ul>
 				</div>
@@ -173,6 +167,13 @@
 
 
 			<div class="site_content col-xs-12 col-lg-9 col-xxl-10">
+				<div class="lui_message warning colored fa_b_warning">
+					<div class="inside">
+						<div class="title">LUI-3 is no longer in active development</div>
+					</div>
+				</div>
+
+
 				{include file=$page_content}
 			</div>
 		</div>

@@ -4,6 +4,10 @@
 	Simple navbar you can use on mobile devices. <strong>Documentation will be updated when component is in its final state</strong>
 </p>
 
+<p>
+	<a href="https://gitlab.com/LUI-3/components/phone-navbar" target="_blank" class="lui_button xs-block md-regular secondary fa_b_gitlab">View on Gitlab</a>
+</p>
+
 <h2>Overview</h2>
 
 <iframe src="/demo/component/phone-navbar/overview/" frameborder="0" style="width:320px;height:480px;border:10px solid black;border-radius: 10px;"></iframe>

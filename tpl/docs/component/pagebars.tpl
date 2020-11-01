@@ -15,26 +15,8 @@
 	<li><a href="#pagebars_mixins">Mixins</a></li>
 </ul>
 
-<hr />
-
-<h2 id="pagebars_installation">Installation</h2>
-
-<pre class="demo_source" data-title="Install via bower">
-bower install LUI-3_pagebars
-</pre>
-
-<pre class="demo_source" data-title="Bower Package dependencies">
-LUI-3_base
-LUI-3_forms-base // needed for input styles
-</pre>
-
 <p>
-Or you can download pagebar from its Github repository manually:
-</p>
-
-<p>
-	<a href="//github.com/LUI-3/pagebars" target="_blank" class="lui_button xs-block md-regular primary fa_b_github">Github repo</a>
-	<a href="//github.com/LUI-3/pagebars/releases/latest" target="_blank" class="lui_button xs-block md-regular secondary fa_b_github">Latest release</a>
+	<a href="https://gitlab.com/LUI-3/components/pagebars" target="_blank" class="lui_button xs-block md-regular secondary fa_b_gitlab">View on Gitlab</a>
 </p>
 
 <hr />

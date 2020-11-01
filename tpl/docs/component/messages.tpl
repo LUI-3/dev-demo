@@ -15,25 +15,8 @@
 	<li><a href="#messages_mixins">Mixins</a></li>
 </ul>
 
-<hr />
-
-<h2 id="messages_installation">Installation</h2>
-
-<pre class="demo_source" data-title="Install via bower">
-bower install LUI-3_messages
-</pre>
-
-<pre class="demo_source" data-title="Bower Package dependencies">
-LUI-3_base
-</pre>
-
 <p>
-Or you can download messages from its Github repository manually:
-</p>
-
-<p>
-	<a href="//github.com/LUI-3/messages" target="_blank" class="lui_button xs-block md-regular primary fa_b_github">Github repo</a>
-	<a href="//github.com/LUI-3/messages/releases/latest" target="_blank" class="lui_button xs-block md-regular secondary fa_b_github">Latest release</a>
+	<a href="https://gitlab.com/LUI-3/components/messages" target="_blank" class="lui_button xs-block md-regular secondary fa_b_gitlab">View on Gitlab</a>
 </p>
 
 <hr />
